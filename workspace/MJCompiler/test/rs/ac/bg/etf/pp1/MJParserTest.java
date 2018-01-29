@@ -39,10 +39,10 @@ public class MJParserTest {
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceCode))) {
 			Yylex lexer = new Yylex(br);
 			MJParser p = new MJParser(lexer);
-	        Symbol s = p.parse();  //pocetak parsiranja
-	        SyntaxNode prog = (SyntaxNode)(s.value);
+	        Symbol s = p.parse();  //pocetak parsiranja; Symbol s je token koji je vrh stabla izvodjenja 
+	        SyntaxNode prog = (SyntaxNode)(s.value);   //u polju value vrha stabla izvodjenja nalazi se vrh sintaksnog stabla
 	        
-			Tab.init(); // Universe scope
+			Tab.init(); // Universe scope; tu se nalaze svi predeklarisani tipovi
 			SemanticPass semanticCheck = new SemanticPass();
 			prog.traverseBottomUp(semanticCheck);
 			

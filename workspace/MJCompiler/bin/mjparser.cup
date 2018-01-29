@@ -70,7 +70,7 @@ nonterminal StatementList, Statement, Addop;
 nonterminal ConstVarClassDeclList, ConstVarClassDecl, ConstDeclars, VarDeclars, ClassDeclars, ConstDeclList, ConstDecl, NumCharBoolConst;
 nonterminal Brackets, Extension, MethodDeclars, MultiVarDeclars, TypeOrVoid, CommaNumConst, ExprOrNoExpr, Condition;
 nonterminal CondTerm, CondFact, RelopExpr, DesignatorStatement, DesignatorExtension, ObjOrCollectionList, ObjOrCollection, Mulop, Relop;
-
+non terminal GlobalVarDeclars, GlobalVarDeclList;
 
 nonterminal Program, ProgName, Designator, MethodDecl, MethodTypeName; 
 nonterminal Type, Term, Expr, Factor, VarDeclList; 
@@ -90,7 +90,7 @@ ConstVarClassDeclList ::= (ConstVarClassDeclList) ConstVarClassDeclList ConstVar
 						  
 ConstVarClassDecl ::= (ConstDeclars) ConstDeclars
 					  |
-					  (VarDeclars) VarDeclars
+					  (GlobalVarDeclars) GlobalVarDeclars
 					  |
 					  (ClassDeclars) ClassDeclars						  
 					  ;
@@ -112,11 +112,23 @@ NumCharBoolConst ::= (NumConst) NUMBER
 					 |
 					 (BoolConst) BOOLEAN
 					 ;
-
+					 
+GlobalVarDeclars ::= (GlobalVarDeclars) Type IDENT Brackets GlobalVarDeclList SEMI
+			         |
+				     (ErrGlobalVarDeclars) Type error Brackets GlobalVarDeclList SEMI
+				     {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
+			         ;
+			 
+GlobalVarDeclList ::= (GlobalVarDeclList) GlobalVarDeclList COMMA IDENT Brackets
+					  |
+					  (ErrGlobalComma) GlobalVarDeclList COMMA error
+					  {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
+					  |
+			          (NoGlobalVarDeclList) /* epsilon */
+			          ;
+					 
 VarDeclars ::= (VarDeclars) Type IDENT Brackets VarDeclList SEMI
-			   |
-			   (ErrVarDeclars) Type error SEMI
-			   ;
+;
 
 Brackets ::= (Array) LBRACKET RBRACKET
 			 |

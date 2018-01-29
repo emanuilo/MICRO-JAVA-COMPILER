@@ -89,8 +89,8 @@ public class SemanticPass extends VisitorAdaptor {
 			report_error("Semanticka greska na liniji " + methodDecl.getLine() + ": funcija " + currentMethod.getName() + " nema return iskaz!", null);
 		}
 		
-		Tab.chainLocalSymbols(currentMethod);
-		Tab.closeScope();
+		Tab.chainLocalSymbols(currentMethod); //sve ono sto su lokalni simboli iz trenutnog scope-a vezemo u locals objektnog cvora
+		Tab.closeScope(); //zatim zatvorimo trenutno otvoreni scope
 		
 		returnFound = false;
 		currentMethod = null;
