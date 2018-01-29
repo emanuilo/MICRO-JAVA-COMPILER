@@ -1,0 +1,22 @@
+INFO  09:33:40,410 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  09:33:40,440 - #2 program
+INFO  09:33:40,441 - #43 ImeMogaProgramaa
+INFO  09:33:40,441 - #15 const
+INFO  09:33:40,441 - #43 int
+INFO  09:33:40,441 - #43 sima
+INFO  09:33:40,441 - #16 =
+INFO  09:33:40,441 - #45 true
+INFO  09:33:40,441 - #8 ,
+INFO  09:33:40,441 - #43 joka
+INFO  09:33:40,442 - #16 =
+INFO  09:33:40,442 - #44 "string"
+INFO  09:33:40,442 - #8 ,
+INFO  09:33:40,442 - #43 maca
+INFO  09:33:40,442 - #16 =
+INFO  09:33:40,442 - #42 55
+INFO  09:33:40,442 - #5 ;
+INFO  09:33:40,442 - #43 int
+INFO  09:33:40,442 - #42 345
+ERROR 09:33:40,442 - 
+Sintaksna greska na liniji 3
+ERROR 09:33:40,443 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

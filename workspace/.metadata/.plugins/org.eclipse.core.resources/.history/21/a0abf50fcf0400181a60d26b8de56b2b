@@ -115,14 +115,14 @@ NumCharBoolConst ::= (NumConst) NUMBER
 					 
 GlobalVarDeclars ::= (GlobalVarDeclars) Type IDENT Brackets GlobalVarDeclList SEMI
 			         |
-				     (ErrGlobalVarDeclars) Type error Brackets GlobalVarDeclList SEMI:l
-				     {: parser.report_error("Uspesan oporavak do ';' u liniji " + lleft, null); :}
+				     (ErrGlobalVarDeclars) Type error Brackets GlobalVarDeclList SEMI
+				     {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
 			         ;
 			 
 GlobalVarDeclList ::= (GlobalVarDeclList) GlobalVarDeclList COMMA IDENT Brackets
 					  |
-					  (ErrGlobalComma) GlobalVarDeclList COMMA:c error
-					  {: parser.report_error("Uspesan oporavak do ',' u liniji " + cleft, null); :}
+					  (ErrGlobalComma) GlobalVarDeclList COMMA error
+					  {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
 					  |
 			          (NoGlobalVarDeclList) /* epsilon */
 			          ;
@@ -288,8 +288,6 @@ DesignatorStatement ::= (DesignatorStatement) Designator DesignatorExtension
 ;
 
 DesignatorExtension ::= (Assignment) ASSIGN Expr
-						|
-						(ErrAssignment) ASSIGN error
 						|
 						(ProcCall) LPAREN ActualPars RPAREN
 						|
