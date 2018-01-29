@@ -113,18 +113,18 @@ NumCharBoolConst ::= (NumConst) NUMBER
 					 (BoolConst) BOOLEAN
 					 ;
 					 
-GlobalVarDeclars ::= (GlobalVarDeclars) Type IDENT Brackets GlobalVarDeclList SEMI
-			         |
-				     (ErrGlobalVarDeclars) Type error Brackets GlobalVarDeclList SEMI:l
-				     {: parser.report_error("Uspesan oporavak do ';' u liniji " + lleft, null); :}
-			         ;
+GlobalVarDeclars ::= (GlobalVarDeclars) Type GlobalVarDeclList
+;
 			 
-GlobalVarDeclList ::= (GlobalVarDeclList) GlobalVarDeclList COMMA IDENT Brackets
+GlobalVarDeclList ::= (GlobalVarDeclList) IDENT Brackets COMMA GlobalVarDeclList
 					  |
-					  (ErrGlobalComma) GlobalVarDeclList COMMA:c error
+					  (ErrGlobalComma) error COMMA:c GlobalVarDeclList
 					  {: parser.report_error("Uspesan oporavak do ',' u liniji " + cleft, null); :}
 					  |
-			          (NoGlobalVarDeclList) /* epsilon */
+			          (SingleGlobalVarDecl) IDENT Brackets SEMI
+			          |
+			          (ErrGlobalSemi) error SEMI:l
+			          {: parser.report_error("Uspesan oporavak do ';' u liniji " + lleft, null); :}
 			          ;
 					 
 VarDeclars ::= (VarDeclars) Type IDENT Brackets VarDeclList SEMI

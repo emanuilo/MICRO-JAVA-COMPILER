@@ -1,6 +1,6 @@
 program ImeMogaProgramaa
 	const int sima=true, joka="string", maca=55; 
-	int b, [];
+	int , cb, b , ;
 	class imeklase extends tipklase {}
 	class imeklase extends tipklase {int nesto, blah[]; int nesto[], josnesto; String strava;}
 	class imeklase extends tipklase {int nesto, blah[]; {}}
