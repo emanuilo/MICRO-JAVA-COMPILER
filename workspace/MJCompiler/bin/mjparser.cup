@@ -59,7 +59,7 @@ terminal CLASS, EXTENDS, DO, WHILE, BREAK, CONTINUE, READ, OR, AND, NEW, INC, DE
 terminal GREATER_EQUAL, LESS, LESS_EQUAL, IF, ELSE;
 terminal Integer NUMBER ;
 terminal String IDENT, STRING ;
-terminal Boolean BOOLEAN;
+terminal BOOLEAN;
 
 
 nonterminal MethodDeclList;
@@ -72,8 +72,8 @@ nonterminal Brackets, Extension, MethodDeclars, MultiVarDeclars, TypeOrVoid, Com
 nonterminal CondTerm, CondFact, RelopExpr, DesignatorStatement, DesignatorExtension, ObjOrCollectionList, ObjOrCollection, Mulop, Relop;
 non terminal GlobalVarDeclars, GlobalVarDeclList;
 
-nonterminal Program, ProgName, Designator, MethodDecl, MethodTypeName; 
-nonterminal Type, Term, Expr, Factor, VarDeclList; 
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expr, Factor, VarDeclList; 
 
 precedence left ELSE;
 
@@ -83,19 +83,19 @@ Program ::= (Program) PROG ProgName:p ConstVarClassDeclList LBRACE MethodDeclLis
 ProgName ::= (ProgName) IDENT:pName 
 ;
 
-ConstVarClassDeclList ::= (ConstVarClassDeclList) ConstVarClassDeclList ConstVarClassDecl
+ConstVarClassDeclList ::= (ConstVarClassDeclares) ConstVarClassDeclList ConstVarClassDecl
 						  |
 						  (NoConstVarClassDeclList) /* epsilon */ 
 						  ;
 						  
-ConstVarClassDecl ::= (ConstDeclars) ConstDeclars
+ConstVarClassDecl ::= (ConstDeclarations) ConstDeclars
 					  |
-					  (GlobalVarDeclars) GlobalVarDeclars
+					  (GlobalVarDeclarations) GlobalVarDeclars
 					  |
-					  (ClassDeclars) ClassDeclars						  
+					  (ClassDeclaration) ClassDeclars						  
 					  ;
 					  
-ConstDeclars ::= (ConstDeclarations) CONST Type ConstDeclList SEMI
+ConstDeclars ::= (ConstDeclars) CONST Type ConstDeclList SEMI
 ;
 
 ConstDeclList ::=   (ConstDecls) ConstDeclList COMMA ConstDecl 
@@ -116,9 +116,9 @@ NumCharBoolConst ::= (NumConst) NUMBER
 GlobalVarDeclars ::= (GlobalVarDeclars) Type GlobalVarDeclList
 ;
 			 
-GlobalVarDeclList ::= (GlobalVarDeclList) IDENT Brackets COMMA GlobalVarDeclList
+GlobalVarDeclList ::= (GlobalVDeclars) IDENT Brackets COMMA GlobalVarDeclList
 					  |
-					  (ErrGlobalComma) error COMMA:c GlobalVarDeclList
+					  (ErrGlobalComma) error COMMA GlobalVarDeclList:c
 					  {: parser.report_error("Uspesan oporavak do ',' u liniji " + cleft, null); :}
 					  |
 			          (SingleGlobalVarDecl) IDENT Brackets SEMI
@@ -135,12 +135,12 @@ Brackets ::= (Array) LBRACKET RBRACKET
 			 (NoArray) /* epsilon */
 			 ;
 			 
-VarDeclList ::= (VarDeclList) VarDeclList COMMA IDENT Brackets
+VarDeclList ::= (VarDList) VarDeclList COMMA IDENT Brackets
 			    |
 			    (NoVarDeclList) /* epsilon */
 			    ;
 			    
-ClassDeclars ::= (ClassDeclaration) CLASS IDENT Extension LBRACE MultiVarDeclars MethodDeclars RBRACE 
+ClassDeclars ::= (ClassDeclars) CLASS IDENT Extension LBRACE MultiVarDeclars MethodDeclars RBRACE 
 ;
 
 Extension ::= (Extends) EXTENDS Type
@@ -148,12 +148,12 @@ Extension ::= (Extends) EXTENDS Type
 			  (NoExtends) /* epsilon */
 			  ;
 
-MethodDeclars ::= (MethodDeclars) LBRACE MethodDeclList RBRACE
+MethodDeclars ::= (MethodDeclarations) LBRACE MethodDeclList RBRACE
  				  |
  				  (NoMethodDeclars) /* epsilon */
  				  ;
 
-MultiVarDeclars ::= (MultiVarDeclars) MultiVarDeclars VarDeclars
+MultiVarDeclars ::= (MultiVarDeclarations) MultiVarDeclars VarDeclars
  					|
  					(NoMultiVarDeclars) /* epsilon */
  					;
@@ -161,7 +161,7 @@ MultiVarDeclars ::= (MultiVarDeclars) MultiVarDeclars VarDeclars
 Type ::= (Type) IDENT:typeName 
 ;
 
-MethodDeclList ::=  (MethodDeclarations) MethodDeclList MethodDecl
+MethodDeclList ::=  (MethodDeclarList) MethodDeclList MethodDecl
 					|
 					(NoMethodDecl)/* epsilon */
 					;
@@ -196,7 +196,7 @@ StatementList ::= (Statements) StatementList Statement
 				  (NoStmt) /* epsilon */
 				  ;
 
-Statement ::= (DesignatorStatement) DesignatorStatement SEMI
+Statement ::= (DesignatorStmt) DesignatorStatement SEMI
 			  |
 			  (IfStmt)IF LPAREN Condition RPAREN Statement
 			  |
@@ -240,7 +240,7 @@ CondTerm ::= (AndCondTerm) CondTerm AND CondFact
 CondFact ::= (CondFact) Expr RelopExpr
 ;
 
-RelopExpr ::= (RelopExpr) Relop Expr
+RelopExpr ::= (RelopExpression) Relop Expr
 			  |
 			  (NoRelopExpr) /* epsilon */
 			  ;			  
@@ -254,14 +254,14 @@ Expr ::= (AddExpr) Expr:te Addop Term:t
 
 Term ::= (MulopTerm) Term Mulop Factor
 		 |
-		 (Term) Factor:t 
+		 (FactorTerm) Factor:t 
 		 ;
 
-Factor ::= (NumConst) NUMBER
+Factor ::= (NumberConst) NUMBER
 			|
-		   (CharConst) STRING
+		   (ChConst) STRING
 		   	|
-		   (BoolConst) BOOLEAN
+		   (BooleanConst) BOOLEAN
 		   	|
 		   (Var) Designator:d
 		    |
@@ -289,7 +289,8 @@ DesignatorStatement ::= (DesignatorStatement) Designator DesignatorExtension
 
 DesignatorExtension ::= (Assignment) ASSIGN Expr
 						|
-						(ErrAssignment) ASSIGN error
+						(ErrAssignment) ASSIGN error:e
+						{: parser.report_error("Uspesan oporavak do ';' u liniji " + eleft, null); :}
 						|
 						(ProcCall) LPAREN ActualPars RPAREN
 						|
@@ -301,7 +302,7 @@ DesignatorExtension ::= (Assignment) ASSIGN Expr
 Designator ::= (Designator) IDENT:name ObjOrCollectionList
 ;
 
-ObjOrCollectionList ::= (ObjOrCollectionList) ObjOrCollectionList ObjOrCollection
+ObjOrCollectionList ::= (ObjOrCollList) ObjOrCollectionList ObjOrCollection
 				  	    |
 				        (NoObjOrCollectionList) /* epsilon */
 				  		;

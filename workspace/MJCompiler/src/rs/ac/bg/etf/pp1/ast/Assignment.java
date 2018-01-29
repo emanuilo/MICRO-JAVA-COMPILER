@@ -1,28 +1,17 @@
 // generated with ast extension for cup
 // version 0.8
-// 17/11/2017 14:22:56
+// 29/0/2018 16:17:59
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class Assignment extends Matched {
+public class Assignment extends DesignatorExtension {
 
-    private Designator Designator;
     private Expr Expr;
 
-    public Assignment (Designator Designator, Expr Expr) {
-        this.Designator=Designator;
-        if(Designator!=null) Designator.setParent(this);
+    public Assignment (Expr Expr) {
         this.Expr=Expr;
         if(Expr!=null) Expr.setParent(this);
-    }
-
-    public Designator getDesignator() {
-        return Designator;
-    }
-
-    public void setDesignator(Designator Designator) {
-        this.Designator=Designator;
     }
 
     public Expr getExpr() {
@@ -38,18 +27,15 @@ public class Assignment extends Matched {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Designator!=null) Designator.accept(visitor);
         if(Expr!=null) Expr.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Designator!=null) Designator.traverseTopDown(visitor);
         if(Expr!=null) Expr.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Designator!=null) Designator.traverseBottomUp(visitor);
         if(Expr!=null) Expr.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -58,12 +44,6 @@ public class Assignment extends Matched {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
         buffer.append("Assignment(\n");
-
-        if(Designator!=null)
-            buffer.append(Designator.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
 
         if(Expr!=null)
             buffer.append(Expr.toString("  "+tab));

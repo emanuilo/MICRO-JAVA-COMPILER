@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 17/11/2017 14:22:56
+// 29/0/2018 16:17:58
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -11,11 +11,14 @@ public class FormalParamDecl implements SyntaxNode {
     private int line;
     private Type Type;
     private String I2;
+    private Brackets Brackets;
 
-    public FormalParamDecl (Type Type, String I2) {
+    public FormalParamDecl (Type Type, String I2, Brackets Brackets) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
         this.I2=I2;
+        this.Brackets=Brackets;
+        if(Brackets!=null) Brackets.setParent(this);
     }
 
     public Type getType() {
@@ -32,6 +35,14 @@ public class FormalParamDecl implements SyntaxNode {
 
     public void setI2(String I2) {
         this.I2=I2;
+    }
+
+    public Brackets getBrackets() {
+        return Brackets;
+    }
+
+    public void setBrackets(Brackets Brackets) {
+        this.Brackets=Brackets;
     }
 
     public SyntaxNode getParent() {
@@ -56,15 +67,18 @@ public class FormalParamDecl implements SyntaxNode {
 
     public void childrenAccept(Visitor visitor) {
         if(Type!=null) Type.accept(visitor);
+        if(Brackets!=null) Brackets.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(Type!=null) Type.traverseTopDown(visitor);
+        if(Brackets!=null) Brackets.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(Type!=null) Type.traverseBottomUp(visitor);
+        if(Brackets!=null) Brackets.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -80,6 +94,12 @@ public class FormalParamDecl implements SyntaxNode {
         buffer.append("\n");
 
         buffer.append(" "+tab+I2);
+        buffer.append("\n");
+
+        if(Brackets!=null)
+            buffer.append(Brackets.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         buffer.append(tab);

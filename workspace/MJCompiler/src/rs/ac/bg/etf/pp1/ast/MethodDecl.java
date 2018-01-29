@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 17/11/2017 14:22:55
+// 29/0/2018 16:17:58
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -13,16 +13,16 @@ public class MethodDecl implements SyntaxNode {
 
     private MethodTypeName MethodTypeName;
     private FormPars FormPars;
-    private VarDeclList VarDeclList;
+    private MultiVarDeclars MultiVarDeclars;
     private StatementList StatementList;
 
-    public MethodDecl (MethodTypeName MethodTypeName, FormPars FormPars, VarDeclList VarDeclList, StatementList StatementList) {
+    public MethodDecl (MethodTypeName MethodTypeName, FormPars FormPars, MultiVarDeclars MultiVarDeclars, StatementList StatementList) {
         this.MethodTypeName=MethodTypeName;
         if(MethodTypeName!=null) MethodTypeName.setParent(this);
         this.FormPars=FormPars;
         if(FormPars!=null) FormPars.setParent(this);
-        this.VarDeclList=VarDeclList;
-        if(VarDeclList!=null) VarDeclList.setParent(this);
+        this.MultiVarDeclars=MultiVarDeclars;
+        if(MultiVarDeclars!=null) MultiVarDeclars.setParent(this);
         this.StatementList=StatementList;
         if(StatementList!=null) StatementList.setParent(this);
     }
@@ -43,12 +43,12 @@ public class MethodDecl implements SyntaxNode {
         this.FormPars=FormPars;
     }
 
-    public VarDeclList getVarDeclList() {
-        return VarDeclList;
+    public MultiVarDeclars getMultiVarDeclars() {
+        return MultiVarDeclars;
     }
 
-    public void setVarDeclList(VarDeclList VarDeclList) {
-        this.VarDeclList=VarDeclList;
+    public void setMultiVarDeclars(MultiVarDeclars MultiVarDeclars) {
+        this.MultiVarDeclars=MultiVarDeclars;
     }
 
     public StatementList getStatementList() {
@@ -82,7 +82,7 @@ public class MethodDecl implements SyntaxNode {
     public void childrenAccept(Visitor visitor) {
         if(MethodTypeName!=null) MethodTypeName.accept(visitor);
         if(FormPars!=null) FormPars.accept(visitor);
-        if(VarDeclList!=null) VarDeclList.accept(visitor);
+        if(MultiVarDeclars!=null) MultiVarDeclars.accept(visitor);
         if(StatementList!=null) StatementList.accept(visitor);
     }
 
@@ -90,14 +90,14 @@ public class MethodDecl implements SyntaxNode {
         accept(visitor);
         if(MethodTypeName!=null) MethodTypeName.traverseTopDown(visitor);
         if(FormPars!=null) FormPars.traverseTopDown(visitor);
-        if(VarDeclList!=null) VarDeclList.traverseTopDown(visitor);
+        if(MultiVarDeclars!=null) MultiVarDeclars.traverseTopDown(visitor);
         if(StatementList!=null) StatementList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(MethodTypeName!=null) MethodTypeName.traverseBottomUp(visitor);
         if(FormPars!=null) FormPars.traverseBottomUp(visitor);
-        if(VarDeclList!=null) VarDeclList.traverseBottomUp(visitor);
+        if(MultiVarDeclars!=null) MultiVarDeclars.traverseBottomUp(visitor);
         if(StatementList!=null) StatementList.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -119,8 +119,8 @@ public class MethodDecl implements SyntaxNode {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(VarDeclList!=null)
-            buffer.append(VarDeclList.toString("  "+tab));
+        if(MultiVarDeclars!=null)
+            buffer.append(MultiVarDeclars.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

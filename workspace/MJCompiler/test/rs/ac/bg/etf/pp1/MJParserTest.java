@@ -43,13 +43,13 @@ public class MJParserTest {
 	        SyntaxNode prog = (SyntaxNode)(s.value);   //u polju value vrha stabla izvodjenja nalazi se vrh sintaksnog stabla
 	        
 			Tab.init(); // Universe scope; tu se nalaze svi predeklarisani tipovi
-			SemanticPass semanticCheck = new SemanticPass();
+			SemanticAnalyzer semanticCheck = new SemanticAnalyzer();
 			prog.traverseBottomUp(semanticCheck);
 			
-	        log.info("Print calls = " + semanticCheck.printCallCount);
+	        //log.info("Print calls = " + semanticCheck.printCallCount);
 	        Tab.dump();
 	        
-	        if (!p.errorDetected && semanticCheck.passed()) {
+	        /*if (!p.errorDetected && semanticCheck.passed()) {
 	        	File objFile = new File(args[1]);
 	        	log.info("Generating bytecode file: " + objFile.getAbsolutePath());
 	        	if (objFile.exists())
@@ -65,7 +65,7 @@ public class MJParserTest {
 	        }
 	        else {
 	        	log.error("Parsiranje NIJE uspesno zavrseno!");
-	        }
+	        }*/
 		}
 	}
 }

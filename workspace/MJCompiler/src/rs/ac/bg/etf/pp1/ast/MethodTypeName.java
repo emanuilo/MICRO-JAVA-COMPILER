@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 17/11/2017 14:22:55
+// 29/0/2018 16:17:58
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -11,21 +11,21 @@ public class MethodTypeName implements SyntaxNode {
     private int line;
     public rs.etf.pp1.symboltable.concepts.Obj obj = null;
 
-    private Type Type;
+    private TypeOrVoid TypeOrVoid;
     private String methName;
 
-    public MethodTypeName (Type Type, String methName) {
-        this.Type=Type;
-        if(Type!=null) Type.setParent(this);
+    public MethodTypeName (TypeOrVoid TypeOrVoid, String methName) {
+        this.TypeOrVoid=TypeOrVoid;
+        if(TypeOrVoid!=null) TypeOrVoid.setParent(this);
         this.methName=methName;
     }
 
-    public Type getType() {
-        return Type;
+    public TypeOrVoid getTypeOrVoid() {
+        return TypeOrVoid;
     }
 
-    public void setType(Type Type) {
-        this.Type=Type;
+    public void setTypeOrVoid(TypeOrVoid TypeOrVoid) {
+        this.TypeOrVoid=TypeOrVoid;
     }
 
     public String getMethName() {
@@ -57,16 +57,16 @@ public class MethodTypeName implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Type!=null) Type.accept(visitor);
+        if(TypeOrVoid!=null) TypeOrVoid.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Type!=null) Type.traverseTopDown(visitor);
+        if(TypeOrVoid!=null) TypeOrVoid.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Type!=null) Type.traverseBottomUp(visitor);
+        if(TypeOrVoid!=null) TypeOrVoid.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -75,8 +75,8 @@ public class MethodTypeName implements SyntaxNode {
         buffer.append(tab);
         buffer.append("MethodTypeName(\n");
 
-        if(Type!=null)
-            buffer.append(Type.toString("  "+tab));
+        if(TypeOrVoid!=null)
+            buffer.append(TypeOrVoid.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

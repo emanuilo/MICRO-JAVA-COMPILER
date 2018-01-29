@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 17/11/2017 14:22:56
+// 29/0/2018 16:17:59
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -12,9 +12,12 @@ public class Designator implements SyntaxNode {
     public rs.etf.pp1.symboltable.concepts.Obj obj = null;
 
     private String name;
+    private ObjOrCollectionList ObjOrCollectionList;
 
-    public Designator (String name) {
+    public Designator (String name, ObjOrCollectionList ObjOrCollectionList) {
         this.name=name;
+        this.ObjOrCollectionList=ObjOrCollectionList;
+        if(ObjOrCollectionList!=null) ObjOrCollectionList.setParent(this);
     }
 
     public String getName() {
@@ -23,6 +26,14 @@ public class Designator implements SyntaxNode {
 
     public void setName(String name) {
         this.name=name;
+    }
+
+    public ObjOrCollectionList getObjOrCollectionList() {
+        return ObjOrCollectionList;
+    }
+
+    public void setObjOrCollectionList(ObjOrCollectionList ObjOrCollectionList) {
+        this.ObjOrCollectionList=ObjOrCollectionList;
     }
 
     public SyntaxNode getParent() {
@@ -46,13 +57,16 @@ public class Designator implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
+        if(ObjOrCollectionList!=null) ObjOrCollectionList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
+        if(ObjOrCollectionList!=null) ObjOrCollectionList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
+        if(ObjOrCollectionList!=null) ObjOrCollectionList.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -62,6 +76,12 @@ public class Designator implements SyntaxNode {
         buffer.append("Designator(\n");
 
         buffer.append(" "+tab+name);
+        buffer.append("\n");
+
+        if(ObjOrCollectionList!=null)
+            buffer.append(ObjOrCollectionList.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         buffer.append(tab);
