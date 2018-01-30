@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/0/2018 16:17:58
+// 30/0/2018 12:51:19
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class VarDList extends VarDeclList {
 
     private VarDeclList VarDeclList;
-    private String I2;
+    private String varName;
     private Brackets Brackets;
 
-    public VarDList (VarDeclList VarDeclList, String I2, Brackets Brackets) {
+    public VarDList (VarDeclList VarDeclList, String varName, Brackets Brackets) {
         this.VarDeclList=VarDeclList;
         if(VarDeclList!=null) VarDeclList.setParent(this);
-        this.I2=I2;
+        this.varName=varName;
         this.Brackets=Brackets;
         if(Brackets!=null) Brackets.setParent(this);
     }
@@ -27,12 +27,12 @@ public class VarDList extends VarDeclList {
         this.VarDeclList=VarDeclList;
     }
 
-    public String getI2() {
-        return I2;
+    public String getVarName() {
+        return varName;
     }
 
-    public void setI2(String I2) {
-        this.I2=I2;
+    public void setVarName(String varName) {
+        this.varName=varName;
     }
 
     public Brackets getBrackets() {
@@ -75,7 +75,7 @@ public class VarDList extends VarDeclList {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+I2);
+        buffer.append(" "+tab+varName);
         buffer.append("\n");
 
         if(Brackets!=null)

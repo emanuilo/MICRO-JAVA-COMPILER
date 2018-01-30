@@ -1,0 +1,73 @@
+INFO  12:35:39,737 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:35:39,771 - #2 program
+INFO  12:35:39,772 - #43 MJProgram
+INFO  12:35:39,772 - #43 int
+INFO  12:35:39,772 - #43 x
+INFO  12:35:39,773 - #5 ;
+INFO  12:35:39,774 - #43 int
+INFO  12:35:39,775 - #43 y
+INFO  12:35:39,775 - #5 ;
+INFO  12:35:39,775 - #3 {
+INFO  12:35:39,776 - #43 int
+INFO  12:35:39,776 - #43 k
+INFO  12:35:39,776 - #6 (
+INFO  12:35:39,777 - #7 )
+INFO  12:35:39,777 - #43 int
+INFO  12:35:39,777 - #43 c
+INFO  12:35:39,777 - #5 ;
+INFO  12:35:39,778 - #3 {
+INFO  12:35:39,778 - #43 c
+INFO  12:35:39,779 - #16 =
+INFO  12:35:39,780 - #42 1
+INFO  12:35:39,780 - #5 ;
+INFO  12:35:39,781 - #10 return
+INFO  12:35:39,781 - #43 c
+INFO  12:35:39,781 - #11 +
+INFO  12:35:39,781 - #42 2
+INFO  12:35:39,782 - #5 ;
+INFO  12:35:39,782 - #4 }
+INFO  12:35:39,782 - #43 int
+INFO  12:35:39,783 - #43 main
+INFO  12:35:39,783 - #6 (
+INFO  12:35:39,783 - #7 )
+INFO  12:35:39,783 - #3 {
+INFO  12:35:39,783 - #43 y
+INFO  12:35:39,783 - #16 =
+INFO  12:35:39,783 - #42 2
+INFO  12:35:39,783 - #5 ;
+INFO  12:35:39,783 - #43 x
+INFO  12:35:39,783 - #16 =
+INFO  12:35:39,784 - #43 y
+INFO  12:35:39,784 - #11 +
+INFO  12:35:39,784 - #42 2
+INFO  12:35:39,784 - #5 ;
+INFO  12:35:39,784 - #43 y
+INFO  12:35:39,784 - #16 =
+INFO  12:35:39,784 - #43 k
+INFO  12:35:39,784 - #6 (
+INFO  12:35:39,784 - #7 )
+INFO  12:35:39,785 - #11 +
+INFO  12:35:39,785 - #42 3
+INFO  12:35:39,786 - #5 ;
+INFO  12:35:39,786 - #9 print
+INFO  12:35:39,786 - #6 (
+INFO  12:35:39,786 - #43 y
+INFO  12:35:39,786 - #7 )
+INFO  12:35:39,786 - #5 ;
+INFO  12:35:39,786 - #10 return
+INFO  12:35:39,787 - #42 0
+INFO  12:35:39,787 - #5 ;
+INFO  12:35:39,787 - #4 }
+INFO  12:35:39,787 - #4 }
+INFO  12:35:39,794 - Deklarisana promenljiva x na liniji 2
+INFO  12:35:39,795 - Deklarisana promenljiva y na liniji 2
+ERROR 12:35:39,795 - Greska na liniji 6 : ime c nije deklarisano!
+ERROR 12:35:39,795 - Greska na liniji 7 : ime c nije deklarisano!
+ERROR 12:35:39,795 - Greska na liniji 7 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+INFO  12:35:39,795 - Detektovana upotreba promenljive y na liniji 11
+INFO  12:35:39,795 - Detektovana upotreba promenljive x na liniji 12
+INFO  12:35:39,797 - Detektovana upotreba promenljive y na liniji 12
+INFO  12:35:39,797 - Detektovana upotreba promenljive y na liniji 13
+ERROR 12:35:39,797 - Greska na liniji 13 : ime k nije deklarisano!
+ERROR 12:35:39,797 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+INFO  12:35:39,797 - Detektovana upotreba promenljive y na liniji 14

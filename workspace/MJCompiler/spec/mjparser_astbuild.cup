@@ -145,18 +145,17 @@ NumCharBoolConst ::= (NumConst) NUMBER:N1 {: RESULT=new NumConst(N1); RESULT.set
 GlobalVarDeclars ::= (GlobalVarDeclars) Type:T1 GlobalVarDeclList:G2 {: RESULT=new GlobalVarDeclars(T1, G2); RESULT.setLine(T1left); :}
 ;
 			 
-GlobalVarDeclList ::= (GlobalVDeclars) IDENT:I1 Brackets:B2 COMMA GlobalVarDeclList:G3 {: RESULT=new GlobalVDeclars(I1, B2, G3); RESULT.setLine(I1left); :}
+GlobalVarDeclList ::= (GlobalVDeclars) IDENT:varName Brackets:B1 COMMA GlobalVarDeclList:G2 {: RESULT=new GlobalVDeclars(varName, B1, G2); RESULT.setLine(varNameleft); :}
 					  |
-					  (ErrGlobalComma) error COMMA GlobalVarDeclList:c
-					  {: parser.report_error("Uspesan oporavak do ',' u liniji " + cleft, null); :} {: RESULT=new ErrGlobalComma(c); RESULT.setLine(cleft); :}
+					  (ErrGlobalComma) error COMMA GlobalVarDeclList:G1 {: RESULT=new ErrGlobalComma(G1); RESULT.setLine(G1left); :} 
 					  |
-			          (SingleGlobalVarDecl) IDENT:I1 Brackets:B2 SEMI {: RESULT=new SingleGlobalVarDecl(I1, B2); RESULT.setLine(I1left); :}
+			          (SingleGlobalVarDecl) IDENT:varName Brackets:B1 SEMI {: RESULT=new SingleGlobalVarDecl(varName, B1); RESULT.setLine(varNameleft); :}
 			          |
 			          (ErrGlobalSemi) error SEMI:l
 			          {: parser.report_error("Uspesan oporavak do ';' u liniji " + lleft, null); :} {: RESULT=new ErrGlobalSemi(); :}
 			          ;
 					 
-VarDeclars ::= (VarDeclars) Type:T1 IDENT:I2 Brackets:B3 VarDeclList:V4 SEMI {: RESULT=new VarDeclars(T1, I2, B3, V4); RESULT.setLine(T1left); :}
+VarDeclars ::= (VarDeclars) Type:T1 IDENT:varName Brackets:B2 VarDeclList:V3 SEMI {: RESULT=new VarDeclars(T1, varName, B2, V3); RESULT.setLine(T1left); :}
 ;
 
 Brackets ::= (Array) LBRACKET RBRACKET {: RESULT=new Array(); :}
@@ -164,7 +163,7 @@ Brackets ::= (Array) LBRACKET RBRACKET {: RESULT=new Array(); :}
 			 (NoArray) {: RESULT=new NoArray(); :} /* epsilon */
 			 ;
 			 
-VarDeclList ::= (VarDList) VarDeclList:V1 COMMA IDENT:I2 Brackets:B3 {: RESULT=new VarDList(V1, I2, B3); RESULT.setLine(V1left); :}
+VarDeclList ::= (VarDList) VarDeclList:V1 COMMA IDENT:varName Brackets:B2 {: RESULT=new VarDList(V1, varName, B2); RESULT.setLine(V1left); :}
 			    |
 			    (NoVarDeclList) {: RESULT=new NoVarDeclList(); :} /* epsilon */
 			    ;

@@ -1,0 +1,65 @@
+INFO  12:31:28,681 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:31:28,755 - #2 program
+INFO  12:31:28,755 - #43 MJProgram
+INFO  12:31:28,756 - #43 int
+INFO  12:31:28,757 - #43 x
+INFO  12:31:28,758 - #5 ;
+INFO  12:31:28,759 - #43 int
+INFO  12:31:28,764 - #43 y
+INFO  12:31:28,764 - #5 ;
+INFO  12:31:28,765 - #3 {
+INFO  12:31:28,765 - #43 int
+INFO  12:31:28,766 - #43 k
+INFO  12:31:28,766 - #6 (
+INFO  12:31:28,768 - #7 )
+INFO  12:31:28,769 - #43 int
+INFO  12:31:28,770 - #43 c
+INFO  12:31:28,770 - #5 ;
+INFO  12:31:28,771 - #3 {
+INFO  12:31:28,772 - #43 c
+INFO  12:31:28,773 - #16 =
+INFO  12:31:28,775 - #42 1
+INFO  12:31:28,775 - #5 ;
+INFO  12:31:28,796 - #10 return
+INFO  12:31:28,797 - #43 c
+INFO  12:31:28,797 - #11 +
+INFO  12:31:28,797 - #42 2
+INFO  12:31:28,799 - #5 ;
+INFO  12:31:28,799 - #4 }
+INFO  12:31:28,800 - #43 int
+INFO  12:31:28,802 - #43 main
+INFO  12:31:28,802 - #6 (
+INFO  12:31:28,802 - #7 )
+INFO  12:31:28,802 - #3 {
+INFO  12:31:28,802 - #43 y
+INFO  12:31:28,802 - #16 =
+INFO  12:31:28,802 - #42 2
+INFO  12:31:28,802 - #5 ;
+INFO  12:31:28,802 - #43 x
+INFO  12:31:28,803 - #16 =
+INFO  12:31:28,803 - #43 y
+INFO  12:31:28,803 - #11 +
+INFO  12:31:28,803 - #42 2
+INFO  12:31:28,804 - #5 ;
+INFO  12:31:28,805 - #43 y
+INFO  12:31:28,805 - #16 =
+INFO  12:31:28,805 - #43 k
+INFO  12:31:28,805 - #6 (
+INFO  12:31:28,805 - #7 )
+INFO  12:31:28,806 - #11 +
+INFO  12:31:28,807 - #42 3
+INFO  12:31:28,808 - #5 ;
+INFO  12:31:28,808 - #9 print
+INFO  12:31:28,808 - #6 (
+INFO  12:31:28,808 - #43 y
+INFO  12:31:28,808 - #7 )
+INFO  12:31:28,810 - #5 ;
+INFO  12:31:28,811 - #10 return
+INFO  12:31:28,812 - #42 0
+INFO  12:31:28,812 - #5 ;
+INFO  12:31:28,812 - #4 }
+INFO  12:31:28,812 - #4 }
+INFO  12:31:36,096 - Deklarisana promenljiva x na liniji 2
+INFO  12:31:36,096 - Deklarisana promenljiva y na liniji 2
+ERROR 12:31:36,097 - Greska na liniji 6 : ime c nije deklarisano!
+ERROR 12:31:36,097 - Greska na liniji 7 : ime c nije deklarisano!

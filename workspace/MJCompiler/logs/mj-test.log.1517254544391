@@ -1,0 +1,24 @@
+INFO  20:35:34,129 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:35:34,176 - #2 program
+INFO  20:35:34,177 - #43 ImeMogaProgramaa
+INFO  20:35:34,177 - #15 const
+INFO  20:35:34,179 - #43 int
+INFO  20:35:34,179 - #43 sima
+INFO  20:35:34,180 - #16 =
+INFO  20:35:34,180 - #45 true
+INFO  20:35:34,180 - #8 ,
+INFO  20:35:34,181 - #43 joka
+INFO  20:35:34,181 - #16 =
+INFO  20:35:34,181 - #44 "string"
+INFO  20:35:34,181 - #8 ,
+INFO  20:35:34,182 - #43 maca
+INFO  20:35:34,182 - #16 =
+INFO  20:35:34,182 - #42 55
+INFO  20:35:34,182 - #5 ;
+INFO  20:35:34,182 - #43 int
+INFO  20:35:34,183 - #8 ,
+ERROR 20:35:34,183 - 
+Sintaksna greska na liniji 3
+INFO  20:35:34,198 - #43 b
+INFO  20:35:34,198 - #5 ;
+INFO  20:35:34,199 - #19 class

@@ -1,0 +1,65 @@
+INFO  11:16:48,485 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  11:16:48,530 - #2 program
+INFO  11:16:48,530 - #43 MJProgram
+INFO  11:16:48,530 - #43 int
+INFO  11:16:48,531 - #43 x
+INFO  11:16:48,531 - #5 ;
+INFO  11:16:48,532 - #43 int
+INFO  11:16:48,533 - #43 y
+INFO  11:16:48,533 - #5 ;
+INFO  11:16:48,533 - #3 {
+INFO  11:16:48,533 - #43 int
+INFO  11:16:48,534 - #43 k
+INFO  11:16:48,534 - #6 (
+INFO  11:16:48,535 - #7 )
+INFO  11:16:48,535 - #43 int
+INFO  11:16:48,536 - #43 c
+INFO  11:16:48,536 - #5 ;
+INFO  11:16:48,536 - #3 {
+INFO  11:16:48,537 - #43 c
+INFO  11:16:48,538 - #16 =
+INFO  11:16:48,539 - #42 1
+INFO  11:16:48,539 - #5 ;
+INFO  11:16:48,558 - #10 return
+INFO  11:16:48,558 - #43 c
+INFO  11:16:48,559 - #11 +
+INFO  11:16:48,559 - #42 2
+INFO  11:16:48,559 - #5 ;
+INFO  11:16:48,560 - #4 }
+INFO  11:16:48,560 - #43 int
+INFO  11:16:48,561 - #43 main
+INFO  11:16:48,561 - #6 (
+INFO  11:16:48,561 - #7 )
+INFO  11:16:48,561 - #3 {
+INFO  11:16:48,561 - #43 y
+INFO  11:16:48,561 - #16 =
+INFO  11:16:48,561 - #42 2
+INFO  11:16:48,561 - #5 ;
+INFO  11:16:48,561 - #43 x
+INFO  11:16:48,561 - #16 =
+INFO  11:16:48,561 - #43 y
+INFO  11:16:48,561 - #11 +
+INFO  11:16:48,562 - #42 2
+INFO  11:16:48,562 - #5 ;
+INFO  11:16:48,562 - #43 y
+INFO  11:16:48,562 - #16 =
+INFO  11:16:48,562 - #43 k
+INFO  11:16:48,562 - #6 (
+INFO  11:16:48,562 - #7 )
+INFO  11:16:48,563 - #11 +
+INFO  11:16:48,564 - #42 3
+INFO  11:16:48,564 - #5 ;
+INFO  11:16:48,564 - #9 print
+INFO  11:16:48,564 - #6 (
+INFO  11:16:48,564 - #43 y
+INFO  11:16:48,564 - #7 )
+INFO  11:16:48,565 - #5 ;
+INFO  11:16:48,565 - #10 return
+INFO  11:16:48,566 - #42 0
+INFO  11:16:48,566 - #5 ;
+INFO  11:16:48,566 - #4 }
+INFO  11:16:48,566 - #4 }
+INFO  11:16:48,578 - Deklarisana promenljiva x na liniji 2
+INFO  11:16:48,578 - Deklarisana promenljiva y na liniji 2
+ERROR 11:16:48,578 - Greska na liniji 6 : ime c nije deklarisano!
+ERROR 11:16:48,579 - Greska na liniji 7 : ime c nije deklarisano!

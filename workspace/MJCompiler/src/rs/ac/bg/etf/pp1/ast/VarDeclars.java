@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/0/2018 16:17:58
+// 30/0/2018 12:51:18
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -10,14 +10,14 @@ public class VarDeclars implements SyntaxNode {
     private SyntaxNode parent;
     private int line;
     private Type Type;
-    private String I2;
+    private String varName;
     private Brackets Brackets;
     private VarDeclList VarDeclList;
 
-    public VarDeclars (Type Type, String I2, Brackets Brackets, VarDeclList VarDeclList) {
+    public VarDeclars (Type Type, String varName, Brackets Brackets, VarDeclList VarDeclList) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.I2=I2;
+        this.varName=varName;
         this.Brackets=Brackets;
         if(Brackets!=null) Brackets.setParent(this);
         this.VarDeclList=VarDeclList;
@@ -32,12 +32,12 @@ public class VarDeclars implements SyntaxNode {
         this.Type=Type;
     }
 
-    public String getI2() {
-        return I2;
+    public String getVarName() {
+        return varName;
     }
 
-    public void setI2(String I2) {
-        this.I2=I2;
+    public void setVarName(String varName) {
+        this.varName=varName;
     }
 
     public Brackets getBrackets() {
@@ -107,7 +107,7 @@ public class VarDeclars implements SyntaxNode {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+I2);
+        buffer.append(" "+tab+varName);
         buffer.append("\n");
 
         if(Brackets!=null)

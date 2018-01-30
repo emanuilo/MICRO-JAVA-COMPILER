@@ -1,0 +1,40 @@
+INFO  12:32:40,344 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:32:40,392 - #2 program
+INFO  12:32:40,392 - #43 MJProgram
+INFO  12:32:40,392 - #43 int
+INFO  12:32:40,393 - #43 x
+INFO  12:32:40,393 - #5 ;
+INFO  12:32:40,394 - #43 int
+INFO  12:32:40,395 - #43 y
+INFO  12:32:40,396 - #5 ;
+INFO  12:32:40,396 - #3 {
+INFO  12:32:40,396 - #43 int
+INFO  12:32:40,397 - #43 main
+INFO  12:32:40,397 - #6 (
+INFO  12:32:40,399 - #7 )
+INFO  12:32:40,400 - #3 {
+INFO  12:32:40,401 - #43 y
+INFO  12:32:40,402 - #16 =
+INFO  12:32:40,403 - #42 2
+INFO  12:32:40,404 - #5 ;
+INFO  12:32:40,406 - #43 x
+INFO  12:32:40,406 - #16 =
+INFO  12:32:40,406 - #43 y
+INFO  12:32:40,407 - #11 +
+INFO  12:32:40,407 - #42 2
+INFO  12:32:40,408 - #5 ;
+INFO  12:32:40,408 - #9 print
+INFO  12:32:40,408 - #6 (
+INFO  12:32:40,408 - #43 y
+INFO  12:32:40,409 - #7 )
+INFO  12:32:40,409 - #5 ;
+INFO  12:32:40,409 - #10 return
+INFO  12:32:40,409 - #42 0
+INFO  12:32:40,410 - #5 ;
+INFO  12:32:40,410 - #4 }
+INFO  12:32:40,410 - #4 }
+INFO  12:32:40,425 - Deklarisana promenljiva x na liniji 2
+INFO  12:32:40,426 - Deklarisana promenljiva y na liniji 2
+INFO  12:32:40,426 - Detektovana upotreba promenljive y na liniji 8
+INFO  12:32:40,426 - Detektovana upotreba promenljive x na liniji 9
+INFO  12:32:40,426 - Detektovana upotreba promenljive y na liniji 9

@@ -116,18 +116,17 @@ NumCharBoolConst ::= (NumConst) NUMBER
 GlobalVarDeclars ::= (GlobalVarDeclars) Type GlobalVarDeclList
 ;
 			 
-GlobalVarDeclList ::= (GlobalVDeclars) IDENT Brackets COMMA GlobalVarDeclList
+GlobalVarDeclList ::= (GlobalVDeclars) IDENT:varName Brackets COMMA GlobalVarDeclList
 					  |
-					  (ErrGlobalComma) error COMMA GlobalVarDeclList:c
-					  {: parser.report_error("Uspesan oporavak do ',' u liniji " + cleft, null); :}
+					  (ErrGlobalComma) error COMMA GlobalVarDeclList 
 					  |
-			          (SingleGlobalVarDecl) IDENT Brackets SEMI
+			          (SingleGlobalVarDecl) IDENT:varName Brackets SEMI
 			          |
 			          (ErrGlobalSemi) error SEMI:l
 			          {: parser.report_error("Uspesan oporavak do ';' u liniji " + lleft, null); :}
 			          ;
 					 
-VarDeclars ::= (VarDeclars) Type IDENT Brackets VarDeclList SEMI
+VarDeclars ::= (VarDeclars) Type IDENT:varName Brackets VarDeclList SEMI
 ;
 
 Brackets ::= (Array) LBRACKET RBRACKET
@@ -135,7 +134,7 @@ Brackets ::= (Array) LBRACKET RBRACKET
 			 (NoArray) /* epsilon */
 			 ;
 			 
-VarDeclList ::= (VarDList) VarDeclList COMMA IDENT Brackets
+VarDeclList ::= (VarDList) VarDeclList COMMA IDENT:varName Brackets
 			    |
 			    (NoVarDeclList) /* epsilon */
 			    ;
