@@ -1,0 +1,58 @@
+INFO  14:39:51,316 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:39:51,353 - #2 program
+INFO  14:39:51,354 - #44 MJProgram
+INFO  14:39:51,354 - #44 int
+INFO  14:39:51,354 - #44 x
+INFO  14:39:51,355 - #5 ;
+INFO  14:39:51,356 - #44 int
+INFO  14:39:51,357 - #44 y
+INFO  14:39:51,357 - #5 ;
+INFO  14:39:51,357 - #3 {
+INFO  14:39:51,357 - #44 int
+INFO  14:39:51,358 - #44 k
+INFO  14:39:51,358 - #6 (
+INFO  14:39:51,358 - #7 )
+INFO  14:39:51,359 - #44 int
+INFO  14:39:51,359 - #44 c
+INFO  14:39:51,359 - #5 ;
+INFO  14:39:51,360 - #3 {
+INFO  14:39:51,361 - #44 c
+INFO  14:39:51,361 - #16 =
+INFO  14:39:51,362 - #42 1
+INFO  14:39:51,362 - #5 ;
+INFO  14:39:51,363 - #10 return
+INFO  14:39:51,363 - #44 c
+INFO  14:39:51,363 - #11 +
+INFO  14:39:51,363 - #42 2
+INFO  14:39:51,364 - #5 ;
+INFO  14:39:51,364 - #4 }
+INFO  14:39:51,365 - #14 void
+INFO  14:39:51,366 - #44 main
+INFO  14:39:51,366 - #6 (
+INFO  14:39:51,366 - #7 )
+INFO  14:39:51,366 - #3 {
+INFO  14:39:51,366 - #44 y
+INFO  14:39:51,366 - #29 ++
+INFO  14:39:51,366 - #5 ;
+INFO  14:39:51,366 - #44 x
+INFO  14:39:51,368 - #16 =
+INFO  14:39:51,368 - #44 y
+INFO  14:39:51,368 - #11 +
+INFO  14:39:51,368 - #42 2
+INFO  14:39:51,368 - #5 ;
+INFO  14:39:51,369 - #10 return
+INFO  14:39:51,370 - #42 1
+INFO  14:39:51,370 - #5 ;
+INFO  14:39:51,370 - #4 }
+INFO  14:39:51,370 - #4 }
+INFO  14:39:51,381 - Deklarisana globalna promenljiva x na liniji 2
+INFO  14:39:51,381 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:39:51,382 - Obradjuje se funkcija k na liniji 6
+INFO  14:39:51,382 - Deklarisana promenljiva c na liniji 6
+INFO  14:39:51,382 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:39:51,382 - Detektovana upotreba promenljive c na liniji 8
+INFO  14:39:51,382 - Obradjuje se funkcija main na liniji 11
+INFO  14:39:51,382 - Detektovana upotreba promenljive y na liniji 12
+INFO  14:39:51,382 - Detektovana upotreba promenljive x na liniji 13
+INFO  14:39:51,382 - Detektovana upotreba promenljive y na liniji 13
+ERROR 14:39:51,383 - Greska na liniji 14 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije main

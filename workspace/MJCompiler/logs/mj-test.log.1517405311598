@@ -1,0 +1,54 @@
+INFO  19:47:45,284 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:47:45,320 - #2 program
+INFO  19:47:45,321 - #44 MJProgram
+INFO  19:47:45,321 - #44 int
+INFO  19:47:45,322 - #44 x
+INFO  19:47:45,322 - #5 ;
+INFO  19:47:45,323 - #44 char
+INFO  19:47:45,324 - #44 y
+INFO  19:47:45,324 - #5 ;
+INFO  19:47:45,324 - #3 {
+INFO  19:47:45,325 - #44 int
+INFO  19:47:45,325 - #44 k
+INFO  19:47:45,326 - #6 (
+INFO  19:47:45,327 - #7 )
+INFO  19:47:45,327 - #44 int
+INFO  19:47:45,328 - #44 c
+INFO  19:47:45,328 - #5 ;
+INFO  19:47:45,329 - #3 {
+INFO  19:47:45,330 - #44 c
+INFO  19:47:45,331 - #16 =
+INFO  19:47:45,332 - #42 1
+INFO  19:47:45,332 - #5 ;
+INFO  19:47:45,333 - #10 return
+INFO  19:47:45,333 - #44 c
+INFO  19:47:45,333 - #11 +
+INFO  19:47:45,334 - #42 2
+INFO  19:47:45,334 - #5 ;
+INFO  19:47:45,335 - #4 }
+INFO  19:47:45,335 - #44 int
+INFO  19:47:45,336 - #44 main
+INFO  19:47:45,336 - #6 (
+INFO  19:47:45,336 - #7 )
+INFO  19:47:45,336 - #3 {
+INFO  19:47:45,336 - #44 y
+INFO  19:47:45,336 - #29 ++
+INFO  19:47:45,336 - #5 ;
+INFO  19:47:45,337 - #44 x
+INFO  19:47:45,337 - #16 =
+INFO  19:47:45,337 - #44 y
+INFO  19:47:45,337 - #11 +
+INFO  19:47:45,337 - #42 2
+INFO  19:47:45,337 - #5 ;
+INFO  19:47:45,337 - #4 }
+INFO  19:47:45,337 - #4 }
+INFO  19:47:45,348 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:47:45,348 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:47:45,348 - Deklarisana promenljiva c na liniji 6
+INFO  19:47:45,348 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:47:45,348 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:47:45,348 - Detektovana upotreba promenljive y na liniji 12
+ERROR 19:47:45,348 - Greska na liniji 12 : nekompatibilan tip u izrazu za inkrementiranje.
+INFO  19:47:45,348 - Detektovana upotreba promenljive x na liniji 13
+INFO  19:47:45,349 - Detektovana upotreba promenljive y na liniji 13
+ERROR 19:47:45,349 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.

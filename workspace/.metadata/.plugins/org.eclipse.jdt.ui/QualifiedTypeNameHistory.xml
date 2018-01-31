@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.ir.VarNode"/>
 <fullyQualifiedTypeName name="java.nio.file.StandardOpenOption"/>
-<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Assignment"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FuncCall"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodDecl"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDecl"/>
@@ -24,9 +23,28 @@
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SemanticAnalyzer"/>
 <fullyQualifiedTypeName name="com.sun.glass.ui.CommonDialogs.Type"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Type"/>
-<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.SingleGlobalVarDecl"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.GlobalVDeclars"/>
 <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ErrGlobalComma"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Array"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.NoArray"/>
 <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Designator"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Var"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Term"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorTerm"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MulopTerm"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.TermExpr"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.AddExpr"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.NumberConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDeclars"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.CharConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ConstDecl"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ConstName"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.NumConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Inc"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Dec"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Assignment"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,50 @@
+INFO  14:37:13,292 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:37:13,333 - #2 program
+INFO  14:37:13,333 - #44 MJProgram
+INFO  14:37:13,333 - #44 int
+INFO  14:37:13,334 - #44 x
+INFO  14:37:13,335 - #5 ;
+INFO  14:37:13,336 - #44 char
+INFO  14:37:13,337 - #44 y
+INFO  14:37:13,337 - #5 ;
+INFO  14:37:13,337 - #3 {
+INFO  14:37:13,337 - #44 int
+INFO  14:37:13,337 - #44 k
+INFO  14:37:13,338 - #6 (
+INFO  14:37:13,338 - #7 )
+INFO  14:37:13,339 - #44 int
+INFO  14:37:13,339 - #44 c
+INFO  14:37:13,339 - #5 ;
+INFO  14:37:13,340 - #3 {
+INFO  14:37:13,341 - #44 c
+INFO  14:37:13,341 - #16 =
+INFO  14:37:13,343 - #42 1
+INFO  14:37:13,343 - #5 ;
+INFO  14:37:13,345 - #10 return
+INFO  14:37:13,345 - #44 c
+INFO  14:37:13,345 - #11 +
+INFO  14:37:13,345 - #42 2
+INFO  14:37:13,346 - #5 ;
+INFO  14:37:13,347 - #4 }
+INFO  14:37:13,347 - #44 int
+INFO  14:37:13,348 - #44 main
+INFO  14:37:13,348 - #6 (
+INFO  14:37:13,348 - #7 )
+INFO  14:37:13,348 - #3 {
+INFO  14:37:13,349 - #44 y
+INFO  14:37:13,349 - #29 ++
+INFO  14:37:13,349 - #5 ;
+INFO  14:37:13,349 - #44 x
+INFO  14:37:13,350 - #16 =
+INFO  14:37:13,350 - #44 y
+INFO  14:37:13,350 - #11 +
+INFO  14:37:13,350 - #42 2
+INFO  14:37:13,350 - #5 ;
+INFO  14:37:13,350 - #4 }
+INFO  14:37:13,350 - #4 }
+INFO  14:37:13,379 - Deklarisana globalna promenljiva x na liniji 2
+INFO  14:37:13,379 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:37:13,380 - Obradjuje se funkcija k na liniji 6
+INFO  14:37:13,380 - Deklarisana promenljiva c na liniji 6
+INFO  14:37:13,380 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:37:13,380 - Detektovana upotreba promenljive c na liniji 8

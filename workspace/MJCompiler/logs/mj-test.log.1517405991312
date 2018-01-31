@@ -1,0 +1,57 @@
+INFO  14:39:20,501 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:39:20,538 - #2 program
+INFO  14:39:20,538 - #44 MJProgram
+INFO  14:39:20,538 - #44 int
+INFO  14:39:20,538 - #44 x
+INFO  14:39:20,539 - #5 ;
+INFO  14:39:20,539 - #44 int
+INFO  14:39:20,540 - #44 y
+INFO  14:39:20,540 - #5 ;
+INFO  14:39:20,540 - #3 {
+INFO  14:39:20,540 - #44 int
+INFO  14:39:20,541 - #44 k
+INFO  14:39:20,541 - #6 (
+INFO  14:39:20,541 - #7 )
+INFO  14:39:20,542 - #44 int
+INFO  14:39:20,542 - #44 c
+INFO  14:39:20,542 - #5 ;
+INFO  14:39:20,542 - #3 {
+INFO  14:39:20,543 - #44 c
+INFO  14:39:20,544 - #16 =
+INFO  14:39:20,544 - #42 1
+INFO  14:39:20,545 - #5 ;
+INFO  14:39:20,547 - #10 return
+INFO  14:39:20,547 - #44 c
+INFO  14:39:20,547 - #11 +
+INFO  14:39:20,547 - #42 2
+INFO  14:39:20,548 - #5 ;
+INFO  14:39:20,548 - #4 }
+INFO  14:39:20,548 - #44 int
+INFO  14:39:20,549 - #44 main
+INFO  14:39:20,549 - #6 (
+INFO  14:39:20,549 - #7 )
+INFO  14:39:20,549 - #3 {
+INFO  14:39:20,550 - #44 y
+INFO  14:39:20,550 - #29 ++
+INFO  14:39:20,550 - #5 ;
+INFO  14:39:20,550 - #44 x
+INFO  14:39:20,550 - #16 =
+INFO  14:39:20,550 - #44 y
+INFO  14:39:20,550 - #11 +
+INFO  14:39:20,550 - #42 2
+INFO  14:39:20,551 - #5 ;
+INFO  14:39:20,551 - #10 return
+INFO  14:39:20,551 - #42 1
+INFO  14:39:20,551 - #5 ;
+INFO  14:39:20,551 - #4 }
+INFO  14:39:20,551 - #4 }
+INFO  14:39:20,562 - Deklarisana globalna promenljiva x na liniji 2
+INFO  14:39:20,562 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:39:20,562 - Obradjuje se funkcija k na liniji 6
+INFO  14:39:20,562 - Deklarisana promenljiva c na liniji 6
+INFO  14:39:20,562 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:39:20,563 - Detektovana upotreba promenljive c na liniji 8
+INFO  14:39:20,563 - Obradjuje se funkcija main na liniji 11
+INFO  14:39:20,563 - Detektovana upotreba promenljive y na liniji 12
+INFO  14:39:20,563 - Detektovana upotreba promenljive x na liniji 13
+INFO  14:39:20,563 - Detektovana upotreba promenljive y na liniji 13

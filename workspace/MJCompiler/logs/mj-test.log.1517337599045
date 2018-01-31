@@ -1,0 +1,54 @@
+INFO  19:39:50,314 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:39:50,351 - #2 program
+INFO  19:39:50,351 - #44 MJProgram
+INFO  19:39:50,351 - #44 int
+INFO  19:39:50,352 - #44 x
+INFO  19:39:50,353 - #5 ;
+INFO  19:39:50,354 - #44 char
+INFO  19:39:50,355 - #44 y
+INFO  19:39:50,355 - #5 ;
+INFO  19:39:50,355 - #3 {
+INFO  19:39:50,355 - #44 int
+INFO  19:39:50,356 - #44 k
+INFO  19:39:50,356 - #6 (
+INFO  19:39:50,356 - #7 )
+INFO  19:39:50,357 - #44 int
+INFO  19:39:50,358 - #44 c
+INFO  19:39:50,358 - #5 ;
+INFO  19:39:50,358 - #3 {
+INFO  19:39:50,359 - #44 c
+INFO  19:39:50,360 - #16 =
+INFO  19:39:50,361 - #42 1
+INFO  19:39:50,361 - #5 ;
+INFO  19:39:50,362 - #10 return
+INFO  19:39:50,362 - #44 c
+INFO  19:39:50,362 - #11 +
+INFO  19:39:50,362 - #42 2
+INFO  19:39:50,363 - #5 ;
+INFO  19:39:50,363 - #4 }
+INFO  19:39:50,363 - #44 int
+INFO  19:39:50,364 - #44 main
+INFO  19:39:50,364 - #6 (
+INFO  19:39:50,364 - #7 )
+INFO  19:39:50,364 - #3 {
+INFO  19:39:50,364 - #44 y
+INFO  19:39:50,364 - #16 =
+INFO  19:39:50,364 - #42 2
+INFO  19:39:50,364 - #5 ;
+INFO  19:39:50,364 - #44 x
+INFO  19:39:50,364 - #16 =
+INFO  19:39:50,365 - #29 ++
+ERROR 19:39:50,365 - 
+Sintaksna greska na liniji 13
+INFO  19:39:50,365 - #5 ;
+INFO  19:39:50,365 - #4 }
+INFO  19:39:50,366 - #4 }
+ERROR 19:39:50,367 - Uspesan oporavak do ';' u liniji 13
+INFO  19:39:50,378 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:39:50,378 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:39:50,378 - Deklarisana promenljiva c na liniji 6
+INFO  19:39:50,378 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:39:50,378 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:39:50,378 - Detektovana upotreba promenljive y na liniji 12
+ERROR 19:39:50,378 - Greska na liniji 12 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  19:39:50,378 - Detektovana upotreba promenljive x na liniji 13

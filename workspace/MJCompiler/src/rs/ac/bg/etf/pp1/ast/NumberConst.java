@@ -1,23 +1,23 @@
 // generated with ast extension for cup
 // version 0.8
-// 30/0/2018 12:51:19
+// 31/0/2018 14:28:13
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class NumberConst extends Factor {
 
-    private Integer N1;
+    private int N1;
 
-    public NumberConst (Integer N1) {
+    public NumberConst (int N1) {
         this.N1=N1;
     }
 
-    public Integer getN1() {
+    public int getN1() {
         return N1;
     }
 
-    public void setN1(Integer N1) {
+    public void setN1(int N1) {
         this.N1=N1;
     }
 

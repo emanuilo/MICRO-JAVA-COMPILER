@@ -1,0 +1,50 @@
+INFO  14:40:24,137 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:40:24,172 - #2 program
+INFO  14:40:24,172 - #44 MJProgram
+INFO  14:40:24,172 - #44 int
+INFO  14:40:24,173 - #44 y
+INFO  14:40:24,174 - #5 ;
+INFO  14:40:24,174 - #3 {
+INFO  14:40:24,175 - #44 int
+INFO  14:40:24,176 - #44 k
+INFO  14:40:24,176 - #6 (
+INFO  14:40:24,177 - #7 )
+INFO  14:40:24,177 - #44 int
+INFO  14:40:24,178 - #44 c
+INFO  14:40:24,178 - #5 ;
+INFO  14:40:24,179 - #3 {
+INFO  14:40:24,179 - #44 c
+INFO  14:40:24,180 - #16 =
+INFO  14:40:24,181 - #42 1
+INFO  14:40:24,181 - #5 ;
+INFO  14:40:24,182 - #10 return
+INFO  14:40:24,182 - #44 c
+INFO  14:40:24,182 - #11 +
+INFO  14:40:24,183 - #42 2
+INFO  14:40:24,183 - #5 ;
+INFO  14:40:24,184 - #4 }
+INFO  14:40:24,184 - #14 void
+INFO  14:40:24,185 - #44 main
+INFO  14:40:24,185 - #6 (
+INFO  14:40:24,185 - #7 )
+INFO  14:40:24,185 - #3 {
+INFO  14:40:24,185 - #44 y
+INFO  14:40:24,185 - #29 ++
+INFO  14:40:24,185 - #5 ;
+INFO  14:40:24,186 - #44 x
+INFO  14:40:24,186 - #16 =
+INFO  14:40:24,186 - #44 y
+INFO  14:40:24,186 - #11 +
+INFO  14:40:24,186 - #42 2
+INFO  14:40:24,186 - #5 ;
+INFO  14:40:24,186 - #4 }
+INFO  14:40:24,187 - #4 }
+INFO  14:40:24,197 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:40:24,197 - Obradjuje se funkcija k na liniji 6
+INFO  14:40:24,197 - Deklarisana promenljiva c na liniji 6
+INFO  14:40:24,197 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:40:24,197 - Detektovana upotreba promenljive c na liniji 8
+INFO  14:40:24,197 - Obradjuje se funkcija main na liniji 11
+INFO  14:40:24,197 - Detektovana upotreba promenljive y na liniji 12
+ERROR 14:40:24,198 - Greska na liniji 13 : ime x nije deklarisano!
+INFO  14:40:24,198 - Detektovana upotreba promenljive y na liniji 13

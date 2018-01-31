@@ -1,0 +1,55 @@
+INFO  19:39:28,313 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:39:28,352 - #2 program
+INFO  19:39:28,352 - #44 MJProgram
+INFO  19:39:28,352 - #44 int
+INFO  19:39:28,353 - #44 x
+INFO  19:39:28,354 - #5 ;
+INFO  19:39:28,355 - #44 char
+INFO  19:39:28,356 - #44 y
+INFO  19:39:28,356 - #5 ;
+INFO  19:39:28,356 - #3 {
+INFO  19:39:28,356 - #44 int
+INFO  19:39:28,357 - #44 k
+INFO  19:39:28,357 - #6 (
+INFO  19:39:28,358 - #7 )
+INFO  19:39:28,358 - #44 int
+INFO  19:39:28,359 - #44 c
+INFO  19:39:28,359 - #5 ;
+INFO  19:39:28,360 - #3 {
+INFO  19:39:28,360 - #44 c
+INFO  19:39:28,361 - #16 =
+INFO  19:39:28,362 - #42 1
+INFO  19:39:28,362 - #5 ;
+INFO  19:39:28,370 - #10 return
+INFO  19:39:28,370 - #44 c
+INFO  19:39:28,370 - #11 +
+INFO  19:39:28,370 - #42 2
+INFO  19:39:28,371 - #5 ;
+INFO  19:39:28,371 - #4 }
+INFO  19:39:28,372 - #44 int
+INFO  19:39:28,372 - #44 main
+INFO  19:39:28,372 - #6 (
+INFO  19:39:28,373 - #7 )
+INFO  19:39:28,373 - #3 {
+INFO  19:39:28,373 - #44 y
+INFO  19:39:28,373 - #16 =
+INFO  19:39:28,373 - #42 2
+INFO  19:39:28,373 - #5 ;
+INFO  19:39:28,373 - #44 x
+INFO  19:39:28,373 - #16 =
+INFO  19:39:28,373 - #44 y
+INFO  19:39:28,373 - #11 +
+INFO  19:39:28,373 - #42 2
+INFO  19:39:28,373 - #5 ;
+INFO  19:39:28,374 - #4 }
+INFO  19:39:28,374 - #4 }
+INFO  19:39:28,386 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:39:28,386 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:39:28,387 - Deklarisana promenljiva c na liniji 6
+INFO  19:39:28,387 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:39:28,387 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:39:28,387 - Detektovana upotreba promenljive y na liniji 12
+ERROR 19:39:28,387 - Greska na liniji 12 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  19:39:28,387 - Detektovana upotreba promenljive x na liniji 13
+INFO  19:39:28,387 - Detektovana upotreba promenljive y na liniji 13
+ERROR 19:39:28,387 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.

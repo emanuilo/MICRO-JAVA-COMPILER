@@ -1,0 +1,77 @@
+INFO  15:48:42,023 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  15:48:42,059 - #2 program
+INFO  15:48:42,059 - #44 MJProgram
+INFO  15:48:42,059 - #44 int
+INFO  15:48:42,060 - #44 x
+INFO  15:48:42,061 - #5 ;
+INFO  15:48:42,062 - #44 int
+INFO  15:48:42,063 - #44 y
+INFO  15:48:42,063 - #5 ;
+INFO  15:48:42,063 - #44 int
+INFO  15:48:42,063 - #44 x
+INFO  15:48:42,063 - #5 ;
+INFO  15:48:42,063 - #3 {
+INFO  15:48:42,063 - #44 int
+INFO  15:48:42,064 - #44 k
+INFO  15:48:42,064 - #6 (
+INFO  15:48:42,064 - #7 )
+INFO  15:48:42,065 - #44 int
+INFO  15:48:42,065 - #44 c
+INFO  15:48:42,065 - #5 ;
+INFO  15:48:42,066 - #3 {
+INFO  15:48:42,067 - #44 c
+INFO  15:48:42,067 - #16 =
+INFO  15:48:42,068 - #42 1
+INFO  15:48:42,069 - #5 ;
+INFO  15:48:42,070 - #10 return
+INFO  15:48:42,070 - #44 c
+INFO  15:48:42,070 - #11 +
+INFO  15:48:42,071 - #42 2
+INFO  15:48:42,071 - #5 ;
+INFO  15:48:42,072 - #4 }
+INFO  15:48:42,072 - #44 int
+INFO  15:48:42,073 - #44 main
+INFO  15:48:42,073 - #6 (
+INFO  15:48:42,073 - #7 )
+INFO  15:48:42,073 - #3 {
+INFO  15:48:42,073 - #44 y
+INFO  15:48:42,073 - #16 =
+INFO  15:48:42,073 - #42 2
+INFO  15:48:42,073 - #5 ;
+INFO  15:48:42,074 - #44 x
+INFO  15:48:42,074 - #16 =
+INFO  15:48:42,074 - #44 y
+INFO  15:48:42,074 - #11 +
+INFO  15:48:42,074 - #42 2
+INFO  15:48:42,074 - #5 ;
+INFO  15:48:42,074 - #44 y
+INFO  15:48:42,074 - #16 =
+INFO  15:48:42,075 - #44 k
+INFO  15:48:42,075 - #6 (
+INFO  15:48:42,075 - #7 )
+INFO  15:48:42,076 - #11 +
+INFO  15:48:42,076 - #42 3
+INFO  15:48:42,076 - #5 ;
+INFO  15:48:42,076 - #9 print
+INFO  15:48:42,076 - #6 (
+INFO  15:48:42,077 - #44 y
+INFO  15:48:42,077 - #7 )
+INFO  15:48:42,077 - #5 ;
+INFO  15:48:42,077 - #10 return
+INFO  15:48:42,077 - #42 0
+INFO  15:48:42,077 - #5 ;
+INFO  15:48:42,078 - #4 }
+INFO  15:48:42,078 - #4 }
+INFO  15:48:42,090 - Deklarisana globalna promenljiva x na liniji 2
+INFO  15:48:42,090 - Deklarisana globalna promenljiva y na liniji 3
+ERROR 15:48:42,090 - Greska na liniji 4: promenljiva 'x' je vec deklarisana
+INFO  15:48:42,090 - Deklarisana promenljiva c na liniji 7
+INFO  15:48:42,093 - Detektovana upotreba promenljive c na liniji 8
+INFO  15:48:42,093 - Detektovana upotreba promenljive c na liniji 9
+INFO  15:48:42,093 - Detektovana upotreba promenljive y na liniji 13
+INFO  15:48:42,093 - Detektovana upotreba promenljive x na liniji 14
+INFO  15:48:42,093 - Detektovana upotreba promenljive y na liniji 14
+INFO  15:48:42,093 - Detektovana upotreba promenljive y na liniji 15
+ERROR 15:48:42,093 - Greska na liniji 15 : ime k nije deklarisano!
+ERROR 15:48:42,093 - Greska na liniji 15 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+INFO  15:48:42,093 - Detektovana upotreba promenljive y na liniji 16

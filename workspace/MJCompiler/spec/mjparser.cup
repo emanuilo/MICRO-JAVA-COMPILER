@@ -57,8 +57,9 @@ scan with {:
 terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, PLUS, MINUS, EQUAL, VOID, CONST, ASSIGN, LBRACKET, RBRACKET;
 terminal CLASS, EXTENDS, DO, WHILE, BREAK, CONTINUE, READ, OR, AND, NEW, INC, DEC, PERIOD, MUL, DIV, MOD, NOT_EQUAL, GREATER;
 terminal GREATER_EQUAL, LESS, LESS_EQUAL, IF, ELSE;
-terminal Integer NUMBER ;
-terminal String IDENT, STRING ;
+terminal int NUMBER ;
+terminal char CHAR;
+terminal String IDENT;
 terminal BOOLEAN;
 
 
@@ -67,13 +68,13 @@ nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamL
 nonterminal StatementList, Statement, Addop;
 
 
-nonterminal ConstVarClassDeclList, ConstVarClassDecl, ConstDeclars, VarDeclars, ClassDeclars, ConstDeclList, ConstDecl, NumCharBoolConst;
-nonterminal Brackets, Extension, MethodDeclars, MultiVarDeclars, TypeOrVoid, CommaNumConst, ExprOrNoExpr, Condition;
+nonterminal ConstVarClassDeclList, ConstVarClassDecl, ConstDeclars, VarDeclars, ClassDeclars, ConstDeclList, ConstDecl;
+nonterminal Brackets, Extension, MethodDeclars, MultiVarDeclars, CommaNumConst, ExprOrNoExpr, Condition;
 nonterminal CondTerm, CondFact, RelopExpr, DesignatorStatement, DesignatorExtension, ObjOrCollectionList, ObjOrCollection, Mulop, Relop;
-non terminal GlobalVarDeclars, GlobalVarDeclList;
+nonterminal GlobalVarDeclars, GlobalVarDeclList, ConstName;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName; 
-nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expr, Factor, VarDeclList; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, TypeOrVoid, Term, Expr, Factor, VarDeclList, NumCharBoolConst; 
 
 precedence left ELSE;
 
@@ -103,14 +104,17 @@ ConstDeclList ::=   (ConstDecls) ConstDeclList COMMA ConstDecl
 					(SingleConstDecl) ConstDecl
 					;
 
-ConstDecl ::= (ConstDecl) IDENT ASSIGN NumCharBoolConst
+ConstDecl ::= (ConstDecl) ConstName ASSIGN NumCharBoolConst
 ;
 
-NumCharBoolConst ::= (NumConst) NUMBER 
+ConstName ::= (ConstName) IDENT:constName
+;
+
+NumCharBoolConst ::= (NumConst) NUMBER:number 
 					 |
-					 (CharConst) STRING
+					 (CharConst) CHAR:charr
 					 |
-					 (BoolConst) BOOLEAN
+					 (BoolConst) BOOLEAN:bool
 					 ;
 					 
 GlobalVarDeclars ::= (GlobalVarDeclars) Type GlobalVarDeclList
@@ -118,7 +122,7 @@ GlobalVarDeclars ::= (GlobalVarDeclars) Type GlobalVarDeclList
 			 
 GlobalVarDeclList ::= (GlobalVDeclars) IDENT:varName Brackets COMMA GlobalVarDeclList
 					  |
-					  (ErrGlobalComma) error COMMA GlobalVarDeclList 
+					  (ErrGlobalComma) error COMMA GlobalVarDeclList
 					  |
 			          (SingleGlobalVarDecl) IDENT:varName Brackets SEMI
 			          |
@@ -258,7 +262,7 @@ Term ::= (MulopTerm) Term Mulop Factor
 
 Factor ::= (NumberConst) NUMBER
 			|
-		   (ChConst) STRING
+		   (ChConst) CHAR
 		   	|
 		   (BooleanConst) BOOLEAN
 		   	|

@@ -57,8 +57,9 @@ scan with {:
 terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, PLUS, MINUS, EQUAL, VOID, CONST, ASSIGN, LBRACKET, RBRACKET;
 terminal CLASS, EXTENDS, DO, WHILE, BREAK, CONTINUE, READ, OR, AND, NEW, INC, DEC, PERIOD, MUL, DIV, MOD, NOT_EQUAL, GREATER;
 terminal GREATER_EQUAL, LESS, LESS_EQUAL, IF, ELSE;
-terminal Integer NUMBER ;
-terminal String IDENT, STRING ;
+terminal int NUMBER ;
+terminal char CHAR;
+terminal String IDENT;
 terminal BOOLEAN;
 
 
@@ -80,12 +81,10 @@ nonterminal VarDeclars VarDeclars;
 nonterminal ClassDeclars ClassDeclars;
 nonterminal ConstDeclList ConstDeclList;
 nonterminal ConstDecl ConstDecl;
-nonterminal NumCharBoolConst NumCharBoolConst;
 nonterminal Brackets Brackets;
 nonterminal Extension Extension;
 nonterminal MethodDeclars MethodDeclars;
 nonterminal MultiVarDeclars MultiVarDeclars;
-nonterminal TypeOrVoid TypeOrVoid;
 nonterminal CommaNumConst CommaNumConst;
 nonterminal ExprOrNoExpr ExprOrNoExpr;
 nonterminal Condition Condition;
@@ -98,11 +97,12 @@ nonterminal ObjOrCollectionList ObjOrCollectionList;
 nonterminal ObjOrCollection ObjOrCollection;
 nonterminal Mulop Mulop;
 nonterminal Relop Relop;
-non terminal GlobalVarDeclars GlobalVarDeclars;
+nonterminal GlobalVarDeclars GlobalVarDeclars;
 nonterminal GlobalVarDeclList GlobalVarDeclList;
+nonterminal ConstName ConstName;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName; 
-nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expr, Factor, VarDeclList; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, TypeOrVoid, Term, Expr, Factor, VarDeclList, NumCharBoolConst; 
 
 precedence left ELSE;
 
@@ -132,14 +132,17 @@ ConstDeclList ::=   (ConstDecls) ConstDeclList:C1 COMMA ConstDecl:C2 {: RESULT=n
 					(SingleConstDecl) ConstDecl:C1 {: RESULT=new SingleConstDecl(C1); RESULT.setLine(C1left); :}
 					;
 
-ConstDecl ::= (ConstDecl) IDENT:I1 ASSIGN NumCharBoolConst:N2 {: RESULT=new ConstDecl(I1, N2); RESULT.setLine(I1left); :}
+ConstDecl ::= (ConstDecl) ConstName:C1 ASSIGN NumCharBoolConst:N2 {: RESULT=new ConstDecl(C1, N2); RESULT.setLine(C1left); :}
 ;
 
-NumCharBoolConst ::= (NumConst) NUMBER:N1 {: RESULT=new NumConst(N1); RESULT.setLine(N1left); :} 
+ConstName ::= (ConstName) IDENT:constName {: RESULT=new ConstName(constName); RESULT.setLine(constNameleft); :}
+;
+
+NumCharBoolConst ::= (NumConst) NUMBER:number {: RESULT=new NumConst(number); RESULT.setLine(numberleft); :} 
 					 |
-					 (CharConst) STRING:S1 {: RESULT=new CharConst(S1); RESULT.setLine(S1left); :}
+					 (CharConst) CHAR:charr {: RESULT=new CharConst(charr); RESULT.setLine(charrleft); :}
 					 |
-					 (BoolConst) BOOLEAN {: RESULT=new BoolConst(); :}
+					 (BoolConst) BOOLEAN:bool {: RESULT=new BoolConst(); :}
 					 ;
 					 
 GlobalVarDeclars ::= (GlobalVarDeclars) Type:T1 GlobalVarDeclList:G2 {: RESULT=new GlobalVarDeclars(T1, G2); RESULT.setLine(T1left); :}
@@ -147,7 +150,7 @@ GlobalVarDeclars ::= (GlobalVarDeclars) Type:T1 GlobalVarDeclList:G2 {: RESULT=n
 			 
 GlobalVarDeclList ::= (GlobalVDeclars) IDENT:varName Brackets:B1 COMMA GlobalVarDeclList:G2 {: RESULT=new GlobalVDeclars(varName, B1, G2); RESULT.setLine(varNameleft); :}
 					  |
-					  (ErrGlobalComma) error COMMA GlobalVarDeclList:G1 {: RESULT=new ErrGlobalComma(G1); RESULT.setLine(G1left); :} 
+					  (ErrGlobalComma) error COMMA GlobalVarDeclList:G1 {: RESULT=new ErrGlobalComma(G1); RESULT.setLine(G1left); :}
 					  |
 			          (SingleGlobalVarDecl) IDENT:varName Brackets:B1 SEMI {: RESULT=new SingleGlobalVarDecl(varName, B1); RESULT.setLine(varNameleft); :}
 			          |
@@ -287,7 +290,7 @@ Term ::= (MulopTerm) Term:T1 Mulop:M2 Factor:F3 {: RESULT=new MulopTerm(T1, M2, 
 
 Factor ::= (NumberConst) NUMBER:N1 {: RESULT=new NumberConst(N1); RESULT.setLine(N1left); :}
 			|
-		   (ChConst) STRING:S1 {: RESULT=new ChConst(S1); RESULT.setLine(S1left); :}
+		   (ChConst) CHAR:C1 {: RESULT=new ChConst(C1); RESULT.setLine(C1left); :}
 		   	|
 		   (BooleanConst) BOOLEAN {: RESULT=new BooleanConst(); :}
 		   	|

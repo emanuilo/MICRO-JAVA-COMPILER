@@ -1,0 +1,60 @@
+INFO  14:39:02,540 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:39:02,573 - #2 program
+INFO  14:39:02,573 - #44 MJProgram
+INFO  14:39:02,574 - #44 int
+INFO  14:39:02,574 - #44 x
+INFO  14:39:02,575 - #5 ;
+INFO  14:39:02,575 - #44 char
+INFO  14:39:02,576 - #44 y
+INFO  14:39:02,576 - #5 ;
+INFO  14:39:02,576 - #3 {
+INFO  14:39:02,577 - #44 int
+INFO  14:39:02,577 - #44 k
+INFO  14:39:02,577 - #6 (
+INFO  14:39:02,578 - #7 )
+INFO  14:39:02,578 - #44 int
+INFO  14:39:02,579 - #44 c
+INFO  14:39:02,579 - #5 ;
+INFO  14:39:02,579 - #3 {
+INFO  14:39:02,580 - #44 c
+INFO  14:39:02,581 - #16 =
+INFO  14:39:02,582 - #42 1
+INFO  14:39:02,582 - #5 ;
+INFO  14:39:02,583 - #10 return
+INFO  14:39:02,583 - #44 c
+INFO  14:39:02,583 - #11 +
+INFO  14:39:02,583 - #42 2
+INFO  14:39:02,584 - #5 ;
+INFO  14:39:02,584 - #4 }
+INFO  14:39:02,584 - #44 int
+INFO  14:39:02,585 - #44 main
+INFO  14:39:02,585 - #6 (
+INFO  14:39:02,585 - #7 )
+INFO  14:39:02,585 - #3 {
+INFO  14:39:02,585 - #44 y
+INFO  14:39:02,585 - #29 ++
+INFO  14:39:02,585 - #5 ;
+INFO  14:39:02,585 - #44 x
+INFO  14:39:02,585 - #16 =
+INFO  14:39:02,586 - #44 y
+INFO  14:39:02,586 - #11 +
+INFO  14:39:02,586 - #42 2
+INFO  14:39:02,586 - #5 ;
+INFO  14:39:02,586 - #10 return
+INFO  14:39:02,587 - #43 c
+INFO  14:39:02,587 - #5 ;
+INFO  14:39:02,587 - #4 }
+INFO  14:39:02,587 - #4 }
+INFO  14:39:02,596 - Deklarisana globalna promenljiva x na liniji 2
+INFO  14:39:02,596 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:39:02,596 - Obradjuje se funkcija k na liniji 6
+INFO  14:39:02,597 - Deklarisana promenljiva c na liniji 6
+INFO  14:39:02,597 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:39:02,597 - Detektovana upotreba promenljive c na liniji 8
+INFO  14:39:02,597 - Obradjuje se funkcija main na liniji 11
+INFO  14:39:02,597 - Detektovana upotreba promenljive y na liniji 12
+ERROR 14:39:02,597 - Greska na liniji 12 : nekompatibilan tip u izrazu za inkrementiranje.
+INFO  14:39:02,597 - Detektovana upotreba promenljive x na liniji 13
+INFO  14:39:02,597 - Detektovana upotreba promenljive y na liniji 13
+ERROR 14:39:02,597 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 14:39:02,598 - Greska na liniji 14 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije main

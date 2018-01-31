@@ -1,0 +1,273 @@
+INFO  15:15:10,594 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  15:15:10,628 - #2 program
+INFO  15:15:10,629 - #44 Program
+INFO  15:15:10,629 - #19 class
+INFO  15:15:10,630 - #44 A
+INFO  15:15:10,630 - #3 {
+INFO  15:15:10,630 - #44 int
+INFO  15:15:10,631 - #44 x
+INFO  15:15:10,631 - #17 [
+INFO  15:15:10,631 - #18 ]
+INFO  15:15:10,631 - #8 ,
+INFO  15:15:10,633 - #44 y
+INFO  15:15:10,633 - #17 [
+INFO  15:15:10,633 - #18 ]
+INFO  15:15:10,633 - #5 ;
+INFO  15:15:10,633 - #4 }
+INFO  15:15:10,634 - #15 const
+INFO  15:15:10,635 - #44 int
+INFO  15:15:10,635 - #44 pi
+INFO  15:15:10,635 - #16 =
+INFO  15:15:10,636 - #42 3
+INFO  15:15:10,636 - #8 ,
+INFO  15:15:10,637 - #44 e
+INFO  15:15:10,637 - #16 =
+INFO  15:15:10,637 - #42 2
+INFO  15:15:10,637 - #5 ;
+INFO  15:15:10,637 - #15 const
+INFO  15:15:10,638 - #44 char
+INFO  15:15:10,638 - #44 c
+INFO  15:15:10,638 - #16 =
+INFO  15:15:10,638 - #43 a
+INFO  15:15:10,638 - #5 ;
+INFO  15:15:10,638 - #19 class
+INFO  15:15:10,638 - #44 B
+INFO  15:15:10,638 - #20 extends
+INFO  15:15:10,638 - #44 A
+INFO  15:15:10,639 - #3 {
+INFO  15:15:10,639 - #44 int
+INFO  15:15:10,639 - #44 i
+INFO  15:15:10,639 - #5 ;
+INFO  15:15:10,639 - #44 int
+INFO  15:15:10,639 - #44 x
+INFO  15:15:10,639 - #17 [
+INFO  15:15:10,640 - #18 ]
+INFO  15:15:10,640 - #5 ;
+INFO  15:15:10,640 - #3 {
+INFO  15:15:10,640 - #44 int
+INFO  15:15:10,641 - #44 getValue
+INFO  15:15:10,641 - #6 (
+INFO  15:15:10,642 - #44 int
+INFO  15:15:10,642 - #44 a
+INFO  15:15:10,642 - #7 )
+INFO  15:15:10,643 - #44 int
+INFO  15:15:10,643 - #44 b
+INFO  15:15:10,643 - #5 ;
+INFO  15:15:10,643 - #44 bool
+INFO  15:15:10,643 - #44 c
+INFO  15:15:10,643 - #5 ;
+INFO  15:15:10,643 - #3 {
+INFO  15:15:10,644 - #10 return
+INFO  15:15:10,644 - #44 this
+INFO  15:15:10,644 - #31 .
+INFO  15:15:10,644 - #44 i
+INFO  15:15:10,645 - #11 +
+INFO  15:15:10,646 - #44 this
+INFO  15:15:10,646 - #31 .
+INFO  15:15:10,646 - #44 x
+INFO  15:15:10,646 - #17 [
+INFO  15:15:10,646 - #42 0
+INFO  15:15:10,649 - #18 ]
+INFO  15:15:10,649 - #11 +
+INFO  15:15:10,650 - #44 a
+INFO  15:15:10,650 - #5 ;
+INFO  15:15:10,650 - #4 }
+INFO  15:15:10,650 - #4 }
+INFO  15:15:10,652 - #4 }
+INFO  15:15:10,652 - #19 class
+INFO  15:15:10,652 - #44 C
+INFO  15:15:10,652 - #20 extends
+INFO  15:15:10,652 - #44 B
+INFO  15:15:10,652 - #3 {
+INFO  15:15:10,652 - #44 A
+INFO  15:15:10,653 - #44 theA
+INFO  15:15:10,653 - #5 ;
+INFO  15:15:10,653 - #44 int
+INFO  15:15:10,653 - #44 a
+INFO  15:15:10,653 - #5 ;
+INFO  15:15:10,653 - #4 }
+INFO  15:15:10,653 - #3 {
+INFO  15:15:10,654 - #14 void
+INFO  15:15:10,654 - #44 main
+INFO  15:15:10,654 - #6 (
+INFO  15:15:10,654 - #7 )
+INFO  15:15:10,655 - #44 A
+INFO  15:15:10,655 - #44 a
+INFO  15:15:10,655 - #5 ;
+INFO  15:15:10,655 - #44 C
+INFO  15:15:10,655 - #44 c
+INFO  15:15:10,656 - #5 ;
+INFO  15:15:10,656 - #44 int
+INFO  15:15:10,656 - #44 i
+INFO  15:15:10,656 - #5 ;
+INFO  15:15:10,656 - #44 int
+INFO  15:15:10,656 - #44 x
+INFO  15:15:10,656 - #17 [
+INFO  15:15:10,656 - #18 ]
+INFO  15:15:10,656 - #5 ;
+INFO  15:15:10,657 - #3 {
+INFO  15:15:10,657 - #44 a
+INFO  15:15:10,657 - #16 =
+INFO  15:15:10,657 - #28 new
+INFO  15:15:10,657 - #44 A
+INFO  15:15:10,657 - #5 ;
+INFO  15:15:10,659 - #44 a
+INFO  15:15:10,659 - #31 .
+INFO  15:15:10,659 - #44 x
+INFO  15:15:10,659 - #16 =
+INFO  15:15:10,659 - #28 new
+INFO  15:15:10,659 - #44 int
+INFO  15:15:10,659 - #17 [
+INFO  15:15:10,660 - #42 5
+INFO  15:15:10,660 - #18 ]
+INFO  15:15:10,660 - #5 ;
+INFO  15:15:10,660 - #44 a
+INFO  15:15:10,660 - #31 .
+INFO  15:15:10,660 - #44 y
+INFO  15:15:10,660 - #16 =
+INFO  15:15:10,661 - #28 new
+INFO  15:15:10,661 - #44 int
+INFO  15:15:10,661 - #17 [
+INFO  15:15:10,661 - #42 5
+INFO  15:15:10,661 - #18 ]
+INFO  15:15:10,661 - #5 ;
+INFO  15:15:10,661 - #44 c
+INFO  15:15:10,661 - #16 =
+INFO  15:15:10,661 - #28 new
+INFO  15:15:10,661 - #44 C
+INFO  15:15:10,662 - #5 ;
+INFO  15:15:10,662 - #44 c
+INFO  15:15:10,662 - #31 .
+INFO  15:15:10,662 - #44 theA
+INFO  15:15:10,662 - #16 =
+INFO  15:15:10,662 - #44 a
+INFO  15:15:10,662 - #5 ;
+INFO  15:15:10,662 - #44 c
+INFO  15:15:10,662 - #31 .
+INFO  15:15:10,662 - #44 x
+INFO  15:15:10,662 - #16 =
+INFO  15:15:10,662 - #28 new
+INFO  15:15:10,662 - #44 int
+INFO  15:15:10,662 - #17 [
+INFO  15:15:10,662 - #42 5
+INFO  15:15:10,662 - #18 ]
+INFO  15:15:10,663 - #5 ;
+INFO  15:15:10,663 - #44 x
+INFO  15:15:10,663 - #16 =
+INFO  15:15:10,663 - #28 new
+INFO  15:15:10,663 - #44 int
+INFO  15:15:10,663 - #17 [
+INFO  15:15:10,663 - #42 3
+INFO  15:15:10,663 - #18 ]
+INFO  15:15:10,663 - #5 ;
+INFO  15:15:10,663 - #44 i
+INFO  15:15:10,663 - #16 =
+INFO  15:15:10,663 - #42 0
+INFO  15:15:10,663 - #5 ;
+INFO  15:15:10,663 - #25 read
+INFO  15:15:10,664 - #6 (
+INFO  15:15:10,664 - #44 c
+INFO  15:15:10,664 - #31 .
+INFO  15:15:10,664 - #44 i
+INFO  15:15:10,664 - #7 )
+INFO  15:15:10,664 - #5 ;
+INFO  15:15:10,664 - #21 do
+INFO  15:15:10,664 - #3 {
+INFO  15:15:10,664 - #25 read
+INFO  15:15:10,664 - #6 (
+INFO  15:15:10,664 - #44 c
+INFO  15:15:10,665 - #31 .
+INFO  15:15:10,665 - #44 x
+INFO  15:15:10,665 - #17 [
+INFO  15:15:10,665 - #44 i
+INFO  15:15:10,665 - #18 ]
+INFO  15:15:10,665 - #7 )
+INFO  15:15:10,665 - #5 ;
+INFO  15:15:10,665 - #25 read
+INFO  15:15:10,665 - #6 (
+INFO  15:15:10,666 - #44 c
+INFO  15:15:10,666 - #31 .
+INFO  15:15:10,666 - #44 theA
+INFO  15:15:10,666 - #31 .
+INFO  15:15:10,666 - #44 x
+INFO  15:15:10,666 - #17 [
+INFO  15:15:10,666 - #44 i
+INFO  15:15:10,666 - #18 ]
+INFO  15:15:10,666 - #7 )
+INFO  15:15:10,666 - #5 ;
+INFO  15:15:10,666 - #44 i
+INFO  15:15:10,666 - #29 ++
+INFO  15:15:10,666 - #5 ;
+INFO  15:15:10,667 - #4 }
+INFO  15:15:10,667 - #22 while
+INFO  15:15:10,667 - #6 (
+INFO  15:15:10,667 - #44 i
+INFO  15:15:10,667 - #38 <
+INFO  15:15:10,668 - #42 5
+INFO  15:15:10,668 - #7 )
+INFO  15:15:10,670 - #5 ;
+INFO  15:15:10,670 - #9 print
+INFO  15:15:10,670 - #6 (
+INFO  15:15:10,670 - #44 c
+INFO  15:15:10,670 - #31 .
+INFO  15:15:10,670 - #44 getValue
+INFO  15:15:10,670 - #6 (
+INFO  15:15:10,670 - #44 c
+INFO  15:15:10,670 - #31 .
+INFO  15:15:10,670 - #44 theA
+INFO  15:15:10,671 - #31 .
+INFO  15:15:10,671 - #44 x
+INFO  15:15:10,671 - #17 [
+INFO  15:15:10,671 - #42 0
+INFO  15:15:10,671 - #18 ]
+INFO  15:15:10,671 - #7 )
+INFO  15:15:10,671 - #7 )
+INFO  15:15:10,672 - #5 ;
+INFO  15:15:10,672 - #4 }
+INFO  15:15:10,672 - #4 }
+INFO  15:15:10,682 - Deklarisan niz y na liniji 16
+INFO  15:15:10,682 - Deklarisan niz x na liniji 2
+INFO  15:15:10,682 - Definisana globalna numericka konstanta pi na liniji 3
+INFO  15:15:10,682 - Definisana globalna numericka konstanta e na liniji 3
+INFO  15:15:10,682 - Definisana globalna simbolicka konstanta c na liniji 4
+ERROR 15:15:10,682 - Nije pronadjen tip A u tabeli simbola!
+INFO  15:15:10,682 - Deklarisana promenljiva i na liniji 6
+INFO  15:15:10,683 - Deklarisan niz x na liniji 6
+INFO  15:15:10,683 - Deklarisana promenljiva b na liniji 8
+ERROR 15:15:10,683 - Nije pronadjen tip bool u tabeli simbola!
+INFO  15:15:10,683 - Deklarisana promenljiva c na liniji 8
+ERROR 15:15:10,683 - Greska na liniji 9 : ime this nije deklarisano!
+ERROR 15:15:10,683 - Greska na liniji 9 : ime this nije deklarisano!
+ERROR 15:15:10,683 - Greska na liniji 9 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 15:15:10,683 - Greska na liniji 9 : ime a nije deklarisano!
+ERROR 15:15:10,683 - Greska na liniji 9 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 15:15:10,683 - Nije pronadjen tip B u tabeli simbola!
+ERROR 15:15:10,683 - Nije pronadjen tip A u tabeli simbola!
+INFO  15:15:10,683 - Deklarisana promenljiva theA na liniji 13
+INFO  15:15:10,683 - Deklarisana promenljiva a na liniji 13
+ERROR 15:15:10,684 - Nije pronadjen tip A u tabeli simbola!
+INFO  15:15:10,684 - Deklarisana promenljiva a na liniji 16
+ERROR 15:15:10,684 - Nije pronadjen tip C u tabeli simbola!
+INFO  15:15:10,684 - Deklarisana promenljiva c na liniji 16
+INFO  15:15:10,684 - Deklarisana promenljiva i na liniji 16
+INFO  15:15:10,684 - Deklarisan niz x na liniji 16
+INFO  15:15:10,684 - Detektovana upotreba promenljive a na liniji 17
+ERROR 15:15:10,684 - Nije pronadjen tip A u tabeli simbola!
+INFO  15:15:10,684 - Detektovana upotreba promenljive a na liniji 18
+INFO  15:15:10,684 - Detektovana upotreba promenljive a na liniji 19
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 20
+ERROR 15:15:10,685 - Nije pronadjen tip C u tabeli simbola!
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 21
+INFO  15:15:10,685 - Detektovana upotreba promenljive a na liniji 21
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 22
+INFO  15:15:10,685 - Detektovana upotreba promenljive x na liniji 23
+INFO  15:15:10,685 - Detektovana upotreba promenljive i na liniji 24
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 25
+INFO  15:15:10,685 - Detektovana upotreba promenljive i na liniji 27
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 27
+INFO  15:15:10,685 - Detektovana upotreba promenljive i na liniji 28
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 28
+INFO  15:15:10,685 - Detektovana upotreba promenljive i na liniji 29
+INFO  15:15:10,685 - Detektovana upotreba promenljive i na liniji 30
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 31
+INFO  15:15:10,685 - Detektovana upotreba konstante c na liniji 31

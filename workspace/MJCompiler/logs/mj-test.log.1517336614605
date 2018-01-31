@@ -1,0 +1,71 @@
+INFO  19:20:26,551 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:20:26,591 - #2 program
+INFO  19:20:26,592 - #44 MJProgram
+INFO  19:20:26,592 - #44 int
+INFO  19:20:26,592 - #44 x
+INFO  19:20:26,593 - #5 ;
+INFO  19:20:26,593 - #44 char
+INFO  19:20:26,595 - #44 y
+INFO  19:20:26,595 - #5 ;
+INFO  19:20:26,595 - #3 {
+INFO  19:20:26,595 - #44 int
+INFO  19:20:26,595 - #44 k
+INFO  19:20:26,596 - #6 (
+INFO  19:20:26,596 - #7 )
+INFO  19:20:26,597 - #44 int
+INFO  19:20:26,597 - #44 c
+INFO  19:20:26,597 - #5 ;
+INFO  19:20:26,598 - #3 {
+INFO  19:20:26,599 - #44 c
+INFO  19:20:26,599 - #16 =
+INFO  19:20:26,600 - #42 1
+INFO  19:20:26,600 - #5 ;
+INFO  19:20:26,601 - #10 return
+INFO  19:20:26,602 - #44 c
+INFO  19:20:26,602 - #11 +
+INFO  19:20:26,602 - #42 2
+INFO  19:20:26,602 - #5 ;
+INFO  19:20:26,603 - #4 }
+INFO  19:20:26,603 - #44 int
+INFO  19:20:26,604 - #44 main
+INFO  19:20:26,604 - #6 (
+INFO  19:20:26,604 - #7 )
+INFO  19:20:26,604 - #3 {
+INFO  19:20:26,604 - #44 y
+INFO  19:20:26,604 - #16 =
+INFO  19:20:26,604 - #42 2
+INFO  19:20:26,604 - #5 ;
+INFO  19:20:26,604 - #44 x
+INFO  19:20:26,604 - #16 =
+INFO  19:20:26,604 - #44 y
+INFO  19:20:26,604 - #11 +
+INFO  19:20:26,605 - #42 2
+INFO  19:20:26,605 - #5 ;
+INFO  19:20:26,605 - #44 y
+INFO  19:20:26,605 - #16 =
+INFO  19:20:26,605 - #44 k
+INFO  19:20:26,605 - #6 (
+INFO  19:20:26,605 - #7 )
+INFO  19:20:26,606 - #11 +
+INFO  19:20:26,606 - #42 3
+INFO  19:20:26,606 - #5 ;
+INFO  19:20:26,606 - #9 print
+INFO  19:20:26,606 - #6 (
+INFO  19:20:26,607 - #44 y
+INFO  19:20:26,607 - #7 )
+INFO  19:20:26,607 - #5 ;
+INFO  19:20:26,607 - #10 return
+INFO  19:20:26,608 - #42 0
+INFO  19:20:26,608 - #5 ;
+INFO  19:20:26,608 - #4 }
+INFO  19:20:26,608 - #4 }
+INFO  19:20:26,633 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:20:26,633 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:20:26,634 - Deklarisana promenljiva c na liniji 6
+INFO  19:20:26,634 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:20:26,634 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:20:26,634 - Detektovana upotreba promenljive y na liniji 12
+ERROR 19:20:26,634 - Greska na liniji 12 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  19:20:26,636 - Detektovana upotreba promenljive x na liniji 13
+INFO  19:20:26,636 - Detektovana upotreba promenljive y na liniji 13
+ERROR 19:20:26,636 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.

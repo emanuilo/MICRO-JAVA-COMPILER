@@ -1,0 +1,16 @@
+program MJProgram
+	const int x;
+	int y;
+{
+	
+	int k () int c; {
+		c = 1;
+		return c+2;
+	}
+	
+	void main() {
+		y ++;
+		x = y + 2;
+		
+	}
+}

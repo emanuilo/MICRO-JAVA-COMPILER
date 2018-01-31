@@ -1,0 +1,392 @@
+INFO  13:23:35,552 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:23:35,593 - #2 program
+INFO  13:23:35,593 - #44 ImeMogaProgramaa
+INFO  13:23:35,593 - #15 const
+INFO  13:23:35,594 - #44 int
+INFO  13:23:35,594 - #44 sima
+INFO  13:23:35,595 - #16 =
+INFO  13:23:35,595 - #45 true
+INFO  13:23:35,595 - #8 ,
+INFO  13:23:35,596 - #44 joka
+INFO  13:23:35,596 - #16 =
+INFO  13:23:35,597 - #43 C
+INFO  13:23:35,597 - #8 ,
+INFO  13:23:35,597 - #44 maca
+INFO  13:23:35,597 - #16 =
+INFO  13:23:35,597 - #42 55
+INFO  13:23:35,597 - #5 ;
+INFO  13:23:35,598 - #44 int
+INFO  13:23:35,599 - #44 b
+INFO  13:23:35,599 - #17 [
+INFO  13:23:35,599 - #18 ]
+INFO  13:23:35,599 - #8 ,
+INFO  13:23:35,601 - #44 c
+INFO  13:23:35,601 - #8 ,
+INFO  13:23:35,601 - #44 sdf
+INFO  13:23:35,602 - #17 [
+INFO  13:23:35,602 - #18 ]
+INFO  13:23:35,602 - #5 ;
+INFO  13:23:35,602 - #19 class
+INFO  13:23:35,603 - #44 imeklase
+INFO  13:23:35,603 - #20 extends
+INFO  13:23:35,603 - #44 tipklase
+INFO  13:23:35,603 - #3 {
+INFO  13:23:35,603 - #4 }
+INFO  13:23:35,604 - #19 class
+INFO  13:23:35,605 - #44 imeklase
+INFO  13:23:35,605 - #20 extends
+INFO  13:23:35,605 - #44 tipklase
+INFO  13:23:35,605 - #3 {
+INFO  13:23:35,605 - #44 int
+INFO  13:23:35,605 - #44 nesto
+INFO  13:23:35,605 - #8 ,
+INFO  13:23:35,606 - #44 blah
+INFO  13:23:35,606 - #17 [
+INFO  13:23:35,606 - #18 ]
+INFO  13:23:35,606 - #5 ;
+INFO  13:23:35,607 - #44 int
+INFO  13:23:35,608 - #44 nesto
+INFO  13:23:35,608 - #17 [
+INFO  13:23:35,608 - #18 ]
+INFO  13:23:35,608 - #8 ,
+INFO  13:23:35,608 - #44 josnesto
+INFO  13:23:35,608 - #5 ;
+INFO  13:23:35,608 - #44 String
+INFO  13:23:35,608 - #44 strava
+INFO  13:23:35,608 - #5 ;
+INFO  13:23:35,608 - #4 }
+INFO  13:23:35,608 - #19 class
+INFO  13:23:35,608 - #44 imeklase
+INFO  13:23:35,609 - #20 extends
+INFO  13:23:35,609 - #44 tipklase
+INFO  13:23:35,609 - #3 {
+INFO  13:23:35,609 - #44 int
+INFO  13:23:35,609 - #44 nesto
+INFO  13:23:35,609 - #8 ,
+INFO  13:23:35,609 - #44 blah
+INFO  13:23:35,609 - #17 [
+INFO  13:23:35,609 - #18 ]
+INFO  13:23:35,609 - #5 ;
+INFO  13:23:35,610 - #3 {
+INFO  13:23:35,610 - #4 }
+INFO  13:23:35,610 - #4 }
+INFO  13:23:35,611 - #19 class
+INFO  13:23:35,611 - #44 imeklase
+INFO  13:23:35,611 - #20 extends
+INFO  13:23:35,611 - #44 tipklase
+INFO  13:23:35,611 - #3 {
+INFO  13:23:35,611 - #3 {
+INFO  13:23:35,611 - #4 }
+INFO  13:23:35,611 - #4 }
+INFO  13:23:35,611 - #19 class
+INFO  13:23:35,611 - #44 imeklase
+INFO  13:23:35,611 - #3 {
+INFO  13:23:35,612 - #44 int
+INFO  13:23:35,612 - #44 nesto
+INFO  13:23:35,612 - #8 ,
+INFO  13:23:35,612 - #44 blah
+INFO  13:23:35,612 - #17 [
+INFO  13:23:35,612 - #18 ]
+INFO  13:23:35,612 - #5 ;
+INFO  13:23:35,612 - #3 {
+INFO  13:23:35,613 - #14 void
+INFO  13:23:35,613 - #44 imeMetode
+INFO  13:23:35,613 - #6 (
+INFO  13:23:35,614 - #44 int
+INFO  13:23:35,614 - #44 a
+INFO  13:23:35,614 - #8 ,
+INFO  13:23:35,615 - #44 String
+INFO  13:23:35,615 - #44 b
+INFO  13:23:35,615 - #8 ,
+INFO  13:23:35,615 - #44 Float
+INFO  13:23:35,615 - #44 c
+INFO  13:23:35,615 - #17 [
+INFO  13:23:35,616 - #18 ]
+INFO  13:23:35,616 - #7 )
+INFO  13:23:35,616 - #44 int
+INFO  13:23:35,616 - #44 a
+INFO  13:23:35,616 - #5 ;
+INFO  13:23:35,616 - #3 {
+INFO  13:23:35,616 - #4 }
+INFO  13:23:35,617 - #44 int
+INFO  13:23:35,617 - #44 drugametada
+INFO  13:23:35,618 - #6 (
+INFO  13:23:35,618 - #7 )
+INFO  13:23:35,618 - #44 String
+INFO  13:23:35,618 - #44 a
+INFO  13:23:35,618 - #8 ,
+INFO  13:23:35,618 - #44 b
+INFO  13:23:35,618 - #17 [
+INFO  13:23:35,618 - #18 ]
+INFO  13:23:35,618 - #8 ,
+INFO  13:23:35,618 - #44 c
+INFO  13:23:35,619 - #5 ;
+INFO  13:23:35,619 - #3 {
+INFO  13:23:35,619 - #23 break
+INFO  13:23:35,619 - #5 ;
+INFO  13:23:35,619 - #24 continue
+INFO  13:23:35,620 - #5 ;
+INFO  13:23:35,620 - #4 }
+INFO  13:23:35,620 - #4 }
+INFO  13:23:35,620 - #4 }
+INFO  13:23:35,620 - #3 {
+INFO  13:23:35,620 - #44 int
+INFO  13:23:35,622 - #44 k
+INFO  13:23:35,622 - #6 (
+INFO  13:23:35,622 - #7 )
+INFO  13:23:35,622 - #44 int
+INFO  13:23:35,622 - #44 c
+INFO  13:23:35,622 - #5 ;
+INFO  13:23:35,622 - #3 {
+INFO  13:23:35,623 - #44 c_some123_true
+INFO  13:23:35,623 - #16 =
+INFO  13:23:35,624 - #44 proba
+INFO  13:23:35,624 - #42 123
+ERROR 13:23:35,624 - 
+Sintaksna greska na liniji 12
+INFO  13:23:35,624 - #5 ;
+INFO  13:23:35,624 - #44 c
+INFO  13:23:35,624 - #16 =
+INFO  13:23:35,625 - #11 +
+ERROR 13:23:35,625 - Uspesan oporavak do ';' u liniji 12
+ERROR 13:23:35,626 - 
+Sintaksna greska na liniji 13
+INFO  13:23:35,626 - #5 ;
+INFO  13:23:35,626 - #10 return
+INFO  13:23:35,626 - #44 c
+INFO  13:23:35,626 - #11 +
+ERROR 13:23:35,626 - Uspesan oporavak do ';' u liniji 13
+INFO  13:23:35,627 - #42 3
+INFO  13:23:35,627 - #5 ;
+INFO  13:23:35,628 - #44 str
+INFO  13:23:35,628 - #16 =
+INFO  13:23:35,628 - #44 ako
+INFO  13:23:35,628 - #11 +
+INFO  13:23:35,628 - #44 nesto
+INFO  13:23:35,628 - #5 ;
+INFO  13:23:35,628 - #4 }
+INFO  13:23:35,628 - #44 int
+INFO  13:23:35,628 - #44 main
+INFO  13:23:35,629 - #6 (
+INFO  13:23:35,629 - #7 )
+INFO  13:23:35,629 - #3 {
+INFO  13:23:35,629 - #44 designatorProba
+INFO  13:23:35,629 - #16 =
+INFO  13:23:35,629 - #42 55
+INFO  13:23:35,629 - #11 +
+INFO  13:23:35,629 - #42 33
+INFO  13:23:35,629 - #32 *
+INFO  13:23:35,629 - #42 22
+INFO  13:23:35,630 - #5 ;
+INFO  13:23:35,630 - #44 designatorProba
+INFO  13:23:35,630 - #6 (
+INFO  13:23:35,631 - #44 baba
+INFO  13:23:35,631 - #32 *
+INFO  13:23:35,631 - #44 strina
+INFO  13:23:35,631 - #8 ,
+INFO  13:23:35,631 - #45 true
+INFO  13:23:35,631 - #7 )
+INFO  13:23:35,632 - #5 ;
+INFO  13:23:35,632 - #44 designatorProba
+INFO  13:23:35,632 - #6 (
+INFO  13:23:35,632 - #7 )
+INFO  13:23:35,633 - #5 ;
+INFO  13:23:35,633 - #44 designatorProba
+INFO  13:23:35,633 - #29 ++
+INFO  13:23:35,633 - #5 ;
+INFO  13:23:35,634 - #44 designatorProba
+INFO  13:23:35,634 - #30 --
+INFO  13:23:35,634 - #5 ;
+INFO  13:23:35,634 - #44 designatorProba
+INFO  13:23:35,634 - #16 =
+INFO  13:23:35,635 - #12 -
+INFO  13:23:35,635 - #42 32
+INFO  13:23:35,635 - #5 ;
+INFO  13:23:35,635 - #40 if
+INFO  13:23:35,635 - #6 (
+INFO  13:23:35,636 - #44 nesto
+INFO  13:23:35,636 - #39 <=
+INFO  13:23:35,636 - #42 55
+INFO  13:23:35,638 - #27 &&
+INFO  13:23:35,639 - #45 true
+INFO  13:23:35,639 - #26 ||
+INFO  13:23:35,640 - #44 proba
+INFO  13:23:35,640 - #7 )
+INFO  13:23:35,640 - #3 {
+INFO  13:23:35,640 - #44 proba
+INFO  13:23:35,640 - #16 =
+INFO  13:23:35,640 - #42 12
+INFO  13:23:35,640 - #11 +
+INFO  13:23:35,640 - #42 12
+INFO  13:23:35,640 - #11 +
+INFO  13:23:35,640 - #42 12
+INFO  13:23:35,641 - #11 +
+INFO  13:23:35,641 - #42 12
+INFO  13:23:35,641 - #5 ;
+INFO  13:23:35,641 - #4 }
+INFO  13:23:35,641 - #40 if
+INFO  13:23:35,641 - #6 (
+INFO  13:23:35,641 - #44 nesto
+INFO  13:23:35,642 - #35 !=
+INFO  13:23:35,642 - #42 55
+INFO  13:23:35,643 - #7 )
+INFO  13:23:35,644 - #3 {
+INFO  13:23:35,644 - #44 proba
+INFO  13:23:35,644 - #16 =
+INFO  13:23:35,644 - #42 12
+INFO  13:23:35,644 - #11 +
+INFO  13:23:35,644 - #42 12
+INFO  13:23:35,644 - #11 +
+INFO  13:23:35,644 - #42 12
+INFO  13:23:35,644 - #11 +
+INFO  13:23:35,644 - #42 12
+INFO  13:23:35,644 - #5 ;
+INFO  13:23:35,645 - #4 }
+INFO  13:23:35,645 - #41 else
+INFO  13:23:35,645 - #3 {
+INFO  13:23:35,645 - #23 break
+INFO  13:23:35,645 - #5 ;
+INFO  13:23:35,645 - #4 }
+INFO  13:23:35,645 - #21 do
+INFO  13:23:35,645 - #3 {
+INFO  13:23:35,645 - #44 proba
+INFO  13:23:35,645 - #31 .
+INFO  13:23:35,645 - #44 jedan
+INFO  13:23:35,645 - #17 [
+INFO  13:23:35,646 - #12 -
+INFO  13:23:35,646 - #44 pingvin
+INFO  13:23:35,646 - #32 *
+INFO  13:23:35,646 - #45 true
+INFO  13:23:35,647 - #18 ]
+INFO  13:23:35,647 - #16 =
+INFO  13:23:35,647 - #12 -
+INFO  13:23:35,647 - #42 121
+INFO  13:23:35,647 - #5 ;
+INFO  13:23:35,647 - #10 return
+INFO  13:23:35,647 - #45 true
+INFO  13:23:35,647 - #5 ;
+INFO  13:23:35,647 - #10 return
+INFO  13:23:35,647 - #5 ;
+INFO  13:23:35,648 - #25 read
+INFO  13:23:35,648 - #6 (
+INFO  13:23:35,648 - #44 a
+INFO  13:23:35,648 - #17 [
+INFO  13:23:35,648 - #6 (
+INFO  13:23:35,649 - #44 a
+INFO  13:23:35,649 - #34 %
+INFO  13:23:35,649 - #44 b
+INFO  13:23:35,649 - #7 )
+INFO  13:23:35,649 - #18 ]
+INFO  13:23:35,650 - #7 )
+INFO  13:23:35,650 - #5 ;
+INFO  13:23:35,650 - #9 print
+INFO  13:23:35,650 - #6 (
+INFO  13:23:35,650 - #42 3242
+INFO  13:23:35,650 - #7 )
+INFO  13:23:35,651 - #5 ;
+INFO  13:23:35,651 - #9 print
+INFO  13:23:35,651 - #6 (
+INFO  13:23:35,651 - #44 c
+INFO  13:23:35,651 - #31 .
+INFO  13:23:35,651 - #44 a
+INFO  13:23:35,651 - #8 ,
+INFO  13:23:35,652 - #42 21
+INFO  13:23:35,652 - #7 )
+INFO  13:23:35,652 - #5 ;
+INFO  13:23:35,652 - #4 }
+INFO  13:23:35,652 - #22 while
+INFO  13:23:35,652 - #6 (
+INFO  13:23:35,652 - #44 a
+INFO  13:23:35,652 - #31 .
+INFO  13:23:35,652 - #44 b
+INFO  13:23:35,652 - #31 .
+INFO  13:23:35,652 - #44 c
+INFO  13:23:35,652 - #31 .
+INFO  13:23:35,652 - #44 d
+INFO  13:23:35,652 - #17 [
+INFO  13:23:35,652 - #28 new
+INFO  13:23:35,652 - #44 int
+INFO  13:23:35,652 - #18 ]
+INFO  13:23:35,652 - #7 )
+INFO  13:23:35,653 - #5 ;
+INFO  13:23:35,653 - #9 print
+INFO  13:23:35,653 - #6 (
+INFO  13:23:35,653 - #42 1
+INFO  13:23:35,653 - #7 )
+INFO  13:23:35,653 - #5 ;
+INFO  13:23:35,653 - #44 x
+INFO  13:23:35,653 - #16 =
+INFO  13:23:35,653 - #44 y
+INFO  13:23:35,653 - #11 +
+INFO  13:23:35,653 - #42 3
+INFO  13:23:35,653 - #5 ;
+INFO  13:23:35,654 - #44 k
+INFO  13:23:35,654 - #6 (
+INFO  13:23:35,654 - #7 )
+INFO  13:23:35,654 - #5 ;
+INFO  13:23:35,655 - #9 print
+INFO  13:23:35,655 - #6 (
+INFO  13:23:35,655 - #42 2
+INFO  13:23:35,655 - #7 )
+INFO  13:23:35,655 - #5 ;
+INFO  13:23:35,655 - #4 }
+INFO  13:23:35,655 - #4 }
+INFO  13:23:35,668 - Deklarisan globalni niz sdf na liniji 3
+INFO  13:23:35,668 - Deklarisana globalna promenljiva c na liniji 3
+INFO  13:23:35,668 - Deklarisan globalni niz b na liniji 3
+ERROR 13:23:35,668 - Nije pronadjen tip tipklase u tabeli simbola!
+ERROR 13:23:35,668 - Nije pronadjen tip tipklase u tabeli simbola!
+INFO  13:23:35,668 - Deklarisan niz blah na liniji 38
+INFO  13:23:35,668 - Deklarisana promenljiva nesto na liniji 6
+INFO  13:23:35,668 - Deklarisana promenljiva josnesto na liniji 63
+INFO  13:23:35,668 - Deklarisan niz nesto na liniji 6
+ERROR 13:23:35,668 - Nije pronadjen tip String u tabeli simbola!
+INFO  13:23:35,668 - Deklarisana promenljiva strava na liniji 6
+ERROR 13:23:35,668 - Nije pronadjen tip tipklase u tabeli simbola!
+INFO  13:23:35,668 - Deklarisan niz blah na liniji 38
+INFO  13:23:35,668 - Deklarisana promenljiva nesto na liniji 7
+ERROR 13:23:35,669 - Nije pronadjen tip tipklase u tabeli simbola!
+INFO  13:23:35,669 - Deklarisan niz blah na liniji 21
+INFO  13:23:35,669 - Deklarisana promenljiva nesto na liniji 9
+ERROR 13:23:35,669 - Nije pronadjen tip String u tabeli simbola!
+ERROR 13:23:35,669 - Nije pronadjen tip Float u tabeli simbola!
+INFO  13:23:35,669 - Deklarisana promenljiva a na liniji 9
+ERROR 13:23:35,669 - Nije pronadjen tip String u tabeli simbola!
+INFO  13:23:35,669 - Deklarisan niz b na liniji 115
+INFO  13:23:35,669 - Deklarisana promenljiva c na liniji 115
+INFO  13:23:35,669 - Deklarisana promenljiva a na liniji 9
+INFO  13:23:35,669 - Deklarisana promenljiva c na liniji 11
+ERROR 13:23:35,669 - Greska na liniji 12 : ime c_some123_true nije deklarisano!
+INFO  13:23:35,669 - Detektovana upotreba promenljive c na liniji 13
+INFO  13:23:35,669 - Detektovana upotreba promenljive c na liniji 14
+ERROR 13:23:35,669 - Greska na liniji 15 : ime str nije deklarisano!
+ERROR 13:23:35,669 - Greska na liniji 15 : ime ako nije deklarisano!
+INFO  13:23:35,670 - Detektovana upotreba promenljive nesto na liniji 15
+ERROR 13:23:35,670 - Greska na liniji 15 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 13:23:35,670 - Greska na liniji 20 : ime designatorProba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 21 : ime designatorProba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 21 : ime baba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 21 : ime strina nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 21 : nekompatibilni tipovi u izrazu za mnozenje/deljenje/deljenje sa ostatkom.
+ERROR 13:23:35,670 - Greska na liniji 22 : ime designatorProba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 23 : ime designatorProba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 24 : ime designatorProba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 25 : ime designatorProba nije deklarisano!
+INFO  13:23:35,670 - Detektovana upotreba promenljive nesto na liniji 26
+ERROR 13:23:35,670 - Greska na liniji 26 : ime proba nije deklarisano!
+ERROR 13:23:35,670 - Greska na liniji 28 : ime proba nije deklarisano!
+INFO  13:23:35,671 - Detektovana upotreba promenljive nesto na liniji 30
+ERROR 13:23:35,671 - Greska na liniji 32 : ime proba nije deklarisano!
+ERROR 13:23:35,671 - Greska na liniji 40 : ime pingvin nije deklarisano!
+ERROR 13:23:35,671 - Greska na liniji 40 : nekompatibilni tipovi u izrazu za mnozenje/deljenje/deljenje sa ostatkom.
+ERROR 13:23:35,671 - Greska na liniji 40 : ime proba nije deklarisano!
+INFO  13:23:35,671 - Detektovana upotreba promenljive a na liniji 43
+INFO  13:23:35,671 - Detektovana upotreba promenljive b na liniji 43
+ERROR 13:23:35,671 - Greska na liniji 43 : nekompatibilni tipovi u izrazu za mnozenje/deljenje/deljenje sa ostatkom.
+INFO  13:23:35,671 - Detektovana upotreba promenljive a na liniji 43
+INFO  13:23:35,671 - Detektovana upotreba promenljive c na liniji 45
+INFO  13:23:35,671 - Detektovana upotreba promenljive a na liniji 47
+ERROR 13:23:35,671 - Greska na liniji 49 : ime x nije deklarisano!
+ERROR 13:23:35,671 - Greska na liniji 49 : ime y nije deklarisano!
+ERROR 13:23:35,671 - Greska na liniji 49 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 13:23:35,671 - Greska na liniji 50 : ime k nije deklarisano!

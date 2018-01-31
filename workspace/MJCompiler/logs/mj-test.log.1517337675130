@@ -1,0 +1,49 @@
+INFO  19:40:17,780 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:40:17,814 - #2 program
+INFO  19:40:17,815 - #44 MJProgram
+INFO  19:40:17,815 - #44 int
+INFO  19:40:17,815 - #44 x
+INFO  19:40:17,816 - #5 ;
+INFO  19:40:17,817 - #44 char
+INFO  19:40:17,818 - #44 y
+INFO  19:40:17,818 - #5 ;
+INFO  19:40:17,818 - #3 {
+INFO  19:40:17,818 - #44 int
+INFO  19:40:17,819 - #44 k
+INFO  19:40:17,819 - #6 (
+INFO  19:40:17,820 - #7 )
+INFO  19:40:17,820 - #44 int
+INFO  19:40:17,821 - #44 c
+INFO  19:40:17,821 - #5 ;
+INFO  19:40:17,821 - #3 {
+INFO  19:40:17,822 - #44 c
+INFO  19:40:17,822 - #16 =
+INFO  19:40:17,824 - #42 1
+INFO  19:40:17,824 - #5 ;
+INFO  19:40:17,825 - #10 return
+INFO  19:40:17,825 - #44 c
+INFO  19:40:17,826 - #11 +
+INFO  19:40:17,826 - #42 2
+INFO  19:40:17,826 - #5 ;
+INFO  19:40:17,827 - #4 }
+INFO  19:40:17,827 - #44 int
+INFO  19:40:17,828 - #44 main
+INFO  19:40:17,828 - #6 (
+INFO  19:40:17,828 - #7 )
+INFO  19:40:17,828 - #3 {
+INFO  19:40:17,828 - #44 y
+INFO  19:40:17,828 - #29 ++
+INFO  19:40:17,829 - #5 ;
+INFO  19:40:17,829 - #44 x
+INFO  19:40:17,829 - #29 ++
+INFO  19:40:17,829 - #5 ;
+INFO  19:40:17,829 - #4 }
+INFO  19:40:17,830 - #4 }
+INFO  19:40:17,842 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:40:17,842 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:40:17,842 - Deklarisana promenljiva c na liniji 6
+INFO  19:40:17,843 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:40:17,843 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:40:17,843 - Detektovana upotreba promenljive y na liniji 12
+ERROR 19:40:17,843 - Greska na liniji 0 : nekompatibilan tip u izrazu za inkrementiranje.
+INFO  19:40:17,843 - Detektovana upotreba promenljive x na liniji 13

@@ -1,24 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 30/0/2018 12:51:18
+// 31/0/2018 14:28:12
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class CharConst extends NumCharBoolConst {
 
-    private String S1;
+    private char charr;
 
-    public CharConst (String S1) {
-        this.S1=S1;
+    public CharConst (char charr) {
+        this.charr=charr;
     }
 
-    public String getS1() {
-        return S1;
+    public char getCharr() {
+        return charr;
     }
 
-    public void setS1(String S1) {
-        this.S1=S1;
+    public void setCharr(char charr) {
+        this.charr=charr;
     }
 
     public void accept(Visitor visitor) {
@@ -41,7 +41,7 @@ public class CharConst extends NumCharBoolConst {
         buffer.append(tab);
         buffer.append("CharConst(\n");
 
-        buffer.append(" "+tab+S1);
+        buffer.append(" "+tab+charr);
         buffer.append("\n");
 
         buffer.append(tab);

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 30/0/2018 12:51:18
+// 31/0/2018 14:28:12
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -9,21 +9,22 @@ public class ConstDecl implements SyntaxNode {
 
     private SyntaxNode parent;
     private int line;
-    private String I1;
+    private ConstName ConstName;
     private NumCharBoolConst NumCharBoolConst;
 
-    public ConstDecl (String I1, NumCharBoolConst NumCharBoolConst) {
-        this.I1=I1;
+    public ConstDecl (ConstName ConstName, NumCharBoolConst NumCharBoolConst) {
+        this.ConstName=ConstName;
+        if(ConstName!=null) ConstName.setParent(this);
         this.NumCharBoolConst=NumCharBoolConst;
         if(NumCharBoolConst!=null) NumCharBoolConst.setParent(this);
     }
 
-    public String getI1() {
-        return I1;
+    public ConstName getConstName() {
+        return ConstName;
     }
 
-    public void setI1(String I1) {
-        this.I1=I1;
+    public void setConstName(ConstName ConstName) {
+        this.ConstName=ConstName;
     }
 
     public NumCharBoolConst getNumCharBoolConst() {
@@ -55,15 +56,18 @@ public class ConstDecl implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
+        if(ConstName!=null) ConstName.accept(visitor);
         if(NumCharBoolConst!=null) NumCharBoolConst.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
+        if(ConstName!=null) ConstName.traverseTopDown(visitor);
         if(NumCharBoolConst!=null) NumCharBoolConst.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
+        if(ConstName!=null) ConstName.traverseBottomUp(visitor);
         if(NumCharBoolConst!=null) NumCharBoolConst.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -73,7 +77,10 @@ public class ConstDecl implements SyntaxNode {
         buffer.append(tab);
         buffer.append("ConstDecl(\n");
 
-        buffer.append(" "+tab+I1);
+        if(ConstName!=null)
+            buffer.append(ConstName.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(NumCharBoolConst!=null)

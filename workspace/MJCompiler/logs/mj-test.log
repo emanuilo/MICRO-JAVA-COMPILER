@@ -1,73 +1,57 @@
-INFO  12:36:29,674 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
-INFO  12:36:29,705 - #2 program
-INFO  12:36:29,705 - #43 MJProgram
-INFO  12:36:29,705 - #43 int
-INFO  12:36:29,706 - #43 x
-INFO  12:36:29,707 - #5 ;
-INFO  12:36:29,707 - #43 int
-INFO  12:36:29,709 - #43 y
-INFO  12:36:29,709 - #5 ;
-INFO  12:36:29,709 - #3 {
-INFO  12:36:29,709 - #43 int
-INFO  12:36:29,709 - #43 k
-INFO  12:36:29,710 - #6 (
-INFO  12:36:29,710 - #7 )
-INFO  12:36:29,711 - #43 int
-INFO  12:36:29,711 - #43 c
-INFO  12:36:29,711 - #5 ;
-INFO  12:36:29,712 - #3 {
-INFO  12:36:29,713 - #43 c
-INFO  12:36:29,713 - #16 =
-INFO  12:36:29,714 - #42 1
-INFO  12:36:29,714 - #5 ;
-INFO  12:36:29,715 - #10 return
-INFO  12:36:29,716 - #43 c
-INFO  12:36:29,716 - #11 +
-INFO  12:36:29,716 - #42 2
-INFO  12:36:29,717 - #5 ;
-INFO  12:36:29,717 - #4 }
-INFO  12:36:29,717 - #43 int
-INFO  12:36:29,718 - #43 main
-INFO  12:36:29,718 - #6 (
-INFO  12:36:29,718 - #7 )
-INFO  12:36:29,718 - #3 {
-INFO  12:36:29,718 - #43 y
-INFO  12:36:29,718 - #16 =
-INFO  12:36:29,718 - #44 "sdfas"
-INFO  12:36:29,718 - #5 ;
-INFO  12:36:29,718 - #43 x
-INFO  12:36:29,719 - #16 =
-INFO  12:36:29,719 - #43 y
-INFO  12:36:29,719 - #11 +
-INFO  12:36:29,719 - #42 2
-INFO  12:36:29,719 - #5 ;
-INFO  12:36:29,720 - #43 y
-INFO  12:36:29,721 - #16 =
-INFO  12:36:29,721 - #43 k
-INFO  12:36:29,721 - #6 (
-INFO  12:36:29,721 - #7 )
-INFO  12:36:29,722 - #11 +
-INFO  12:36:29,722 - #42 3
-INFO  12:36:29,723 - #5 ;
-INFO  12:36:29,723 - #9 print
-INFO  12:36:29,723 - #6 (
-INFO  12:36:29,723 - #43 y
-INFO  12:36:29,723 - #7 )
-INFO  12:36:29,723 - #5 ;
-INFO  12:36:29,724 - #10 return
-INFO  12:36:29,724 - #42 0
-INFO  12:36:29,724 - #5 ;
-INFO  12:36:29,724 - #4 }
-INFO  12:36:29,724 - #4 }
-INFO  12:36:29,735 - Deklarisana promenljiva x na liniji 2
-INFO  12:36:29,735 - Deklarisana promenljiva y na liniji 2
-ERROR 12:36:29,736 - Greska na liniji 6 : ime c nije deklarisano!
-ERROR 12:36:29,736 - Greska na liniji 7 : ime c nije deklarisano!
-ERROR 12:36:29,736 - Greska na liniji 7 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
-INFO  12:36:29,736 - Detektovana upotreba promenljive y na liniji 11
-INFO  12:36:29,736 - Detektovana upotreba promenljive x na liniji 12
-INFO  12:36:29,738 - Detektovana upotreba promenljive y na liniji 12
-INFO  12:36:29,739 - Detektovana upotreba promenljive y na liniji 13
-ERROR 12:36:29,739 - Greska na liniji 13 : ime k nije deklarisano!
-ERROR 12:36:29,739 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
-INFO  12:36:29,739 - Detektovana upotreba promenljive y na liniji 14
+INFO  14:40:55,184 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:40:55,225 - #2 program
+INFO  14:40:55,225 - #44 MJProgram
+INFO  14:40:55,226 - #15 const
+INFO  14:40:55,227 - #44 int
+INFO  14:40:55,227 - #44 x
+INFO  14:40:55,227 - #16 =
+INFO  14:40:55,227 - #42 5
+INFO  14:40:55,228 - #5 ;
+INFO  14:40:55,228 - #44 int
+INFO  14:40:55,229 - #44 y
+INFO  14:40:55,229 - #5 ;
+INFO  14:40:55,230 - #3 {
+INFO  14:40:55,231 - #44 int
+INFO  14:40:55,231 - #44 k
+INFO  14:40:55,231 - #6 (
+INFO  14:40:55,232 - #7 )
+INFO  14:40:55,232 - #44 int
+INFO  14:40:55,233 - #44 c
+INFO  14:40:55,233 - #5 ;
+INFO  14:40:55,233 - #3 {
+INFO  14:40:55,234 - #44 c
+INFO  14:40:55,235 - #16 =
+INFO  14:40:55,236 - #42 1
+INFO  14:40:55,236 - #5 ;
+INFO  14:40:55,236 - #10 return
+INFO  14:40:55,236 - #44 c
+INFO  14:40:55,237 - #11 +
+INFO  14:40:55,237 - #42 2
+INFO  14:40:55,237 - #5 ;
+INFO  14:40:55,238 - #4 }
+INFO  14:40:55,238 - #14 void
+INFO  14:40:55,238 - #44 main
+INFO  14:40:55,239 - #6 (
+INFO  14:40:55,239 - #7 )
+INFO  14:40:55,239 - #3 {
+INFO  14:40:55,239 - #44 y
+INFO  14:40:55,239 - #29 ++
+INFO  14:40:55,239 - #5 ;
+INFO  14:40:55,240 - #44 x
+INFO  14:40:55,240 - #16 =
+INFO  14:40:55,240 - #44 y
+INFO  14:40:55,240 - #11 +
+INFO  14:40:55,240 - #42 2
+INFO  14:40:55,240 - #5 ;
+INFO  14:40:55,241 - #4 }
+INFO  14:40:55,241 - #4 }
+INFO  14:40:55,249 - Definisana globalna numericka konstanta x na liniji 2
+INFO  14:40:55,249 - Deklarisana globalna promenljiva y na liniji 3
+INFO  14:40:55,250 - Obradjuje se funkcija k na liniji 6
+INFO  14:40:55,250 - Deklarisana promenljiva c na liniji 6
+INFO  14:40:55,250 - Detektovana upotreba promenljive c na liniji 7
+INFO  14:40:55,250 - Detektovana upotreba promenljive c na liniji 8
+INFO  14:40:55,250 - Obradjuje se funkcija main na liniji 11
+INFO  14:40:55,250 - Detektovana upotreba promenljive y na liniji 12
+INFO  14:40:55,250 - Detektovana upotreba konstante x na liniji 13
+INFO  14:40:55,251 - Detektovana upotreba promenljive y na liniji 13

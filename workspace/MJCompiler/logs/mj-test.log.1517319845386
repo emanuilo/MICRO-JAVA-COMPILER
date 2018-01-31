@@ -1,0 +1,34 @@
+INFO  14:43:47,571 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:43:47,618 - #2 program
+INFO  14:43:47,618 - #44 Program
+INFO  14:43:47,618 - #19 class
+INFO  14:43:47,619 - #44 A
+INFO  14:43:47,619 - #3 {
+INFO  14:43:47,619 - #44 int
+INFO  14:43:47,620 - #44 x
+INFO  14:43:47,621 - #17 [
+INFO  14:43:47,621 - #18 ]
+INFO  14:43:47,621 - #8 ,
+INFO  14:43:47,623 - #44 y
+INFO  14:43:47,623 - #17 [
+INFO  14:43:47,623 - #18 ]
+INFO  14:43:47,623 - #5 ;
+INFO  14:43:47,623 - #4 }
+INFO  14:43:47,625 - #15 const
+INFO  14:43:47,626 - #44 int
+INFO  14:43:47,626 - #44 pi
+INFO  14:43:47,627 - #16 =
+INFO  14:43:47,627 - #42 3
+INFO  14:43:47,628 - #8 ,
+INFO  14:43:47,629 - #44 e
+INFO  14:43:47,629 - #16 =
+INFO  14:43:47,629 - #42 2
+INFO  14:43:47,629 - #5 ;
+INFO  14:43:47,629 - #15 const
+INFO  14:43:47,630 - #44 char
+INFO  14:43:47,630 - #44 c
+INFO  14:43:47,630 - #16 =
+INFO  14:43:47,630 - #5 ;
+ERROR 14:43:47,630 - 
+Sintaksna greska na liniji 4
+ERROR 14:43:47,631 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4
