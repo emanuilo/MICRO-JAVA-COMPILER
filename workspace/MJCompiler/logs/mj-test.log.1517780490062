@@ -1,0 +1,36 @@
+INFO  22:16:17,181 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:16:17,229 - #2 program
+INFO  22:16:17,229 - #44 MJProgram
+INFO  22:16:17,229 - #44 int
+INFO  22:16:17,231 - #44 x
+INFO  22:16:17,231 - #17 [
+INFO  22:16:17,231 - #18 ]
+INFO  22:16:17,232 - #5 ;
+INFO  22:16:17,232 - #3 {
+INFO  22:16:17,233 - #44 int
+INFO  22:16:17,234 - #44 main
+INFO  22:16:17,234 - #6 (
+INFO  22:16:17,235 - #7 )
+INFO  22:16:17,235 - #3 {
+INFO  22:16:17,236 - #44 x
+INFO  22:16:17,238 - #16 =
+INFO  22:16:17,239 - #28 new
+INFO  22:16:17,239 - #44 int
+INFO  22:16:17,239 - #17 [
+INFO  22:16:17,240 - #42 3
+INFO  22:16:17,240 - #18 ]
+INFO  22:16:17,240 - #5 ;
+INFO  22:16:17,242 - #44 x
+INFO  22:16:17,242 - #17 [
+INFO  22:16:17,242 - #42 0
+INFO  22:16:17,243 - #18 ]
+INFO  22:16:17,243 - #16 =
+INFO  22:16:17,244 - #42 4
+INFO  22:16:17,244 - #5 ;
+INFO  22:16:17,244 - #10 return
+INFO  22:16:17,244 - #42 0
+INFO  22:16:17,245 - #5 ;
+INFO  22:16:17,245 - #4 }
+INFO  22:16:17,245 - #4 }
+INFO  22:16:17,268 - Deklarisan globalni niz x na liniji 2
+INFO  22:16:17,268 - Obradjuje se funkcija main na liniji 7

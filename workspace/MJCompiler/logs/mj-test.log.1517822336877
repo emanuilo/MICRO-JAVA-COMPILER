@@ -1,0 +1,42 @@
+INFO  10:18:41,273 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:18:41,306 - #2 program
+INFO  10:18:41,306 - #44 MJProgram
+INFO  10:18:41,306 - #44 char
+INFO  10:18:41,307 - #44 x
+INFO  10:18:41,307 - #17 [
+INFO  10:18:41,307 - #18 ]
+INFO  10:18:41,307 - #5 ;
+INFO  10:18:41,308 - #15 const
+INFO  10:18:41,308 - #44 char
+INFO  10:18:41,308 - #44 y
+INFO  10:18:41,309 - #16 =
+INFO  10:18:41,309 - #43 c
+INFO  10:18:41,309 - #5 ;
+INFO  10:18:41,310 - #15 const
+INFO  10:18:41,310 - #44 int
+INFO  10:18:41,310 - #44 x
+INFO  10:18:41,310 - #16 =
+INFO  10:18:41,311 - #42 5
+INFO  10:18:41,311 - #5 ;
+INFO  10:18:41,311 - #3 {
+INFO  10:18:41,311 - #44 int
+INFO  10:18:41,311 - #44 main
+INFO  10:18:41,312 - #6 (
+INFO  10:18:41,312 - #7 )
+INFO  10:18:41,312 - #3 {
+INFO  10:18:41,313 - #9 print
+INFO  10:18:41,313 - #6 (
+INFO  10:18:41,313 - #44 x
+INFO  10:18:41,313 - #7 )
+INFO  10:18:41,314 - #5 ;
+INFO  10:18:41,315 - #10 return
+INFO  10:18:41,315 - #42 0
+INFO  10:18:41,315 - #5 ;
+INFO  10:18:41,315 - #4 }
+INFO  10:18:41,315 - #4 }
+INFO  10:18:41,325 - Deklarisan globalni niz x na liniji 2
+INFO  10:18:41,325 - Definisana globalna simbolicka konstanta y na liniji 3
+ERROR 10:18:41,325 - Greska na liniji 4: promenljiva 'x' je vec deklarisana
+INFO  10:18:41,325 - Obradjuje se funkcija main na liniji 9
+INFO  10:18:41,325 - Detektovana upotreba promenljive x na liniji 13
+ERROR 10:18:41,326 - Parsiranje NIJE uspesno zavrseno!

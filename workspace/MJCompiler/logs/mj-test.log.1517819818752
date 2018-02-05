@@ -1,0 +1,59 @@
+INFO  09:36:26,799 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  09:36:26,830 - #2 program
+INFO  09:36:26,830 - #44 MJProgram
+INFO  09:36:26,830 - #44 int
+INFO  09:36:26,831 - #44 x
+INFO  09:36:26,832 - #17 [
+INFO  09:36:26,832 - #18 ]
+INFO  09:36:26,832 - #5 ;
+INFO  09:36:26,833 - #44 int
+INFO  09:36:26,834 - #44 y
+INFO  09:36:26,834 - #5 ;
+INFO  09:36:26,834 - #3 {
+INFO  09:36:26,834 - #44 int
+INFO  09:36:26,835 - #44 main
+INFO  09:36:26,835 - #6 (
+INFO  09:36:26,836 - #7 )
+INFO  09:36:26,836 - #3 {
+INFO  09:36:26,836 - #44 x
+INFO  09:36:26,837 - #16 =
+INFO  09:36:26,838 - #28 new
+INFO  09:36:26,838 - #44 int
+INFO  09:36:26,838 - #17 [
+INFO  09:36:26,838 - #42 3
+INFO  09:36:26,838 - #18 ]
+INFO  09:36:26,838 - #5 ;
+INFO  09:36:26,839 - #44 x
+INFO  09:36:26,839 - #17 [
+INFO  09:36:26,839 - #42 0
+INFO  09:36:26,840 - #18 ]
+INFO  09:36:26,840 - #16 =
+INFO  09:36:26,840 - #42 4
+INFO  09:36:26,840 - #5 ;
+INFO  09:36:26,840 - #44 y
+INFO  09:36:26,840 - #16 =
+INFO  09:36:26,840 - #44 x
+INFO  09:36:26,840 - #17 [
+INFO  09:36:26,840 - #42 0
+INFO  09:36:26,840 - #18 ]
+INFO  09:36:26,841 - #5 ;
+INFO  09:36:26,841 - #9 print
+INFO  09:36:26,841 - #6 (
+INFO  09:36:26,841 - #44 y
+INFO  09:36:26,841 - #7 )
+INFO  09:36:26,842 - #5 ;
+INFO  09:36:26,842 - #10 return
+INFO  09:36:26,842 - #42 0
+INFO  09:36:26,842 - #5 ;
+INFO  09:36:26,843 - #4 }
+INFO  09:36:26,843 - #4 }
+INFO  09:36:26,853 - Deklarisan globalni niz x na liniji 2
+INFO  09:36:26,853 - Deklarisana globalna promenljiva y na liniji 3
+INFO  09:36:26,853 - Obradjuje se funkcija main na liniji 8
+INFO  09:36:26,853 - Detektovana upotreba promenljive x na liniji 10
+INFO  09:36:26,854 - Detektovana upotreba niza x na liniji 11
+INFO  09:36:26,854 - Detektovana upotreba promenljive y na liniji 13
+INFO  09:36:26,854 - Detektovana upotreba niza x na liniji 13
+INFO  09:36:26,854 - Detektovana upotreba promenljive y na liniji 15
+INFO  09:36:26,855 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  09:36:26,862 - Parsiranje uspesno zavrseno!

@@ -73,7 +73,7 @@ nonterminal Brackets, Extension, MethodDeclars, MultiVarDeclars, CommaNumConst, 
 nonterminal CondTerm, CondFact, RelopExpr, DesignatorStatement, DesignatorExtension, ObjOrCollectionList, ObjOrCollection, Mulop, Relop;
 nonterminal GlobalVarDeclars, GlobalVarDeclList, ConstName;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName; 
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName, LBracket; 
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, TypeOrVoid, Term, Expr, Factor, VarDeclList, NumCharBoolConst; 
 
 precedence left ELSE;
@@ -220,7 +220,7 @@ Statement ::= (DesignatorStmt) DesignatorStatement SEMI
 			  (Body) LBRACE StatementList RBRACE
 			  ;
 			  
-CommaNumConst ::= (CommaNumber) COMMA NUMBER
+CommaNumConst ::= (CommaNumber) COMMA NUMBER:number
 				  |
 				  (NoCommaNumber) /* epsilon */
 				  ;			  
@@ -260,9 +260,9 @@ Term ::= (MulopTerm) Term Mulop Factor
 		 (FactorTerm) Factor:t 
 		 ;
 
-Factor ::= (NumberConst) NUMBER
+Factor ::= (NumberConst) NUMBER:number
 			|
-		   (ChConst) CHAR
+		   (ChConst) CHAR:charr
 		   	|
 		   (BooleanConst) BOOLEAN
 		   	|
@@ -305,16 +305,18 @@ DesignatorExtension ::= (Assignment) ASSIGN Expr
 Designator ::= (Designator) IDENT:name ObjOrCollectionList
 ;
 
-ObjOrCollectionList ::= (ObjOrCollList) ObjOrCollectionList ObjOrCollection
+ObjOrCollectionList ::= (ObjOrCollList) ObjOrCollectionList ObjOrCollection 
 				  	    |
 				        (NoObjOrCollectionList) /* epsilon */
 				  		;
 				  
 ObjOrCollection ::= (ObjectAccess) PERIOD IDENT
 			  	    |
-			        (ArrayAccess) LBRACKET Expr RBRACKET
+			        (ArrayAccess) LBracket Expr RBRACKET 
 			        ;	
 
+LBracket ::= (LBracket) LBRACKET
+;
 
 Addop ::= (AddopPlus) PLUS 
 		  |

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;rs.ac.bg.etf.pp1.MJParserTest&apos; to &apos;Compiler&apos;&#x0D;&#x0A;- Original project: &apos;MJCompiler&apos;&#x0D;&#x0A;- Original element: &apos;rs.ac.bg.etf.pp1.MJParserTest&apos;&#x0D;&#x0A;- Renamed element: &apos;rs.ac.bg.etf.pp1.Compiler&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MJParserTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/test&lt;rs.ac.bg.etf.pp1{MJParserTest.java[MJParserTest" matchStrategy="1" name="Compiler" qualified="false" references="true" similarDeclarations="false" stamp="1517829706669" textual="false" version="1.0"/>
+</session>

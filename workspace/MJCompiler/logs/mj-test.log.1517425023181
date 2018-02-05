@@ -1,0 +1,55 @@
+INFO  19:56:39,304 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:56:39,348 - #2 program
+INFO  19:56:39,348 - #44 MJProgram
+INFO  19:56:39,348 - #44 int
+INFO  19:56:39,349 - #44 x
+INFO  19:56:39,349 - #5 ;
+INFO  19:56:39,350 - #44 int
+INFO  19:56:39,351 - #44 y
+INFO  19:56:39,351 - #5 ;
+INFO  19:56:39,351 - #3 {
+INFO  19:56:39,351 - #44 int
+INFO  19:56:39,352 - #44 k
+INFO  19:56:39,352 - #6 (
+INFO  19:56:39,353 - #7 )
+INFO  19:56:39,353 - #44 int
+INFO  19:56:39,354 - #44 c
+INFO  19:56:39,355 - #5 ;
+INFO  19:56:39,355 - #3 {
+INFO  19:56:39,356 - #44 c
+INFO  19:56:39,357 - #16 =
+INFO  19:56:39,358 - #42 1
+INFO  19:56:39,358 - #5 ;
+INFO  19:56:39,359 - #10 return
+INFO  19:56:39,359 - #44 c
+INFO  19:56:39,360 - #11 +
+INFO  19:56:39,360 - #42 2
+INFO  19:56:39,360 - #5 ;
+INFO  19:56:39,361 - #4 }
+INFO  19:56:39,361 - #14 void
+INFO  19:56:39,362 - #44 main
+INFO  19:56:39,362 - #6 (
+INFO  19:56:39,362 - #7 )
+INFO  19:56:39,362 - #3 {
+INFO  19:56:39,362 - #44 y
+INFO  19:56:39,362 - #16 =
+INFO  19:56:39,363 - #42 1
+INFO  19:56:39,363 - #5 ;
+INFO  19:56:39,363 - #9 print
+INFO  19:56:39,363 - #6 (
+INFO  19:56:39,363 - #44 y
+INFO  19:56:39,363 - #7 )
+INFO  19:56:39,365 - #5 ;
+INFO  19:56:39,365 - #4 }
+INFO  19:56:39,365 - #4 }
+INFO  19:56:39,385 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:56:39,385 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:56:39,385 - Obradjuje se funkcija k na liniji 6
+INFO  19:56:39,385 - Deklarisana promenljiva c na liniji 6
+INFO  19:56:39,386 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:56:39,386 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:56:39,387 - Obradjuje se funkcija main na liniji 11
+INFO  19:56:39,387 - Detektovana upotreba promenljive y na liniji 12
+INFO  19:56:39,387 - Detektovana upotreba promenljive y na liniji 15
+INFO  19:56:39,389 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  19:56:39,399 - Parsiranje uspesno zavrseno!

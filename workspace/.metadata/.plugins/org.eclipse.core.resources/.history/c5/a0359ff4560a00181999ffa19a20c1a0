@@ -1,0 +1,27 @@
+// Test301
+
+program test301
+
+	
+	char nizch[];
+	
+{
+	void main()	int bodovi;
+	{
+	
+	
+		
+		nizch = new char[3];
+		nizch[0] = 'a';
+		nizch[jedan] = 'b';
+		nizch[pet - 3] = 'c';
+		print( nizch[2 - 1]);
+		print( nizch[jedan * 2]);
+			
+		
+			
+	
+	}
+}
+
+

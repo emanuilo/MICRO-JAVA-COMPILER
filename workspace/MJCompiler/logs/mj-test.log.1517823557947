@@ -1,0 +1,98 @@
+INFO  10:38:28,417 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:38:28,452 - #2 program
+INFO  10:38:28,452 - #44 test301
+INFO  10:38:28,452 - #15 const
+INFO  10:38:28,453 - #44 int
+INFO  10:38:28,453 - #44 jedan
+INFO  10:38:28,454 - #16 =
+INFO  10:38:28,454 - #42 1
+INFO  10:38:28,454 - #5 ;
+INFO  10:38:28,455 - #15 const
+INFO  10:38:28,456 - #44 int
+INFO  10:38:28,456 - #44 pet
+INFO  10:38:28,456 - #16 =
+INFO  10:38:28,456 - #42 5
+INFO  10:38:28,456 - #5 ;
+INFO  10:38:28,456 - #44 char
+INFO  10:38:28,456 - #44 nizch
+INFO  10:38:28,456 - #17 [
+INFO  10:38:28,457 - #18 ]
+INFO  10:38:28,457 - #5 ;
+INFO  10:38:28,458 - #3 {
+INFO  10:38:28,458 - #14 void
+INFO  10:38:28,459 - #44 main
+INFO  10:38:28,459 - #6 (
+INFO  10:38:28,460 - #7 )
+INFO  10:38:28,460 - #44 int
+INFO  10:38:28,461 - #44 bodovi
+INFO  10:38:28,461 - #5 ;
+INFO  10:38:28,461 - #3 {
+INFO  10:38:28,462 - #44 nizch
+INFO  10:38:28,462 - #16 =
+INFO  10:38:28,463 - #28 new
+INFO  10:38:28,463 - #44 char
+INFO  10:38:28,463 - #17 [
+INFO  10:38:28,463 - #42 3
+INFO  10:38:28,463 - #18 ]
+INFO  10:38:28,464 - #5 ;
+INFO  10:38:28,464 - #44 nizch
+INFO  10:38:28,465 - #17 [
+INFO  10:38:28,465 - #42 0
+INFO  10:38:28,465 - #18 ]
+INFO  10:38:28,465 - #16 =
+INFO  10:38:28,466 - #43 a
+INFO  10:38:28,466 - #5 ;
+INFO  10:38:28,466 - #44 nizch
+INFO  10:38:28,466 - #17 [
+INFO  10:38:28,466 - #44 jedan
+INFO  10:38:28,466 - #18 ]
+INFO  10:38:28,467 - #16 =
+INFO  10:38:28,467 - #43 b
+INFO  10:38:28,467 - #5 ;
+INFO  10:38:28,467 - #44 nizch
+INFO  10:38:28,467 - #17 [
+INFO  10:38:28,467 - #44 pet
+INFO  10:38:28,467 - #12 -
+INFO  10:38:28,467 - #42 3
+INFO  10:38:28,468 - #18 ]
+INFO  10:38:28,468 - #16 =
+INFO  10:38:28,468 - #43 c
+INFO  10:38:28,468 - #5 ;
+INFO  10:38:28,468 - #9 print
+INFO  10:38:28,468 - #6 (
+INFO  10:38:28,468 - #44 nizch
+INFO  10:38:28,469 - #17 [
+INFO  10:38:28,469 - #42 2
+INFO  10:38:28,469 - #12 -
+INFO  10:38:28,469 - #42 1
+INFO  10:38:28,469 - #18 ]
+INFO  10:38:28,469 - #7 )
+INFO  10:38:28,470 - #5 ;
+INFO  10:38:28,470 - #9 print
+INFO  10:38:28,470 - #6 (
+INFO  10:38:28,470 - #44 nizch
+INFO  10:38:28,470 - #17 [
+INFO  10:38:28,470 - #44 jedan
+INFO  10:38:28,470 - #32 *
+INFO  10:38:28,470 - #42 2
+INFO  10:38:28,471 - #18 ]
+INFO  10:38:28,471 - #7 )
+INFO  10:38:28,471 - #5 ;
+INFO  10:38:28,471 - #4 }
+INFO  10:38:28,471 - #4 }
+INFO  10:38:28,480 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  10:38:28,481 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  10:38:28,481 - Deklarisan globalni niz nizch na liniji 10
+INFO  10:38:28,481 - Obradjuje se funkcija main na liniji 13
+INFO  10:38:28,481 - Deklarisana promenljiva bodovi na liniji 13
+INFO  10:38:28,481 - Detektovana upotreba promenljive nizch na liniji 18
+INFO  10:38:28,481 - Detektovana upotreba niza nizch na liniji 19
+INFO  10:38:28,481 - Detektovana upotreba konstante jedan na liniji 20
+INFO  10:38:28,481 - Detektovana upotreba niza nizch na liniji 20
+INFO  10:38:28,482 - Detektovana upotreba konstante pet na liniji 21
+INFO  10:38:28,482 - Detektovana upotreba niza nizch na liniji 21
+INFO  10:38:28,482 - Detektovana upotreba niza nizch na liniji 22
+INFO  10:38:28,482 - Detektovana upotreba konstante jedan na liniji 23
+INFO  10:38:28,482 - Detektovana upotreba niza nizch na liniji 23
+INFO  10:38:28,483 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:38:28,490 - Parsiranje uspesno zavrseno!

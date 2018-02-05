@@ -1,0 +1,30 @@
+INFO  20:03:33,929 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:03:33,982 - #2 program
+INFO  20:03:33,982 - #44 MJProgram
+INFO  20:03:33,982 - #44 int
+INFO  20:03:33,984 - #44 y
+INFO  20:03:33,984 - #5 ;
+INFO  20:03:33,985 - #3 {
+INFO  20:03:33,987 - #14 void
+INFO  20:03:33,987 - #44 main
+INFO  20:03:33,988 - #6 (
+INFO  20:03:33,989 - #7 )
+INFO  20:03:33,990 - #3 {
+INFO  20:03:33,990 - #44 y
+INFO  20:03:33,992 - #16 =
+INFO  20:03:33,995 - #42 1
+INFO  20:03:33,995 - #5 ;
+INFO  20:03:33,997 - #44 y
+INFO  20:03:33,997 - #29 ++
+INFO  20:03:33,997 - #5 ;
+INFO  20:03:33,999 - #9 print
+INFO  20:03:33,999 - #6 (
+INFO  20:03:33,999 - #44 y
+INFO  20:03:33,999 - #7 )
+INFO  20:03:34,000 - #5 ;
+INFO  20:03:34,001 - #4 }
+INFO  20:03:34,001 - #4 }
+INFO  20:03:34,026 - Deklarisana globalna promenljiva y na liniji 3
+INFO  20:03:34,026 - Obradjuje se funkcija main na liniji 7
+INFO  20:03:34,027 - Detektovana upotreba promenljive y na liniji 8
+INFO  20:03:34,027 - Detektovana upotreba promenljive y na liniji 10

@@ -1,0 +1,17 @@
+program MJProgram
+	int x[];
+{
+	
+	
+	
+	int main() {
+		
+		x = new int[3];
+		x[0] = 4;
+		
+		
+		
+		
+		return 0;
+	}
+}

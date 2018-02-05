@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/0/2018 14:28:14
+// 5/1/2018 9:58:40
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -50,6 +50,7 @@ public interface Visitor {
     public void visit(Mul Mul);
     public void visit(AddopMinus AddopMinus);
     public void visit(AddopPlus AddopPlus);
+    public void visit(LBracket LBracket);
     public void visit(ArrayAccess ArrayAccess);
     public void visit(ObjectAccess ObjectAccess);
     public void visit(NoObjOrCollectionList NoObjOrCollectionList);

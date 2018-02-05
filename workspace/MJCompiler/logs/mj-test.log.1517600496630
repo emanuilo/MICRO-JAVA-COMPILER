@@ -1,0 +1,92 @@
+INFO  20:18:58,503 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:18:58,586 - #2 program
+INFO  20:18:58,586 - #44 MJProgram
+INFO  20:18:58,586 - #44 int
+INFO  20:18:58,588 - #44 x
+INFO  20:18:58,588 - #17 [
+INFO  20:18:58,588 - #18 ]
+INFO  20:18:58,588 - #5 ;
+INFO  20:18:58,589 - #44 int
+INFO  20:18:58,591 - #44 y
+INFO  20:18:58,591 - #5 ;
+INFO  20:18:58,592 - #3 {
+INFO  20:18:58,592 - #44 int
+INFO  20:18:58,592 - #44 k
+INFO  20:18:58,592 - #6 (
+INFO  20:18:58,593 - #7 )
+INFO  20:18:58,595 - #44 int
+INFO  20:18:58,597 - #44 c
+INFO  20:18:58,598 - #5 ;
+INFO  20:18:58,599 - #3 {
+INFO  20:18:58,600 - #44 c
+INFO  20:18:58,600 - #16 =
+INFO  20:18:58,617 - #42 1
+INFO  20:18:58,618 - #5 ;
+INFO  20:18:58,619 - #10 return
+INFO  20:18:58,619 - #44 c
+INFO  20:18:58,619 - #11 +
+INFO  20:18:58,620 - #42 2
+INFO  20:18:58,621 - #5 ;
+INFO  20:18:58,621 - #4 }
+INFO  20:18:58,621 - #44 int
+INFO  20:18:58,622 - #44 main
+INFO  20:18:58,622 - #6 (
+INFO  20:18:58,622 - #7 )
+INFO  20:18:58,622 - #3 {
+INFO  20:18:58,622 - #44 x
+INFO  20:18:58,622 - #17 [
+INFO  20:18:58,622 - #44 x
+INFO  20:18:58,622 - #17 [
+INFO  20:18:58,622 - #42 1
+INFO  20:18:58,622 - #18 ]
+INFO  20:18:58,622 - #18 ]
+INFO  20:18:58,623 - #16 =
+INFO  20:18:58,623 - #42 5
+INFO  20:18:58,624 - #5 ;
+INFO  20:18:58,625 - #44 y
+INFO  20:18:58,625 - #16 =
+INFO  20:18:58,625 - #42 2
+INFO  20:18:58,625 - #5 ;
+INFO  20:18:58,625 - #44 x
+INFO  20:18:58,625 - #16 =
+INFO  20:18:58,625 - #44 y
+INFO  20:18:58,626 - #11 +
+INFO  20:18:58,626 - #42 2
+INFO  20:18:58,626 - #5 ;
+INFO  20:18:58,626 - #44 y
+INFO  20:18:58,626 - #16 =
+INFO  20:18:58,626 - #44 k
+INFO  20:18:58,626 - #6 (
+INFO  20:18:58,626 - #7 )
+INFO  20:18:58,627 - #11 +
+INFO  20:18:58,629 - #42 3
+INFO  20:18:58,629 - #5 ;
+INFO  20:18:58,629 - #9 print
+INFO  20:18:58,630 - #6 (
+INFO  20:18:58,630 - #44 y
+INFO  20:18:58,630 - #8 ,
+INFO  20:18:58,630 - #42 12
+INFO  20:18:58,630 - #7 )
+INFO  20:18:58,634 - #5 ;
+INFO  20:18:58,634 - #10 return
+INFO  20:18:58,634 - #42 0
+INFO  20:18:58,634 - #5 ;
+INFO  20:18:58,635 - #4 }
+INFO  20:18:58,635 - #4 }
+INFO  20:18:58,650 - Deklarisan globalni niz x na liniji 2
+INFO  20:18:58,650 - Deklarisana globalna promenljiva y na liniji 2
+INFO  20:18:58,651 - Obradjuje se funkcija k na liniji 5
+INFO  20:18:58,651 - Deklarisana promenljiva c na liniji 5
+INFO  20:18:58,651 - Detektovana upotreba promenljive c na liniji 6
+INFO  20:18:58,651 - Detektovana upotreba promenljive c na liniji 7
+INFO  20:18:58,651 - Obradjuje se funkcija main na liniji 10
+INFO  20:18:58,651 - Detektovana upotreba promenljive x na liniji 11
+INFO  20:18:58,651 - Detektovana upotreba promenljive x na liniji 11
+ERROR 20:18:58,651 - Greska na liniji 11 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  20:18:58,652 - Detektovana upotreba promenljive y na liniji 12
+INFO  20:18:58,652 - Detektovana upotreba promenljive x na liniji 13
+INFO  20:18:58,652 - Detektovana upotreba promenljive y na liniji 13
+INFO  20:18:58,652 - Detektovana upotreba promenljive y na liniji 14
+INFO  20:18:58,652 - Pronadjen poziv funkcije k na liniji 14
+INFO  20:18:58,652 - Detektovana upotreba promenljive y na liniji 15
+ERROR 20:18:58,653 - Parsiranje NIJE uspesno zavrseno!

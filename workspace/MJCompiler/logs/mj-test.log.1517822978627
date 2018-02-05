@@ -1,0 +1,99 @@
+INFO  10:28:42,641 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:28:42,677 - #2 program
+INFO  10:28:42,677 - #44 test301
+INFO  10:28:42,677 - #15 const
+INFO  10:28:42,678 - #44 int
+INFO  10:28:42,678 - #44 jedan
+INFO  10:28:42,679 - #16 =
+INFO  10:28:42,680 - #42 1
+INFO  10:28:42,680 - #5 ;
+INFO  10:28:42,680 - #15 const
+INFO  10:28:42,681 - #44 int
+INFO  10:28:42,681 - #44 pet
+INFO  10:28:42,681 - #16 =
+INFO  10:28:42,681 - #42 5
+INFO  10:28:42,681 - #5 ;
+INFO  10:28:42,681 - #44 char
+INFO  10:28:42,681 - #44 nizch
+INFO  10:28:42,681 - #17 [
+INFO  10:28:42,682 - #18 ]
+INFO  10:28:42,682 - #5 ;
+INFO  10:28:42,683 - #3 {
+INFO  10:28:42,683 - #14 void
+INFO  10:28:42,684 - #44 main
+INFO  10:28:42,684 - #6 (
+INFO  10:28:42,685 - #7 )
+INFO  10:28:42,685 - #44 int
+INFO  10:28:42,685 - #44 bodovi
+INFO  10:28:42,685 - #5 ;
+INFO  10:28:42,686 - #3 {
+INFO  10:28:42,687 - #44 nizch
+INFO  10:28:42,687 - #16 =
+INFO  10:28:42,688 - #28 new
+INFO  10:28:42,688 - #44 char
+INFO  10:28:42,688 - #17 [
+INFO  10:28:42,688 - #42 3
+INFO  10:28:42,688 - #18 ]
+INFO  10:28:42,688 - #5 ;
+INFO  10:28:42,689 - #44 nizch
+INFO  10:28:42,689 - #17 [
+INFO  10:28:42,689 - #42 0
+INFO  10:28:42,690 - #18 ]
+INFO  10:28:42,690 - #16 =
+INFO  10:28:42,690 - #43 a
+INFO  10:28:42,691 - #5 ;
+INFO  10:28:42,691 - #44 nizch
+INFO  10:28:42,691 - #17 [
+INFO  10:28:42,691 - #44 jedan
+INFO  10:28:42,691 - #18 ]
+INFO  10:28:42,691 - #16 =
+INFO  10:28:42,692 - #43 b
+INFO  10:28:42,692 - #5 ;
+INFO  10:28:42,692 - #44 nizch
+INFO  10:28:42,692 - #17 [
+INFO  10:28:42,692 - #44 pet
+INFO  10:28:42,692 - #12 -
+INFO  10:28:42,692 - #42 3
+INFO  10:28:42,693 - #18 ]
+INFO  10:28:42,693 - #16 =
+INFO  10:28:42,693 - #43 c
+INFO  10:28:42,693 - #5 ;
+INFO  10:28:42,693 - #9 print
+INFO  10:28:42,693 - #6 (
+INFO  10:28:42,693 - #44 nizch
+INFO  10:28:42,693 - #17 [
+INFO  10:28:42,694 - #42 2
+INFO  10:28:42,694 - #12 -
+INFO  10:28:42,694 - #42 1
+INFO  10:28:42,694 - #18 ]
+INFO  10:28:42,694 - #7 )
+INFO  10:28:42,695 - #5 ;
+INFO  10:28:42,695 - #9 print
+INFO  10:28:42,695 - #6 (
+INFO  10:28:42,695 - #44 nizch
+INFO  10:28:42,695 - #17 [
+INFO  10:28:42,695 - #44 jedan
+INFO  10:28:42,695 - #32 *
+INFO  10:28:42,695 - #42 2
+INFO  10:28:42,696 - #18 ]
+INFO  10:28:42,696 - #7 )
+INFO  10:28:42,696 - #5 ;
+INFO  10:28:42,696 - #4 }
+INFO  10:28:42,696 - #4 }
+INFO  10:28:42,707 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  10:28:42,708 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  10:28:42,708 - Deklarisan globalni niz nizch na liniji 10
+INFO  10:28:42,708 - Obradjuje se funkcija main na liniji 13
+INFO  10:28:42,708 - Deklarisana promenljiva bodovi na liniji 13
+INFO  10:28:42,708 - Detektovana upotreba promenljive nizch na liniji 18
+INFO  10:28:42,709 - Detektovana upotreba niza nizch na liniji 19
+INFO  10:28:42,709 - Detektovana upotreba konstante jedan na liniji 20
+ERROR 10:28:42,709 - Greska u liniji 20: Ocekivan niz
+ERROR 10:28:42,709 - Greska na liniji 20 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  10:28:42,709 - Detektovana upotreba konstante pet na liniji 21
+ERROR 10:28:42,709 - Greska u liniji 21: Ocekivan niz
+ERROR 10:28:42,709 - Greska na liniji 21 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  10:28:42,710 - Detektovana upotreba niza nizch na liniji 22
+INFO  10:28:42,710 - Detektovana upotreba konstante jedan na liniji 23
+ERROR 10:28:42,710 - Greska u liniji 23: Ocekivan niz
+ERROR 10:28:42,711 - Parsiranje NIJE uspesno zavrseno!

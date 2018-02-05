@@ -1,0 +1,43 @@
+INFO  10:23:05,548 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:23:05,580 - #2 program
+INFO  10:23:05,580 - #44 MJProgram
+INFO  10:23:05,580 - #44 char
+INFO  10:23:05,581 - #44 x
+INFO  10:23:05,582 - #17 [
+INFO  10:23:05,582 - #18 ]
+INFO  10:23:05,582 - #5 ;
+INFO  10:23:05,582 - #15 const
+INFO  10:23:05,583 - #44 char
+INFO  10:23:05,583 - #44 y
+INFO  10:23:05,583 - #16 =
+INFO  10:23:05,584 - #43 c
+INFO  10:23:05,584 - #5 ;
+INFO  10:23:05,585 - #15 const
+INFO  10:23:05,586 - #44 int
+INFO  10:23:05,586 - #44 b
+INFO  10:23:05,586 - #16 =
+INFO  10:23:05,586 - #42 5
+INFO  10:23:05,586 - #5 ;
+INFO  10:23:05,586 - #3 {
+INFO  10:23:05,586 - #44 int
+INFO  10:23:05,589 - #44 main
+INFO  10:23:05,589 - #6 (
+INFO  10:23:05,590 - #7 )
+INFO  10:23:05,590 - #3 {
+INFO  10:23:05,591 - #9 print
+INFO  10:23:05,591 - #6 (
+INFO  10:23:05,591 - #44 y
+INFO  10:23:05,591 - #7 )
+INFO  10:23:05,592 - #5 ;
+INFO  10:23:05,592 - #10 return
+INFO  10:23:05,592 - #42 0
+INFO  10:23:05,593 - #5 ;
+INFO  10:23:05,593 - #4 }
+INFO  10:23:05,593 - #4 }
+INFO  10:23:05,604 - Deklarisan globalni niz x na liniji 2
+INFO  10:23:05,604 - Definisana globalna simbolicka konstanta y na liniji 3
+INFO  10:23:05,604 - Definisana globalna numericka konstanta b na liniji 4
+INFO  10:23:05,604 - Obradjuje se funkcija main na liniji 9
+INFO  10:23:05,604 - Detektovana upotreba konstante y na liniji 13
+INFO  10:23:05,605 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:23:05,609 - Parsiranje uspesno zavrseno!

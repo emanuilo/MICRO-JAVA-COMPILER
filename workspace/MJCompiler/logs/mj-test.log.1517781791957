@@ -1,0 +1,44 @@
+INFO  23:02:55,222 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  23:02:55,268 - #2 program
+INFO  23:02:55,268 - #44 MJProgram
+INFO  23:02:55,268 - #44 int
+INFO  23:02:55,270 - #44 x
+INFO  23:02:55,270 - #17 [
+INFO  23:02:55,271 - #18 ]
+INFO  23:02:55,271 - #5 ;
+INFO  23:02:55,272 - #44 int
+INFO  23:02:55,273 - #44 y
+INFO  23:02:55,273 - #5 ;
+INFO  23:02:55,274 - #3 {
+INFO  23:02:55,274 - #44 int
+INFO  23:02:55,274 - #44 main
+INFO  23:02:55,275 - #6 (
+INFO  23:02:55,275 - #7 )
+INFO  23:02:55,276 - #3 {
+INFO  23:02:55,276 - #44 x
+INFO  23:02:55,276 - #16 =
+INFO  23:02:55,277 - #28 new
+INFO  23:02:55,278 - #44 int
+INFO  23:02:55,278 - #17 [
+INFO  23:02:55,278 - #42 3
+INFO  23:02:55,278 - #18 ]
+INFO  23:02:55,278 - #5 ;
+INFO  23:02:55,279 - #44 x
+INFO  23:02:55,279 - #17 [
+INFO  23:02:55,280 - #42 0
+INFO  23:02:55,280 - #18 ]
+INFO  23:02:55,280 - #16 =
+INFO  23:02:55,281 - #42 4
+INFO  23:02:55,281 - #5 ;
+INFO  23:02:55,281 - #10 return
+INFO  23:02:55,281 - #42 0
+INFO  23:02:55,281 - #5 ;
+INFO  23:02:55,281 - #4 }
+INFO  23:02:55,281 - #4 }
+INFO  23:02:55,294 - Deklarisan globalni niz x na liniji 2
+INFO  23:02:55,294 - Deklarisana globalna promenljiva y na liniji 3
+INFO  23:02:55,294 - Obradjuje se funkcija main na liniji 8
+INFO  23:02:55,294 - Detektovana upotreba promenljive x na liniji 10
+INFO  23:02:55,294 - Detektovana upotreba niza x na liniji 11
+INFO  23:02:55,295 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  23:02:55,305 - Parsiranje uspesno zavrseno!

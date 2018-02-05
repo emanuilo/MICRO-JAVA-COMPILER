@@ -1,0 +1,24 @@
+// Test301
+
+program test301
+
+	
+
+	int niz[];
+	
+	
+	
+{
+	void main()	int bodovi;
+	{
+		niz = new int[3];
+		
+		niz[0] = 1;
+		
+		niz[niz[0]] = 2;
+			
+	
+	}
+}
+
+

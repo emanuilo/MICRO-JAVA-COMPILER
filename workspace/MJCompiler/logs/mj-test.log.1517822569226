@@ -1,0 +1,43 @@
+INFO  10:18:56,880 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:18:56,913 - #2 program
+INFO  10:18:56,913 - #44 MJProgram
+INFO  10:18:56,913 - #44 char
+INFO  10:18:56,914 - #44 x
+INFO  10:18:56,915 - #17 [
+INFO  10:18:56,915 - #18 ]
+INFO  10:18:56,915 - #5 ;
+INFO  10:18:56,916 - #15 const
+INFO  10:18:56,916 - #44 char
+INFO  10:18:56,916 - #44 y
+INFO  10:18:56,916 - #16 =
+INFO  10:18:56,917 - #43 c
+INFO  10:18:56,917 - #5 ;
+INFO  10:18:56,918 - #15 const
+INFO  10:18:56,918 - #44 int
+INFO  10:18:56,918 - #44 b
+INFO  10:18:56,918 - #16 =
+INFO  10:18:56,918 - #42 5
+INFO  10:18:56,919 - #5 ;
+INFO  10:18:56,919 - #3 {
+INFO  10:18:56,919 - #44 int
+INFO  10:18:56,919 - #44 main
+INFO  10:18:56,920 - #6 (
+INFO  10:18:56,920 - #7 )
+INFO  10:18:56,920 - #3 {
+INFO  10:18:56,921 - #9 print
+INFO  10:18:56,921 - #6 (
+INFO  10:18:56,921 - #44 b
+INFO  10:18:56,921 - #7 )
+INFO  10:18:56,923 - #5 ;
+INFO  10:18:56,923 - #10 return
+INFO  10:18:56,923 - #42 0
+INFO  10:18:56,923 - #5 ;
+INFO  10:18:56,923 - #4 }
+INFO  10:18:56,923 - #4 }
+INFO  10:18:56,933 - Deklarisan globalni niz x na liniji 2
+INFO  10:18:56,933 - Definisana globalna simbolicka konstanta y na liniji 3
+INFO  10:18:56,933 - Definisana globalna numericka konstanta b na liniji 4
+INFO  10:18:56,933 - Obradjuje se funkcija main na liniji 9
+INFO  10:18:56,933 - Detektovana upotreba konstante b na liniji 13
+INFO  10:18:56,934 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:18:56,940 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,59 @@
+INFO  19:55:53,832 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:55:53,880 - #2 program
+INFO  19:55:53,880 - #44 MJProgram
+INFO  19:55:53,880 - #44 int
+INFO  19:55:53,881 - #44 x
+INFO  19:55:53,882 - #5 ;
+INFO  19:55:53,883 - #44 int
+INFO  19:55:53,884 - #44 y
+INFO  19:55:53,884 - #5 ;
+INFO  19:55:53,885 - #3 {
+INFO  19:55:53,885 - #44 int
+INFO  19:55:53,885 - #44 k
+INFO  19:55:53,886 - #6 (
+INFO  19:55:53,886 - #7 )
+INFO  19:55:53,887 - #44 int
+INFO  19:55:53,887 - #44 c
+INFO  19:55:53,887 - #5 ;
+INFO  19:55:53,887 - #3 {
+INFO  19:55:53,888 - #44 c
+INFO  19:55:53,889 - #16 =
+INFO  19:55:53,890 - #42 1
+INFO  19:55:53,890 - #5 ;
+INFO  19:55:53,891 - #10 return
+INFO  19:55:53,891 - #44 c
+INFO  19:55:53,891 - #11 +
+INFO  19:55:53,891 - #42 2
+INFO  19:55:53,893 - #5 ;
+INFO  19:55:53,894 - #4 }
+INFO  19:55:53,894 - #14 void
+INFO  19:55:53,895 - #44 main
+INFO  19:55:53,896 - #6 (
+INFO  19:55:53,896 - #7 )
+INFO  19:55:53,897 - #3 {
+INFO  19:55:53,897 - #44 y
+INFO  19:55:53,897 - #16 =
+INFO  19:55:53,897 - #42 1
+INFO  19:55:53,897 - #5 ;
+INFO  19:55:53,897 - #44 y
+INFO  19:55:53,897 - #29 ++
+INFO  19:55:53,897 - #5 ;
+INFO  19:55:53,898 - #9 print
+INFO  19:55:53,898 - #6 (
+INFO  19:55:53,898 - #44 y
+INFO  19:55:53,899 - #7 )
+INFO  19:55:53,899 - #5 ;
+INFO  19:55:53,899 - #4 }
+INFO  19:55:53,900 - #4 }
+INFO  19:55:53,910 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:55:53,911 - Deklarisana globalna promenljiva y na liniji 3
+INFO  19:55:53,911 - Obradjuje se funkcija k na liniji 6
+INFO  19:55:53,911 - Deklarisana promenljiva c na liniji 6
+INFO  19:55:53,911 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:55:53,911 - Detektovana upotreba promenljive c na liniji 8
+INFO  19:55:53,911 - Obradjuje se funkcija main na liniji 11
+INFO  19:55:53,911 - Detektovana upotreba promenljive y na liniji 12
+INFO  19:55:53,911 - Detektovana upotreba promenljive y na liniji 14
+INFO  19:55:53,911 - Detektovana upotreba promenljive y na liniji 15
+INFO  19:55:53,913 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  19:55:53,922 - Parsiranje uspesno zavrseno!

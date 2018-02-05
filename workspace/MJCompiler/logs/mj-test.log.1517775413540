@@ -1,0 +1,29 @@
+INFO  21:12:15,969 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:12:16,020 - #2 program
+INFO  21:12:16,020 - #44 MJProgram
+INFO  21:12:16,021 - #15 const
+INFO  21:12:16,024 - #44 int
+INFO  21:12:16,024 - #44 x
+INFO  21:12:16,026 - #16 =
+INFO  21:12:16,027 - #42 5
+INFO  21:12:16,027 - #5 ;
+INFO  21:12:16,028 - #3 {
+INFO  21:12:16,029 - #44 int
+INFO  21:12:16,030 - #44 main
+INFO  21:12:16,030 - #6 (
+INFO  21:12:16,031 - #7 )
+INFO  21:12:16,036 - #3 {
+INFO  21:12:16,037 - #44 x
+INFO  21:12:16,038 - #16 =
+INFO  21:12:16,040 - #42 7
+INFO  21:12:16,040 - #5 ;
+INFO  21:12:16,042 - #10 return
+INFO  21:12:16,043 - #42 0
+INFO  21:12:16,043 - #5 ;
+INFO  21:12:16,043 - #4 }
+INFO  21:12:16,044 - #4 }
+INFO  21:12:16,062 - Definisana globalna numericka konstanta x na liniji 2
+INFO  21:12:16,062 - Obradjuje se funkcija main na liniji 8
+INFO  21:12:16,062 - Detektovana upotreba konstante x na liniji 10
+INFO  21:12:16,067 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  21:12:16,080 - Parsiranje uspesno zavrseno!

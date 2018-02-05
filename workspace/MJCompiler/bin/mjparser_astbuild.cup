@@ -101,7 +101,7 @@ nonterminal GlobalVarDeclars GlobalVarDeclars;
 nonterminal GlobalVarDeclList GlobalVarDeclList;
 nonterminal ConstName ConstName;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName; 
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName, LBracket; 
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, TypeOrVoid, Term, Expr, Factor, VarDeclList, NumCharBoolConst; 
 
 precedence left ELSE;
@@ -248,7 +248,7 @@ Statement ::= (DesignatorStmt) DesignatorStatement:D1 SEMI {: RESULT=new Designa
 			  (Body) LBRACE StatementList:S1 RBRACE {: RESULT=new Body(S1); RESULT.setLine(S1left); :}
 			  ;
 			  
-CommaNumConst ::= (CommaNumber) COMMA NUMBER:N1 {: RESULT=new CommaNumber(N1); RESULT.setLine(N1left); :}
+CommaNumConst ::= (CommaNumber) COMMA NUMBER:number {: RESULT=new CommaNumber(number); RESULT.setLine(numberleft); :}
 				  |
 				  (NoCommaNumber) {: RESULT=new NoCommaNumber(); :} /* epsilon */
 				  ;			  
@@ -288,9 +288,9 @@ Term ::= (MulopTerm) Term:T1 Mulop:M2 Factor:F3 {: RESULT=new MulopTerm(T1, M2, 
 		 (FactorTerm) Factor:t {: RESULT=new FactorTerm(t); RESULT.setLine(tleft); :} 
 		 ;
 
-Factor ::= (NumberConst) NUMBER:N1 {: RESULT=new NumberConst(N1); RESULT.setLine(N1left); :}
+Factor ::= (NumberConst) NUMBER:number {: RESULT=new NumberConst(number); RESULT.setLine(numberleft); :}
 			|
-		   (ChConst) CHAR:C1 {: RESULT=new ChConst(C1); RESULT.setLine(C1left); :}
+		   (ChConst) CHAR:charr {: RESULT=new ChConst(charr); RESULT.setLine(charrleft); :}
 		   	|
 		   (BooleanConst) BOOLEAN {: RESULT=new BooleanConst(); :}
 		   	|
@@ -333,16 +333,18 @@ DesignatorExtension ::= (Assignment) ASSIGN Expr:E1 {: RESULT=new Assignment(E1)
 Designator ::= (Designator) IDENT:name ObjOrCollectionList:O1 {: RESULT=new Designator(name, O1); RESULT.setLine(nameleft); :}
 ;
 
-ObjOrCollectionList ::= (ObjOrCollList) ObjOrCollectionList:O1 ObjOrCollection:O2 {: RESULT=new ObjOrCollList(O1, O2); RESULT.setLine(O1left); :}
+ObjOrCollectionList ::= (ObjOrCollList) ObjOrCollectionList:O1 ObjOrCollection:O2 {: RESULT=new ObjOrCollList(O1, O2); RESULT.setLine(O1left); :} 
 				  	    |
 				        (NoObjOrCollectionList) {: RESULT=new NoObjOrCollectionList(); :} /* epsilon */
 				  		;
 				  
 ObjOrCollection ::= (ObjectAccess) PERIOD IDENT:I1 {: RESULT=new ObjectAccess(I1); RESULT.setLine(I1left); :}
 			  	    |
-			        (ArrayAccess) LBRACKET Expr:E1 RBRACKET {: RESULT=new ArrayAccess(E1); RESULT.setLine(E1left); :}
+			        (ArrayAccess) LBracket:L1 Expr:E2 RBRACKET {: RESULT=new ArrayAccess(L1, E2); RESULT.setLine(L1left); :} 
 			        ;	
 
+LBracket ::= (LBracket) LBRACKET {: RESULT=new LBracket(); :}
+;
 
 Addop ::= (AddopPlus) PLUS {: RESULT=new AddopPlus(); :} 
 		  |

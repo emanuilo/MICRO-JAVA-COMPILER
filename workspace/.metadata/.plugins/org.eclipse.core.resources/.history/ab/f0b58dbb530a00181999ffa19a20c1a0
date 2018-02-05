@@ -1,0 +1,16 @@
+program MJProgram
+	char x[];
+	const char y = 'c';
+{
+	
+	
+	
+	int main() {
+		y = 'b';
+		x = new char[3];
+		x[0] = 'c';
+		
+		print(y);
+		return 0;
+	}
+}

@@ -1,0 +1,66 @@
+INFO  16:56:22,843 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  16:56:23,759 - #2 program
+INFO  16:56:23,760 - #44 MJProgram
+INFO  16:56:23,760 - #44 int
+INFO  16:56:23,773 - #44 x
+INFO  16:56:23,778 - #17 [
+INFO  16:56:23,778 - #18 ]
+INFO  16:56:23,778 - #5 ;
+INFO  16:56:23,789 - #44 int
+INFO  16:56:23,796 - #44 y
+INFO  16:56:23,796 - #5 ;
+INFO  16:56:23,801 - #3 {
+INFO  16:56:23,802 - #44 int
+INFO  16:56:23,808 - #44 main
+INFO  16:56:23,808 - #6 (
+INFO  16:56:23,815 - #7 )
+INFO  16:56:23,824 - #3 {
+INFO  16:56:23,909 - #44 y
+INFO  16:56:23,916 - #16 =
+INFO  16:56:23,929 - #42 1
+INFO  16:56:23,929 - #5 ;
+INFO  16:56:23,936 - #44 x
+INFO  16:56:23,965 - #16 =
+INFO  16:56:23,965 - #28 new
+INFO  16:56:23,965 - #44 int
+INFO  16:56:23,965 - #17 [
+INFO  16:56:23,965 - #42 3
+INFO  16:56:23,965 - #18 ]
+INFO  16:56:23,965 - #5 ;
+INFO  16:56:23,965 - #44 x
+INFO  16:56:23,965 - #17 [
+INFO  16:56:23,965 - #42 0
+INFO  16:56:23,965 - #18 ]
+INFO  16:56:23,966 - #16 =
+INFO  16:56:23,966 - #42 5
+INFO  16:56:23,966 - #5 ;
+INFO  16:56:23,966 - #44 y
+INFO  16:56:23,966 - #16 =
+INFO  16:56:23,966 - #44 x
+INFO  16:56:23,966 - #17 [
+INFO  16:56:23,966 - #42 0
+INFO  16:56:23,966 - #18 ]
+INFO  16:56:23,966 - #11 +
+INFO  16:56:23,967 - #42 1
+INFO  16:56:23,978 - #5 ;
+INFO  16:56:23,978 - #9 print
+INFO  16:56:23,978 - #6 (
+INFO  16:56:23,978 - #44 y
+INFO  16:56:23,978 - #7 )
+INFO  16:56:23,983 - #5 ;
+INFO  16:56:23,983 - #10 return
+INFO  16:56:23,984 - #42 0
+INFO  16:56:23,984 - #5 ;
+INFO  16:56:23,984 - #4 }
+INFO  16:56:23,984 - #4 }
+INFO  16:56:24,027 - Deklarisan globalni niz x na liniji 2
+INFO  16:56:24,027 - Deklarisana globalna promenljiva y na liniji 2
+INFO  16:56:24,027 - Obradjuje se funkcija main na liniji 7
+INFO  16:56:24,027 - Detektovana upotreba promenljive y na liniji 8
+INFO  16:56:24,028 - Detektovana upotreba promenljive x na liniji 9
+INFO  16:56:24,028 - Detektovana upotreba niza x na liniji 10
+INFO  16:56:24,028 - Detektovana upotreba promenljive y na liniji 12
+INFO  16:56:24,028 - Detektovana upotreba niza x na liniji 12
+INFO  16:56:24,028 - Detektovana upotreba promenljive y na liniji 14
+INFO  16:56:24,031 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  16:56:24,126 - Parsiranje uspesno zavrseno!

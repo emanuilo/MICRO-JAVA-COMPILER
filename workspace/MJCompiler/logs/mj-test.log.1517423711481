@@ -1,0 +1,27 @@
+INFO  19:33:37,721 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:33:37,776 - #2 program
+INFO  19:33:37,776 - #44 MJProgram
+INFO  19:33:37,776 - #44 int
+INFO  19:33:37,777 - #44 x
+INFO  19:33:37,778 - #5 ;
+INFO  19:33:37,779 - #3 {
+INFO  19:33:37,780 - #14 void
+INFO  19:33:37,780 - #44 main
+INFO  19:33:37,781 - #6 (
+INFO  19:33:37,782 - #7 )
+INFO  19:33:37,782 - #3 {
+INFO  19:33:37,783 - #44 x
+INFO  19:33:37,784 - #16 =
+INFO  19:33:37,786 - #42 5
+INFO  19:33:37,786 - #5 ;
+INFO  19:33:37,788 - #9 print
+INFO  19:33:37,789 - #6 (
+INFO  19:33:37,789 - #42 1
+INFO  19:33:37,789 - #7 )
+INFO  19:33:37,790 - #5 ;
+INFO  19:33:37,791 - #4 }
+INFO  19:33:37,792 - #4 }
+INFO  19:33:37,816 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:33:37,817 - Obradjuje se funkcija main na liniji 8
+INFO  19:33:37,817 - Detektovana upotreba promenljive x na liniji 9
+INFO  19:33:37,821 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj

@@ -1,0 +1,131 @@
+INFO  21:50:41,651 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:50:41,711 - #2 program
+INFO  21:50:41,711 - #44 test301
+INFO  21:50:41,711 - #15 const
+INFO  21:50:41,713 - #44 int
+INFO  21:50:41,713 - #44 jedan
+INFO  21:50:41,714 - #16 =
+INFO  21:50:41,715 - #42 1
+INFO  21:50:41,715 - #5 ;
+INFO  21:50:41,716 - #15 const
+INFO  21:50:41,717 - #44 int
+INFO  21:50:41,717 - #44 pet
+INFO  21:50:41,717 - #16 =
+INFO  21:50:41,717 - #42 5
+INFO  21:50:41,717 - #5 ;
+INFO  21:50:41,717 - #3 {
+INFO  21:50:41,718 - #14 void
+INFO  21:50:41,718 - #44 main
+INFO  21:50:41,719 - #6 (
+INFO  21:50:41,720 - #7 )
+INFO  21:50:41,721 - #44 int
+INFO  21:50:41,723 - #44 bodovi
+INFO  21:50:41,723 - #5 ;
+INFO  21:50:41,726 - #3 {
+INFO  21:50:41,727 - #44 bodovi
+INFO  21:50:41,728 - #16 =
+INFO  21:50:41,730 - #42 0
+INFO  21:50:41,730 - #5 ;
+INFO  21:50:41,731 - #44 bodovi
+INFO  21:50:41,732 - #29 ++
+INFO  21:50:41,732 - #5 ;
+INFO  21:50:41,732 - #44 bodovi
+INFO  21:50:41,732 - #16 =
+INFO  21:50:41,732 - #44 bodovi
+INFO  21:50:41,733 - #11 +
+INFO  21:50:41,733 - #44 jedan
+INFO  21:50:41,734 - #5 ;
+INFO  21:50:41,735 - #44 bodovi
+INFO  21:50:41,735 - #16 =
+INFO  21:50:41,735 - #44 bodovi
+INFO  21:50:41,735 - #32 *
+INFO  21:50:41,735 - #44 pet
+INFO  21:50:41,737 - #5 ;
+INFO  21:50:41,738 - #44 bodovi
+INFO  21:50:41,738 - #30 --
+INFO  21:50:41,738 - #5 ;
+INFO  21:50:41,739 - #9 print
+INFO  21:50:41,739 - #6 (
+INFO  21:50:41,739 - #44 bodovi
+INFO  21:50:41,739 - #7 )
+INFO  21:50:41,740 - #5 ;
+INFO  21:50:41,740 - #44 bodovi
+INFO  21:50:41,741 - #16 =
+INFO  21:50:41,741 - #44 bodovi
+INFO  21:50:41,741 - #11 +
+INFO  21:50:41,741 - #6 (
+INFO  21:50:41,741 - #6 (
+INFO  21:50:41,741 - #44 pet
+INFO  21:50:41,741 - #32 *
+INFO  21:50:41,741 - #44 jedan
+INFO  21:50:41,741 - #12 -
+INFO  21:50:41,741 - #42 1
+INFO  21:50:41,742 - #7 )
+INFO  21:50:41,743 - #32 *
+INFO  21:50:41,743 - #42 2
+INFO  21:50:41,743 - #12 -
+INFO  21:50:41,745 - #6 (
+INFO  21:50:41,745 - #42 3
+INFO  21:50:41,745 - #34 %
+INFO  21:50:41,747 - #42 2
+INFO  21:50:41,748 - #11 +
+INFO  21:50:41,749 - #42 3
+INFO  21:50:41,749 - #32 *
+INFO  21:50:41,749 - #42 2
+INFO  21:50:41,749 - #12 -
+INFO  21:50:41,749 - #42 3
+INFO  21:50:41,749 - #7 )
+INFO  21:50:41,749 - #12 -
+INFO  21:50:41,749 - #42 1
+INFO  21:50:41,749 - #32 *
+INFO  21:50:41,750 - #42 0
+INFO  21:50:41,750 - #7 )
+INFO  21:50:41,750 - #5 ;
+INFO  21:50:41,750 - #9 print
+INFO  21:50:41,750 - #6 (
+INFO  21:50:41,750 - #44 bodovi
+INFO  21:50:41,751 - #7 )
+INFO  21:50:41,751 - #5 ;
+INFO  21:50:41,751 - #25 read
+INFO  21:50:41,752 - #6 (
+INFO  21:50:41,752 - #44 bodovi
+INFO  21:50:41,752 - #7 )
+INFO  21:50:41,752 - #5 ;
+INFO  21:50:41,752 - #44 bodovi
+INFO  21:50:41,758 - #16 =
+INFO  21:50:41,761 - #12 -
+INFO  21:50:41,764 - #42 5
+INFO  21:50:41,764 - #11 +
+INFO  21:50:41,765 - #42 1
+INFO  21:50:41,765 - #5 ;
+INFO  21:50:41,765 - #9 print
+INFO  21:50:41,765 - #6 (
+INFO  21:50:41,766 - #44 bodovi
+INFO  21:50:41,766 - #7 )
+INFO  21:50:41,766 - #5 ;
+INFO  21:50:41,766 - #4 }
+INFO  21:50:41,766 - #4 }
+INFO  21:50:41,786 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  21:50:41,787 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  21:50:41,787 - Obradjuje se funkcija main na liniji 10
+INFO  21:50:41,787 - Deklarisana promenljiva bodovi na liniji 10
+INFO  21:50:41,788 - Detektovana upotreba promenljive bodovi na liniji 13
+INFO  21:50:41,788 - Detektovana upotreba promenljive bodovi na liniji 14
+INFO  21:50:41,788 - Detektovana upotreba promenljive bodovi na liniji 15
+INFO  21:50:41,789 - Detektovana upotreba promenljive bodovi na liniji 15
+INFO  21:50:41,789 - Detektovana upotreba konstante jedan na liniji 15
+INFO  21:50:41,789 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  21:50:41,789 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  21:50:41,789 - Detektovana upotreba konstante pet na liniji 16
+INFO  21:50:41,789 - Detektovana upotreba promenljive bodovi na liniji 17
+INFO  21:50:41,789 - Detektovana upotreba promenljive bodovi na liniji 18
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  21:50:41,790 - Detektovana upotreba konstante pet na liniji 23
+INFO  21:50:41,790 - Detektovana upotreba konstante jedan na liniji 23
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 24
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 27
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 28
+INFO  21:50:41,790 - Detektovana upotreba promenljive bodovi na liniji 29
+INFO  21:50:41,792 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  21:51:27,787 - Parsiranje uspesno zavrseno!

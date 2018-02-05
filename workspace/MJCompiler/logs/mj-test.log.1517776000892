@@ -1,0 +1,38 @@
+INFO  21:25:06,806 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:25:06,891 - #2 program
+INFO  21:25:06,891 - #44 MJProgram
+INFO  21:25:06,891 - #44 int
+INFO  21:25:06,892 - #44 x
+INFO  21:25:06,900 - #17 [
+INFO  21:25:06,901 - #18 ]
+INFO  21:25:06,901 - #5 ;
+INFO  21:25:06,903 - #3 {
+INFO  21:25:06,907 - #44 int
+INFO  21:25:06,908 - #44 main
+INFO  21:25:06,908 - #6 (
+INFO  21:25:06,909 - #7 )
+INFO  21:25:06,909 - #3 {
+INFO  21:25:06,913 - #44 x
+INFO  21:25:06,915 - #16 =
+INFO  21:25:06,917 - #28 new
+INFO  21:25:06,917 - #44 int
+INFO  21:25:06,917 - #17 [
+INFO  21:25:06,918 - #42 3
+INFO  21:25:06,918 - #18 ]
+INFO  21:25:06,918 - #5 ;
+INFO  21:25:06,920 - #44 x
+INFO  21:25:06,920 - #17 [
+INFO  21:25:06,920 - #42 0
+INFO  21:25:06,921 - #18 ]
+INFO  21:25:06,921 - #16 =
+INFO  21:25:06,921 - #42 4
+INFO  21:25:06,921 - #5 ;
+INFO  21:25:06,922 - #10 return
+INFO  21:25:06,922 - #42 0
+INFO  21:25:06,922 - #5 ;
+INFO  21:25:06,922 - #4 }
+INFO  21:25:06,922 - #4 }
+INFO  21:25:06,949 - Deklarisan globalni niz x na liniji 2
+INFO  21:25:06,949 - Obradjuje se funkcija main na liniji 7
+INFO  21:25:06,949 - Detektovana upotreba promenljive x na liniji 9
+INFO  21:25:14,182 - Detektovana upotreba niza x na liniji 10

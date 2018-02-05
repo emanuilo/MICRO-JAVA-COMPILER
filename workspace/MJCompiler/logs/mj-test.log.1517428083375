@@ -1,0 +1,124 @@
+INFO  20:42:29,207 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:42:29,258 - #2 program
+INFO  20:42:29,258 - #44 test301
+INFO  20:42:29,258 - #15 const
+INFO  20:42:29,259 - #44 int
+INFO  20:42:29,259 - #44 jedan
+INFO  20:42:29,260 - #16 =
+INFO  20:42:29,261 - #42 1
+INFO  20:42:29,261 - #5 ;
+INFO  20:42:29,262 - #15 const
+INFO  20:42:29,263 - #44 int
+INFO  20:42:29,263 - #44 pet
+INFO  20:42:29,264 - #16 =
+INFO  20:42:29,264 - #42 5
+INFO  20:42:29,264 - #5 ;
+INFO  20:42:29,264 - #3 {
+INFO  20:42:29,264 - #14 void
+INFO  20:42:29,265 - #44 main
+INFO  20:42:29,265 - #6 (
+INFO  20:42:29,266 - #7 )
+INFO  20:42:29,267 - #44 int
+INFO  20:42:29,267 - #44 bodovi
+INFO  20:42:29,268 - #5 ;
+INFO  20:42:29,269 - #3 {
+INFO  20:42:29,270 - #44 bodovi
+INFO  20:42:29,271 - #16 =
+INFO  20:42:29,272 - #42 0
+INFO  20:42:29,273 - #5 ;
+INFO  20:42:29,274 - #44 bodovi
+INFO  20:42:29,274 - #29 ++
+INFO  20:42:29,275 - #5 ;
+INFO  20:42:29,275 - #44 bodovi
+INFO  20:42:29,275 - #16 =
+INFO  20:42:29,275 - #44 bodovi
+INFO  20:42:29,275 - #11 +
+INFO  20:42:29,275 - #44 jedan
+INFO  20:42:29,276 - #5 ;
+INFO  20:42:29,277 - #44 bodovi
+INFO  20:42:29,277 - #16 =
+INFO  20:42:29,277 - #44 bodovi
+INFO  20:42:29,277 - #32 *
+INFO  20:42:29,277 - #44 pet
+INFO  20:42:29,278 - #5 ;
+INFO  20:42:29,279 - #44 bodovi
+INFO  20:42:29,279 - #30 --
+INFO  20:42:29,279 - #5 ;
+INFO  20:42:29,280 - #9 print
+INFO  20:42:29,280 - #6 (
+INFO  20:42:29,280 - #44 bodovi
+INFO  20:42:29,280 - #7 )
+INFO  20:42:29,281 - #5 ;
+INFO  20:42:29,281 - #44 bodovi
+INFO  20:42:29,281 - #16 =
+INFO  20:42:29,282 - #44 bodovi
+INFO  20:42:29,282 - #11 +
+INFO  20:42:29,282 - #6 (
+INFO  20:42:29,282 - #6 (
+INFO  20:42:29,282 - #44 pet
+INFO  20:42:29,282 - #32 *
+INFO  20:42:29,282 - #44 jedan
+INFO  20:42:29,282 - #12 -
+INFO  20:42:29,282 - #42 1
+INFO  20:42:29,284 - #7 )
+INFO  20:42:29,284 - #32 *
+INFO  20:42:29,285 - #42 2
+INFO  20:42:29,285 - #12 -
+INFO  20:42:29,285 - #6 (
+INFO  20:42:29,285 - #42 3
+INFO  20:42:29,285 - #34 %
+INFO  20:42:29,285 - #42 2
+INFO  20:42:29,286 - #11 +
+INFO  20:42:29,286 - #42 3
+INFO  20:42:29,286 - #32 *
+INFO  20:42:29,287 - #42 2
+INFO  20:42:29,287 - #12 -
+INFO  20:42:29,287 - #42 3
+INFO  20:42:29,287 - #7 )
+INFO  20:42:29,287 - #12 -
+INFO  20:42:29,287 - #42 1
+INFO  20:42:29,287 - #32 *
+INFO  20:42:29,288 - #42 0
+INFO  20:42:29,288 - #7 )
+INFO  20:42:29,288 - #5 ;
+INFO  20:42:29,288 - #9 print
+INFO  20:42:29,288 - #6 (
+INFO  20:42:29,288 - #44 bodovi
+INFO  20:42:29,288 - #7 )
+INFO  20:42:29,288 - #5 ;
+INFO  20:42:29,288 - #25 read
+INFO  20:42:29,289 - #6 (
+INFO  20:42:29,289 - #44 bodovi
+INFO  20:42:29,289 - #7 )
+INFO  20:42:29,289 - #5 ;
+INFO  20:42:29,289 - #44 bodovi
+INFO  20:42:29,289 - #16 =
+INFO  20:42:29,289 - #44 bodovi
+INFO  20:42:29,289 - #11 +
+INFO  20:42:29,289 - #42 1
+INFO  20:42:29,290 - #5 ;
+INFO  20:42:29,290 - #9 print
+INFO  20:42:29,290 - #6 (
+INFO  20:42:29,290 - #44 bodovi
+INFO  20:42:29,290 - #7 )
+INFO  20:42:29,290 - #5 ;
+INFO  20:42:29,290 - #4 }
+INFO  20:42:29,290 - #4 }
+INFO  20:42:29,313 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  20:42:29,314 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  20:42:29,314 - Obradjuje se funkcija main na liniji 10
+INFO  20:42:29,315 - Deklarisana promenljiva bodovi na liniji 10
+INFO  20:42:29,315 - Detektovana upotreba promenljive bodovi na liniji 13
+INFO  20:42:50,198 - Detektovana upotreba promenljive bodovi na liniji 14
+INFO  20:42:50,199 - Detektovana upotreba promenljive bodovi na liniji 15
+INFO  20:42:50,199 - Detektovana upotreba promenljive bodovi na liniji 15
+INFO  20:42:50,870 - Detektovana upotreba konstante jedan na liniji 15
+INFO  20:42:51,854 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  20:42:51,854 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  20:42:52,454 - Detektovana upotreba konstante pet na liniji 16
+INFO  20:42:58,478 - Detektovana upotreba promenljive bodovi na liniji 17
+INFO  20:42:58,478 - Detektovana upotreba promenljive bodovi na liniji 18
+INFO  20:42:59,173 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  20:42:59,174 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  20:42:59,965 - Detektovana upotreba konstante pet na liniji 23
+INFO  20:43:00,317 - Detektovana upotreba konstante jedan na liniji 23

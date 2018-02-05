@@ -1,0 +1,39 @@
+INFO  22:12:27,585 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:12:27,646 - #2 program
+INFO  22:12:27,646 - #44 MJProgram
+INFO  22:12:27,646 - #44 int
+INFO  22:12:27,648 - #44 x
+INFO  22:12:27,648 - #17 [
+INFO  22:12:27,648 - #18 ]
+INFO  22:12:27,649 - #5 ;
+INFO  22:12:27,651 - #3 {
+INFO  22:12:27,653 - #44 int
+INFO  22:12:27,656 - #44 main
+INFO  22:12:27,656 - #6 (
+INFO  22:12:27,657 - #7 )
+INFO  22:12:27,658 - #3 {
+INFO  22:12:27,658 - #44 x
+INFO  22:12:27,659 - #16 =
+INFO  22:12:27,660 - #28 new
+INFO  22:12:27,661 - #44 int
+INFO  22:12:27,661 - #17 [
+INFO  22:12:27,661 - #42 3
+INFO  22:12:27,661 - #18 ]
+INFO  22:12:27,662 - #5 ;
+INFO  22:12:27,663 - #44 x
+INFO  22:12:27,663 - #17 [
+INFO  22:12:27,663 - #42 0
+INFO  22:12:27,664 - #18 ]
+INFO  22:12:27,664 - #16 =
+INFO  22:12:27,664 - #42 4
+INFO  22:12:27,664 - #5 ;
+INFO  22:12:27,664 - #10 return
+INFO  22:12:27,665 - #42 0
+INFO  22:12:27,665 - #5 ;
+INFO  22:12:27,665 - #4 }
+INFO  22:12:27,665 - #4 }
+INFO  22:12:27,679 - Deklarisan globalni niz x na liniji 2
+INFO  22:12:27,679 - Obradjuje se funkcija main na liniji 7
+INFO  22:12:27,679 - Detektovana upotreba promenljive x na liniji 9
+INFO  22:12:27,680 - Detektovana upotreba niza x na liniji 10
+INFO  22:12:27,681 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj

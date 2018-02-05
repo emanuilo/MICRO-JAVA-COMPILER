@@ -1,0 +1,17 @@
+program MJProgram
+	const int b = 5;
+{
+	
+	
+	
+	int main() {
+		
+		x = new int[3];
+		x[0] = 5;
+		
+		
+		
+		print(x[0]);
+		return 0;
+	}
+}

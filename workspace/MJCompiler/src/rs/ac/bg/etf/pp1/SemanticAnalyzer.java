@@ -2,7 +2,9 @@ package rs.ac.bg.etf.pp1;
 
 import rs.ac.bg.etf.pp1.ast.AddExpr;
 import rs.ac.bg.etf.pp1.ast.Array;
+import rs.ac.bg.etf.pp1.ast.ArrayAccess;
 import rs.ac.bg.etf.pp1.ast.Assignment;
+import rs.ac.bg.etf.pp1.ast.ChConst;
 import rs.ac.bg.etf.pp1.ast.CharConst;
 import rs.ac.bg.etf.pp1.ast.ConstDecl;
 import rs.ac.bg.etf.pp1.ast.ConstName;
@@ -10,15 +12,21 @@ import rs.ac.bg.etf.pp1.ast.Dec;
 import rs.ac.bg.etf.pp1.ast.Designator;
 import rs.ac.bg.etf.pp1.ast.ErrGlobalComma;
 import rs.ac.bg.etf.pp1.ast.FactorTerm;
+import rs.ac.bg.etf.pp1.ast.FuncCall;
 import rs.ac.bg.etf.pp1.ast.GlobalVDeclars;
 import rs.ac.bg.etf.pp1.ast.Inc;
+import rs.ac.bg.etf.pp1.ast.LBracket;
 import rs.ac.bg.etf.pp1.ast.MethodDecl;
 import rs.ac.bg.etf.pp1.ast.MethodType;
 import rs.ac.bg.etf.pp1.ast.MethodTypeName;
+import rs.ac.bg.etf.pp1.ast.MinusTermExpr;
 import rs.ac.bg.etf.pp1.ast.MulopTerm;
+import rs.ac.bg.etf.pp1.ast.NewArray;
 import rs.ac.bg.etf.pp1.ast.NoArray;
+import rs.ac.bg.etf.pp1.ast.NoObjOrCollectionList;
 import rs.ac.bg.etf.pp1.ast.NumConst;
 import rs.ac.bg.etf.pp1.ast.NumberConst;
+import rs.ac.bg.etf.pp1.ast.Parens;
 import rs.ac.bg.etf.pp1.ast.ProgName;
 import rs.ac.bg.etf.pp1.ast.Program;
 import rs.ac.bg.etf.pp1.ast.SingleGlobalVarDecl;
@@ -53,6 +61,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	Logger log = Logger.getLogger(getClass());
 
+	public boolean passed(){
+		return !errorDetected;
+	}
+	
 	public void report_error(String message, SyntaxNode info) {
 		errorDetected = true;
 		StringBuilder msg = new StringBuilder(message);
@@ -91,7 +103,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		}
 		
 		if (globalVDeclars.getBrackets() instanceof Array){
-			Struct array = new Struct(Struct.Array, Tab.intType);
+			Struct array = new Struct(Struct.Array, currentType);
 			Tab.insert(Obj.Var, globalVDeclars.getVarName(), array);
 			report_info("Deklarisan globalni niz "+ globalVDeclars.getVarName(), globalVDeclars);
 		}
@@ -109,7 +121,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		}
 			
 		if (singleGlobalVarDecl.getBrackets() instanceof Array){
-			Struct array = new Struct(Struct.Array, Tab.intType);
+			Struct array = new Struct(Struct.Array, currentType);
 			Tab.insert(Obj.Var, singleGlobalVarDecl.getVarName(), array);
 			report_info("Deklarisan globalni niz "+ singleGlobalVarDecl.getVarName(), singleGlobalVarDecl);
 		}
@@ -250,6 +262,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	}
 	
 	public void visit(Assignment assignment){
+		Struct exprType = assignment.getExpr().struct;
+		Struct currentDesignatorType = currentDesignator.getType();
 		if(assignment.getExpr().struct != null && !assignment.getExpr().struct.assignableTo(currentDesignator.getType()))
 			report_error("Greska na liniji " + assignment.getLine() + " : " + " nekompatibilni tipovi pri dodeli vrednosti ", null);
 	}
@@ -281,6 +295,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		termExpr.struct = termExpr.getTerm().struct;
 	}
 	
+	public void visit(MinusTermExpr minusTermExpr){
+		minusTermExpr.struct = minusTermExpr.getTerm().struct;
+	}
+	
 	public void visit(MulopTerm mulopTerm){
 		Struct term = mulopTerm.getTerm().struct;
 		Struct factor = mulopTerm.getFactor().struct;
@@ -300,27 +318,89 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		numberConst.struct = Tab.intType;
 	}
 	
+	public void visit(ChConst chConst){
+		chConst.struct = Tab.charType;
+	}
+	
+	public void visit(NewArray newArray){
+		if(newArray.getExpr().struct != Tab.intType){
+			report_error("Greska u liniji " + newArray.getLine() + ": velicina niza mora biti tipa int", null);
+		}
+		
+		newArray.struct = new Struct(Struct.Array, newArray.getType().struct);
+	}
+	
+	public void visit(Parens parens){
+		parens.struct = parens.getExpr().struct;
+	}
+	
 	public void visit(Var var){
 		var.struct = var.getDesignator().obj.getType();
 	}
 	
 	public void visit(Designator designator){
-		//if ObjOrCollectionList instanceof NoObjrOrCollection
 		Obj obj = Tab.find(designator.getName());
-		if(obj == Tab.noObj){
-			report_error("Greska na liniji " + designator.getLine() + " : ime " + designator.getName() + " nije deklarisano!", null);
-		}
-		else{
-			if(obj.getKind() == Obj.Con){
-				report_info("Detektovana upotreba konstante "+ designator.getName(), designator);
+		if(designator.getObjOrCollectionList() instanceof NoObjOrCollectionList){
+			if(obj == Tab.noObj){
+				report_error("Greska na liniji " + designator.getLine() + " : ime " + designator.getName() + " nije deklarisano!", null);
 			}
-			else if(obj.getKind() == Obj.Var){
-				report_info("Detektovana upotreba promenljive "+ designator.getName(), designator);
+			else{
+				if(obj.getKind() == Obj.Con){
+					report_info("Detektovana upotreba konstante "+ designator.getName(), designator);
+				}
+				else if(obj.getKind() == Obj.Var){
+					report_info("Detektovana upotreba promenljive "+ designator.getName(), designator);
+				}
 			}
 			
+			designator.obj = obj;
+			currentDesignator = obj;
 		}
-		designator.obj = obj;
-		currentDesignator = obj;
+		else{
+//			if(obj.getType().getKind() != Struct.Array){
+//				report_error("Greska u liniji " + designator.getLine() + ": Ocekivan niz", null);
+//			}
+//			else if(obj.getType().getKind() == Struct.Array){
+//				report_info("Detektovana upotreba niza "+ designator.getName(), designator);
+//			}
+//			
+//			currentDesignator = designator.obj = new Obj(Obj.Elem, "", obj.getType().getElemType());
+//			
+//			designator.obj = obj;
+//			currentDesignator = obj;
+		}
+	}
+	
+	public void visit(ArrayAccess arrayAccess){
+		Designator designator = (Designator) arrayAccess.getParent().getParent();
+		currentDesignator = Tab.find(designator.getName());
+		if(currentDesignator.getType().getKind() != Struct.Array){
+			report_error("Greska u liniji " + arrayAccess.getLine() + ": Ocekivan niz", null);
+		}
+		else if(currentDesignator.getType().getKind() == Struct.Array){
+			report_info("Detektovana upotreba niza "+ currentDesignator.getName(), arrayAccess);
+		}
+		
+		currentDesignator = designator.obj = new Obj(Obj.Elem, "", currentDesignator.getType().getElemType());
+		
+	}
+	
+	public void visit(LBracket lBracket){
+		Designator designator = (Designator) lBracket.getParent().getParent().getParent();
+		currentDesignator = Tab.find(designator.getName());
+		lBracket.obj = currentDesignator;
+	}
+	
+	public void visit(FuncCall funcCall){
+		Obj function = funcCall.getDesignator().obj;
+		if(function.getKind() == Obj.Meth){
+			report_info("Pronadjen poziv funkcije " + function.getName() + " na liniji " + funcCall.getLine(), null);
+			funcCall.struct = function.getType();
+		}
+		else{
+			report_error("Greska na liniji " + funcCall.getLine()+" : ime " + function.getName() + " nije funkcija!", null);
+			funcCall.struct = Tab.noType;
+		}
 	}
 }
 

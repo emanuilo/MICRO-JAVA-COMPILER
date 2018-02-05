@@ -1,0 +1,69 @@
+INFO  18:46:33,346 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  18:46:33,389 - #2 program
+INFO  18:46:33,389 - #44 MJProgram
+INFO  18:46:33,389 - #44 int
+INFO  18:46:33,390 - #44 x
+INFO  18:46:33,391 - #5 ;
+INFO  18:46:33,391 - #44 int
+INFO  18:46:33,392 - #44 y
+INFO  18:46:33,393 - #5 ;
+INFO  18:46:33,393 - #3 {
+INFO  18:46:33,393 - #44 int
+INFO  18:46:33,394 - #44 k
+INFO  18:46:33,394 - #6 (
+INFO  18:46:33,395 - #7 )
+INFO  18:46:33,395 - #44 int
+INFO  18:46:33,396 - #44 c
+INFO  18:46:33,396 - #5 ;
+INFO  18:46:33,397 - #3 {
+INFO  18:46:33,397 - #44 c
+INFO  18:46:33,399 - #16 =
+INFO  18:46:33,400 - #42 1
+INFO  18:46:33,400 - #5 ;
+INFO  18:46:33,467 - #10 return
+INFO  18:46:33,468 - #44 c
+INFO  18:46:33,468 - #11 +
+INFO  18:46:33,468 - #42 2
+INFO  18:46:33,469 - #5 ;
+INFO  18:46:33,469 - #4 }
+INFO  18:46:33,470 - #14 void
+INFO  18:46:33,471 - #44 main
+INFO  18:46:33,471 - #6 (
+INFO  18:46:33,471 - #7 )
+INFO  18:46:33,471 - #3 {
+INFO  18:46:33,471 - #44 y
+INFO  18:46:33,472 - #16 =
+INFO  18:46:33,472 - #42 1
+INFO  18:46:33,472 - #5 ;
+INFO  18:46:33,472 - #44 x
+INFO  18:46:33,473 - #16 =
+INFO  18:46:33,473 - #44 y
+INFO  18:46:33,474 - #11 +
+INFO  18:46:33,474 - #42 2
+INFO  18:46:33,474 - #5 ;
+INFO  18:46:33,474 - #9 print
+INFO  18:46:33,474 - #6 (
+INFO  18:46:33,474 - #44 y
+INFO  18:46:33,474 - #7 )
+INFO  18:46:33,475 - #5 ;
+INFO  18:46:33,476 - #9 print
+INFO  18:46:33,476 - #6 (
+INFO  18:46:33,476 - #44 x
+INFO  18:46:33,476 - #7 )
+INFO  18:46:33,476 - #5 ;
+INFO  18:46:33,476 - #4 }
+INFO  18:46:33,476 - #4 }
+INFO  18:46:33,487 - Deklarisana globalna promenljiva x na liniji 2
+INFO  18:46:33,487 - Deklarisana globalna promenljiva y na liniji 3
+INFO  18:46:33,487 - Obradjuje se funkcija k na liniji 6
+INFO  18:46:33,487 - Deklarisana promenljiva c na liniji 6
+INFO  18:46:33,487 - Detektovana upotreba promenljive c na liniji 7
+INFO  18:46:33,488 - Detektovana upotreba promenljive c na liniji 8
+INFO  18:46:33,488 - Obradjuje se funkcija main na liniji 11
+INFO  18:46:33,488 - Detektovana upotreba promenljive y na liniji 12
+INFO  18:46:33,488 - Detektovana upotreba promenljive x na liniji 13
+INFO  18:46:33,488 - Detektovana upotreba promenljive y na liniji 13
+INFO  18:46:33,488 - Detektovana upotreba promenljive y na liniji 14
+INFO  18:46:33,488 - Detektovana upotreba promenljive x na liniji 15
+INFO  18:46:33,489 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  18:46:33,499 - Parsiranje uspesno zavrseno!

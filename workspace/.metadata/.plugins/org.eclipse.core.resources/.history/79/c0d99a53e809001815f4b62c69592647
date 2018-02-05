@@ -1,0 +1,16 @@
+program MJProgram
+	const int x = 5;
+	
+{
+	
+	
+	
+	int main() {
+		
+		x = 7;
+		
+		
+		
+		return 0;
+	}
+}

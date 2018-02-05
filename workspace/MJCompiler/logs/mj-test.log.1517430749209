@@ -1,0 +1,130 @@
+INFO  20:54:34,457 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:54:34,495 - #2 program
+INFO  20:54:34,495 - #44 test301
+INFO  20:54:34,495 - #15 const
+INFO  20:54:34,496 - #44 int
+INFO  20:54:34,496 - #44 jedan
+INFO  20:54:34,497 - #16 =
+INFO  20:54:34,497 - #42 1
+INFO  20:54:34,497 - #5 ;
+INFO  20:54:34,498 - #15 const
+INFO  20:54:34,499 - #44 int
+INFO  20:54:34,499 - #44 pet
+INFO  20:54:34,499 - #16 =
+INFO  20:54:34,499 - #42 5
+INFO  20:54:34,499 - #5 ;
+INFO  20:54:34,499 - #3 {
+INFO  20:54:34,500 - #14 void
+INFO  20:54:34,500 - #44 main
+INFO  20:54:34,501 - #6 (
+INFO  20:54:34,501 - #7 )
+INFO  20:54:34,502 - #44 int
+INFO  20:54:34,503 - #44 bodovi
+INFO  20:54:34,508 - #5 ;
+INFO  20:54:34,510 - #3 {
+INFO  20:54:34,511 - #44 bodovi
+INFO  20:54:34,512 - #16 =
+INFO  20:54:34,513 - #42 0
+INFO  20:54:34,513 - #5 ;
+INFO  20:54:34,514 - #44 bodovi
+INFO  20:54:34,514 - #29 ++
+INFO  20:54:34,515 - #5 ;
+INFO  20:54:34,515 - #44 bodovi
+INFO  20:54:34,515 - #16 =
+INFO  20:54:34,515 - #11 +
+ERROR 20:54:34,515 - 
+Sintaksna greska na liniji 15
+INFO  20:54:34,515 - #44 jedan
+INFO  20:54:34,516 - #5 ;
+INFO  20:54:34,516 - #44 bodovi
+INFO  20:54:34,516 - #16 =
+INFO  20:54:34,516 - #44 bodovi
+ERROR 20:54:34,516 - Uspesan oporavak do ';' u liniji 15
+INFO  20:54:34,517 - #32 *
+INFO  20:54:34,517 - #44 pet
+INFO  20:54:34,519 - #5 ;
+INFO  20:54:34,519 - #44 bodovi
+INFO  20:54:34,519 - #30 --
+INFO  20:54:34,519 - #5 ;
+INFO  20:54:34,520 - #9 print
+INFO  20:54:34,520 - #6 (
+INFO  20:54:34,520 - #44 bodovi
+INFO  20:54:34,520 - #7 )
+INFO  20:54:34,520 - #5 ;
+INFO  20:54:34,521 - #44 bodovi
+INFO  20:54:34,521 - #16 =
+INFO  20:54:34,521 - #44 bodovi
+INFO  20:54:34,521 - #11 +
+INFO  20:54:34,521 - #6 (
+INFO  20:54:34,522 - #6 (
+INFO  20:54:34,522 - #44 pet
+INFO  20:54:34,523 - #32 *
+INFO  20:54:34,523 - #44 jedan
+INFO  20:54:34,523 - #12 -
+INFO  20:54:34,523 - #42 1
+INFO  20:54:34,524 - #7 )
+INFO  20:54:34,524 - #32 *
+INFO  20:54:34,524 - #42 2
+INFO  20:54:34,525 - #12 -
+INFO  20:54:34,525 - #6 (
+INFO  20:54:34,525 - #42 3
+INFO  20:54:34,525 - #34 %
+INFO  20:54:34,525 - #42 2
+INFO  20:54:34,526 - #11 +
+INFO  20:54:34,526 - #42 3
+INFO  20:54:34,526 - #32 *
+INFO  20:54:34,526 - #42 2
+INFO  20:54:34,526 - #12 -
+INFO  20:54:34,526 - #42 3
+INFO  20:54:34,526 - #7 )
+INFO  20:54:34,526 - #12 -
+INFO  20:54:34,526 - #42 1
+INFO  20:54:34,526 - #32 *
+INFO  20:54:34,526 - #42 0
+INFO  20:54:34,527 - #7 )
+INFO  20:54:34,527 - #5 ;
+INFO  20:54:34,527 - #9 print
+INFO  20:54:34,527 - #6 (
+INFO  20:54:34,527 - #44 bodovi
+INFO  20:54:34,527 - #7 )
+INFO  20:54:34,527 - #5 ;
+INFO  20:54:34,527 - #25 read
+INFO  20:54:34,527 - #6 (
+INFO  20:54:34,527 - #44 bodovi
+INFO  20:54:34,527 - #7 )
+INFO  20:54:34,527 - #5 ;
+INFO  20:54:34,527 - #44 bodovi
+INFO  20:54:34,528 - #16 =
+INFO  20:54:34,528 - #44 bodovi
+INFO  20:54:34,528 - #11 +
+INFO  20:54:34,528 - #42 1
+INFO  20:54:34,528 - #5 ;
+INFO  20:54:34,528 - #9 print
+INFO  20:54:34,528 - #6 (
+INFO  20:54:34,528 - #44 bodovi
+INFO  20:54:34,528 - #7 )
+INFO  20:54:34,528 - #5 ;
+INFO  20:54:34,528 - #4 }
+INFO  20:54:34,528 - #4 }
+INFO  20:54:34,542 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  20:54:34,542 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  20:54:34,542 - Obradjuje se funkcija main na liniji 10
+INFO  20:54:34,543 - Deklarisana promenljiva bodovi na liniji 10
+INFO  20:54:34,543 - Detektovana upotreba promenljive bodovi na liniji 13
+INFO  20:54:34,543 - Detektovana upotreba promenljive bodovi na liniji 14
+INFO  20:54:34,543 - Detektovana upotreba promenljive bodovi na liniji 15
+INFO  20:54:34,543 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  20:54:34,543 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  20:54:34,544 - Detektovana upotreba konstante pet na liniji 16
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 17
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 18
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 23
+INFO  20:54:34,544 - Detektovana upotreba konstante pet na liniji 23
+INFO  20:54:34,544 - Detektovana upotreba konstante jedan na liniji 23
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 24
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 27
+INFO  20:54:34,544 - Detektovana upotreba promenljive bodovi na liniji 28
+INFO  20:54:34,545 - Detektovana upotreba promenljive bodovi na liniji 28
+INFO  20:54:34,545 - Detektovana upotreba promenljive bodovi na liniji 29
+ERROR 20:54:34,546 - Parsiranje NIJE uspesno zavrseno!

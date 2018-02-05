@@ -1,0 +1,42 @@
+INFO  18:58:51,748 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  18:58:51,795 - #2 program
+INFO  18:58:51,796 - #44 MJProgram
+INFO  18:58:51,796 - #15 const
+INFO  18:58:51,796 - #44 int
+INFO  18:58:51,797 - #44 b
+INFO  18:58:51,797 - #16 =
+INFO  18:58:51,797 - #42 5
+INFO  18:58:51,797 - #5 ;
+INFO  18:58:51,798 - #44 int
+INFO  18:58:51,799 - #44 y
+INFO  18:58:51,800 - #5 ;
+INFO  18:58:51,800 - #3 {
+INFO  18:58:51,801 - #44 int
+INFO  18:58:51,802 - #44 main
+INFO  18:58:51,802 - #6 (
+INFO  18:58:51,802 - #7 )
+INFO  18:58:51,803 - #3 {
+INFO  18:58:51,803 - #44 y
+INFO  18:58:51,805 - #16 =
+INFO  18:58:51,808 - #44 b
+INFO  18:58:51,808 - #11 +
+INFO  18:58:51,811 - #42 1
+INFO  18:58:51,812 - #5 ;
+INFO  18:58:51,813 - #9 print
+INFO  18:58:51,813 - #6 (
+INFO  18:58:51,814 - #44 y
+INFO  18:58:51,814 - #7 )
+INFO  18:58:51,814 - #5 ;
+INFO  18:58:51,814 - #10 return
+INFO  18:58:51,814 - #42 0
+INFO  18:58:51,815 - #5 ;
+INFO  18:58:51,815 - #4 }
+INFO  18:58:51,815 - #4 }
+INFO  18:58:51,828 - Definisana globalna numericka konstanta b na liniji 2
+INFO  18:58:51,829 - Deklarisana globalna promenljiva y na liniji 3
+INFO  18:58:51,829 - Obradjuje se funkcija main na liniji 8
+INFO  18:58:51,829 - Detektovana upotreba promenljive y na liniji 9
+INFO  18:58:51,829 - Detektovana upotreba konstante b na liniji 9
+INFO  18:58:51,829 - Detektovana upotreba promenljive y na liniji 10
+INFO  18:58:51,831 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  18:58:51,843 - Parsiranje uspesno zavrseno!

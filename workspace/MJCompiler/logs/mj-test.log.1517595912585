@@ -1,0 +1,75 @@
+INFO  19:21:30,651 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:21:30,748 - #2 program
+INFO  19:21:30,748 - #44 MJProgram
+INFO  19:21:30,748 - #44 int
+INFO  19:21:30,750 - #44 x
+INFO  19:21:30,751 - #5 ;
+INFO  19:21:30,752 - #44 int
+INFO  19:21:30,753 - #44 y
+INFO  19:21:30,753 - #5 ;
+INFO  19:21:30,754 - #3 {
+INFO  19:21:30,754 - #44 int
+INFO  19:21:30,771 - #44 k
+INFO  19:21:30,772 - #6 (
+INFO  19:21:30,774 - #7 )
+INFO  19:21:30,775 - #44 int
+INFO  19:21:30,782 - #44 c
+INFO  19:21:30,782 - #5 ;
+INFO  19:21:30,783 - #3 {
+INFO  19:21:30,786 - #44 c
+INFO  19:21:30,787 - #16 =
+INFO  19:21:30,790 - #42 1
+INFO  19:21:30,790 - #5 ;
+INFO  19:21:30,791 - #10 return
+INFO  19:21:30,792 - #44 c
+INFO  19:21:30,792 - #11 +
+INFO  19:21:30,792 - #42 2
+INFO  19:21:30,793 - #5 ;
+INFO  19:21:30,794 - #4 }
+INFO  19:21:30,794 - #44 int
+INFO  19:21:30,794 - #44 main
+INFO  19:21:30,795 - #6 (
+INFO  19:21:30,795 - #7 )
+INFO  19:21:30,795 - #3 {
+INFO  19:21:30,795 - #44 y
+INFO  19:21:30,795 - #16 =
+INFO  19:21:30,795 - #42 2
+INFO  19:21:30,795 - #5 ;
+INFO  19:21:30,795 - #44 x
+INFO  19:21:30,795 - #16 =
+INFO  19:21:30,795 - #44 y
+INFO  19:21:30,796 - #11 +
+INFO  19:21:30,796 - #42 2
+INFO  19:21:30,796 - #5 ;
+INFO  19:21:30,797 - #44 y
+INFO  19:21:30,797 - #16 =
+INFO  19:21:30,797 - #44 k
+INFO  19:21:30,797 - #6 (
+INFO  19:21:30,797 - #7 )
+INFO  19:21:30,798 - #11 +
+INFO  19:21:30,799 - #42 3
+INFO  19:21:30,799 - #5 ;
+INFO  19:21:30,799 - #9 print
+INFO  19:21:30,799 - #6 (
+INFO  19:21:30,799 - #44 y
+INFO  19:21:30,799 - #7 )
+INFO  19:21:30,800 - #5 ;
+INFO  19:21:30,800 - #10 return
+INFO  19:21:30,801 - #42 0
+INFO  19:21:30,801 - #5 ;
+INFO  19:21:30,801 - #4 }
+INFO  19:21:30,801 - #4 }
+INFO  19:21:30,816 - Deklarisana globalna promenljiva x na liniji 2
+INFO  19:21:30,816 - Deklarisana globalna promenljiva y na liniji 2
+INFO  19:21:30,816 - Obradjuje se funkcija k na liniji 5
+INFO  19:21:30,817 - Deklarisana promenljiva c na liniji 5
+INFO  19:21:30,817 - Detektovana upotreba promenljive c na liniji 6
+INFO  19:21:30,817 - Detektovana upotreba promenljive c na liniji 7
+INFO  19:21:30,817 - Obradjuje se funkcija main na liniji 10
+INFO  19:21:30,820 - Detektovana upotreba promenljive y na liniji 11
+INFO  19:21:30,820 - Detektovana upotreba promenljive x na liniji 12
+INFO  19:21:30,820 - Detektovana upotreba promenljive y na liniji 12
+INFO  19:21:30,820 - Detektovana upotreba promenljive y na liniji 13
+ERROR 19:21:30,820 - Greska na liniji 13 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+INFO  19:21:30,821 - Detektovana upotreba promenljive y na liniji 14
+ERROR 19:21:30,822 - Parsiranje NIJE uspesno zavrseno!

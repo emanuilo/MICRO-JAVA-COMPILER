@@ -1,0 +1,40 @@
+INFO  21:47:15,553 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:47:15,618 - #2 program
+INFO  21:47:15,618 - #44 MJProgram
+INFO  21:47:15,618 - #44 int
+INFO  21:47:15,620 - #44 x
+INFO  21:47:15,620 - #17 [
+INFO  21:47:15,620 - #18 ]
+INFO  21:47:15,621 - #5 ;
+INFO  21:47:15,622 - #3 {
+INFO  21:47:15,624 - #44 int
+INFO  21:47:15,624 - #44 main
+INFO  21:47:15,625 - #6 (
+INFO  21:47:15,626 - #7 )
+INFO  21:47:15,626 - #3 {
+INFO  21:47:15,627 - #44 x
+INFO  21:47:15,629 - #16 =
+INFO  21:47:15,631 - #28 new
+INFO  21:47:15,631 - #44 int
+INFO  21:47:15,631 - #17 [
+INFO  21:47:15,631 - #42 3
+INFO  21:47:15,631 - #18 ]
+INFO  21:47:15,632 - #5 ;
+INFO  21:47:15,634 - #44 x
+INFO  21:47:15,634 - #17 [
+INFO  21:47:15,635 - #42 0
+INFO  21:47:15,635 - #18 ]
+INFO  21:47:15,636 - #16 =
+INFO  21:47:15,637 - #42 4
+INFO  21:47:15,637 - #5 ;
+INFO  21:47:15,637 - #10 return
+INFO  21:47:15,637 - #42 0
+INFO  21:47:15,637 - #5 ;
+INFO  21:47:15,638 - #4 }
+INFO  21:47:15,638 - #4 }
+INFO  21:47:15,657 - Deklarisan globalni niz x na liniji 2
+INFO  21:47:15,657 - Obradjuje se funkcija main na liniji 7
+INFO  21:47:15,657 - Detektovana upotreba promenljive x na liniji 9
+INFO  21:47:15,657 - Detektovana upotreba niza x na liniji 10
+ERROR 21:47:15,658 - Greska na liniji 10 :  nekompatibilni tipovi pri dodeli vrednosti 
+ERROR 21:47:15,659 - Parsiranje NIJE uspesno zavrseno!

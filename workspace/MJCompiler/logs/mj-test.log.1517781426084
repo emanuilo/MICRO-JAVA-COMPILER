@@ -1,0 +1,58 @@
+INFO  22:53:43,904 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:53:43,957 - #2 program
+INFO  22:53:43,957 - #44 MJProgram
+INFO  22:53:43,957 - #44 int
+INFO  22:53:43,958 - #44 x
+INFO  22:53:43,959 - #17 [
+INFO  22:53:43,959 - #18 ]
+INFO  22:53:43,959 - #5 ;
+INFO  22:53:43,960 - #44 int
+INFO  22:53:43,961 - #44 y
+INFO  22:53:43,962 - #5 ;
+INFO  22:53:43,963 - #3 {
+INFO  22:53:43,963 - #44 int
+INFO  22:53:43,964 - #44 main
+INFO  22:53:43,965 - #6 (
+INFO  22:53:43,966 - #7 )
+INFO  22:53:43,966 - #3 {
+INFO  22:53:43,967 - #44 x
+INFO  22:53:43,967 - #16 =
+INFO  22:53:43,968 - #28 new
+INFO  22:53:43,968 - #44 int
+INFO  22:53:43,968 - #17 [
+INFO  22:53:43,969 - #42 3
+INFO  22:53:43,969 - #18 ]
+INFO  22:53:43,969 - #5 ;
+INFO  22:53:43,970 - #44 x
+INFO  22:53:43,971 - #17 [
+INFO  22:53:43,971 - #42 0
+INFO  22:53:43,972 - #18 ]
+INFO  22:53:43,972 - #16 =
+INFO  22:53:43,972 - #42 4
+INFO  22:53:43,973 - #5 ;
+INFO  22:53:43,973 - #44 y
+INFO  22:53:43,973 - #16 =
+INFO  22:53:43,973 - #44 x
+INFO  22:53:43,973 - #17 [
+INFO  22:53:43,973 - #42 0
+INFO  22:53:43,973 - #18 ]
+INFO  22:53:43,973 - #11 +
+INFO  22:53:43,973 - #42 2
+INFO  22:53:43,974 - #5 ;
+INFO  22:53:43,974 - #9 print
+INFO  22:53:43,974 - #6 (
+INFO  22:53:43,975 - #44 y
+INFO  22:53:43,975 - #7 )
+INFO  22:53:43,975 - #5 ;
+INFO  22:53:43,975 - #10 return
+INFO  22:53:43,975 - #42 0
+INFO  22:53:43,975 - #5 ;
+INFO  22:53:43,976 - #4 }
+INFO  22:53:43,976 - #4 }
+INFO  22:53:44,007 - Deklarisan globalni niz x na liniji 2
+INFO  22:53:44,007 - Deklarisana globalna promenljiva y na liniji 3
+INFO  22:53:44,007 - Obradjuje se funkcija main na liniji 8
+INFO  22:53:44,007 - Detektovana upotreba promenljive x na liniji 10
+INFO  22:53:44,007 - Detektovana upotreba niza x na liniji 11
+INFO  22:55:53,088 - Detektovana upotreba promenljive y na liniji 13
+ERROR 22:55:53,088 - Greska u liniji 13: Ocekivan niz

@@ -1,0 +1,40 @@
+INFO  09:40:33,910 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  09:40:33,943 - #2 program
+INFO  09:40:33,943 - #44 MJProgram
+INFO  09:40:33,943 - #44 char
+INFO  09:40:33,944 - #44 x
+INFO  09:40:33,944 - #17 [
+INFO  09:40:33,944 - #18 ]
+INFO  09:40:33,944 - #5 ;
+INFO  09:40:33,945 - #3 {
+INFO  09:40:33,946 - #44 int
+INFO  09:40:33,946 - #44 main
+INFO  09:40:33,946 - #6 (
+INFO  09:40:33,947 - #7 )
+INFO  09:40:33,947 - #3 {
+INFO  09:40:33,948 - #44 x
+INFO  09:40:33,948 - #16 =
+INFO  09:40:33,949 - #28 new
+INFO  09:40:33,949 - #44 char
+INFO  09:40:33,949 - #17 [
+INFO  09:40:33,949 - #42 3
+INFO  09:40:33,949 - #18 ]
+INFO  09:40:33,949 - #5 ;
+INFO  09:40:33,950 - #44 x
+INFO  09:40:33,951 - #17 [
+INFO  09:40:33,951 - #42 0
+INFO  09:40:33,951 - #18 ]
+INFO  09:40:33,951 - #16 =
+INFO  09:40:33,951 - #43 c
+INFO  09:40:33,952 - #5 ;
+INFO  09:40:33,952 - #10 return
+INFO  09:40:33,952 - #42 0
+INFO  09:40:33,952 - #5 ;
+INFO  09:40:33,952 - #4 }
+INFO  09:40:33,952 - #4 }
+INFO  09:40:33,962 - Deklarisan globalni niz x na liniji 2
+INFO  09:40:33,963 - Obradjuje se funkcija main na liniji 7
+INFO  09:40:33,963 - Detektovana upotreba promenljive x na liniji 9
+ERROR 09:40:33,963 - Greska na liniji 9 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  09:40:33,963 - Detektovana upotreba niza x na liniji 10
+ERROR 09:40:33,964 - Parsiranje NIJE uspesno zavrseno!

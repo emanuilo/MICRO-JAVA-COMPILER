@@ -1,0 +1,120 @@
+INFO  10:40:31,295 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:40:31,328 - #2 program
+INFO  10:40:31,328 - #44 test301
+INFO  10:40:31,328 - #15 const
+INFO  10:40:31,329 - #44 int
+INFO  10:40:31,329 - #44 jedan
+INFO  10:40:31,329 - #16 =
+INFO  10:40:31,330 - #42 1
+INFO  10:40:31,330 - #5 ;
+INFO  10:40:31,330 - #15 const
+INFO  10:40:31,331 - #44 int
+INFO  10:40:31,331 - #44 pet
+INFO  10:40:31,331 - #16 =
+INFO  10:40:31,331 - #42 5
+INFO  10:40:31,331 - #5 ;
+INFO  10:40:31,331 - #15 const
+INFO  10:40:31,332 - #44 int
+INFO  10:40:31,332 - #44 x
+INFO  10:40:31,332 - #16 =
+INFO  10:40:31,332 - #42 0
+INFO  10:40:31,332 - #5 ;
+INFO  10:40:31,332 - #44 char
+INFO  10:40:31,332 - #44 nizch
+INFO  10:40:31,332 - #17 [
+INFO  10:40:31,332 - #18 ]
+INFO  10:40:31,333 - #5 ;
+INFO  10:40:31,333 - #3 {
+INFO  10:40:31,334 - #14 void
+INFO  10:40:31,334 - #44 main
+INFO  10:40:31,335 - #6 (
+INFO  10:40:31,335 - #7 )
+INFO  10:40:31,335 - #44 int
+INFO  10:40:31,336 - #44 bodovi
+INFO  10:40:31,336 - #5 ;
+INFO  10:40:31,336 - #3 {
+INFO  10:40:31,337 - #44 bodovi
+INFO  10:40:31,337 - #16 =
+INFO  10:40:31,338 - #42 0
+INFO  10:40:31,338 - #5 ;
+INFO  10:40:31,339 - #44 nizch
+INFO  10:40:31,339 - #16 =
+INFO  10:40:31,339 - #28 new
+INFO  10:40:31,340 - #44 char
+INFO  10:40:31,340 - #17 [
+INFO  10:40:31,340 - #42 3
+INFO  10:40:31,340 - #18 ]
+INFO  10:40:31,340 - #5 ;
+INFO  10:40:31,340 - #44 nizch
+INFO  10:40:31,340 - #17 [
+INFO  10:40:31,340 - #42 0
+INFO  10:40:31,341 - #18 ]
+INFO  10:40:31,341 - #16 =
+INFO  10:40:31,341 - #43 a
+INFO  10:40:31,342 - #5 ;
+INFO  10:40:31,342 - #44 nizch
+INFO  10:40:31,342 - #17 [
+INFO  10:40:31,342 - #44 jedan
+INFO  10:40:31,342 - #18 ]
+INFO  10:40:31,342 - #16 =
+INFO  10:40:31,342 - #43 b
+INFO  10:40:31,342 - #5 ;
+INFO  10:40:31,342 - #44 nizch
+INFO  10:40:31,343 - #17 [
+INFO  10:40:31,343 - #44 pet
+INFO  10:40:31,343 - #12 -
+INFO  10:40:31,343 - #42 3
+INFO  10:40:31,344 - #18 ]
+INFO  10:40:31,344 - #16 =
+INFO  10:40:31,344 - #43 c
+INFO  10:40:31,344 - #5 ;
+INFO  10:40:31,345 - #9 print
+INFO  10:40:31,345 - #6 (
+INFO  10:40:31,345 - #44 nizch
+INFO  10:40:31,345 - #17 [
+INFO  10:40:31,345 - #42 2
+INFO  10:40:31,345 - #12 -
+INFO  10:40:31,345 - #42 1
+INFO  10:40:31,345 - #18 ]
+INFO  10:40:31,345 - #7 )
+INFO  10:40:31,346 - #5 ;
+INFO  10:40:31,346 - #9 print
+INFO  10:40:31,346 - #6 (
+INFO  10:40:31,347 - #44 nizch
+INFO  10:40:31,347 - #17 [
+INFO  10:40:31,347 - #44 jedan
+INFO  10:40:31,347 - #32 *
+INFO  10:40:31,347 - #42 2
+INFO  10:40:31,348 - #18 ]
+INFO  10:40:31,348 - #7 )
+INFO  10:40:31,348 - #5 ;
+INFO  10:40:31,348 - #9 print
+INFO  10:40:31,348 - #6 (
+INFO  10:40:31,348 - #44 nizch
+INFO  10:40:31,348 - #17 [
+INFO  10:40:31,348 - #44 bodovi
+INFO  10:40:31,348 - #18 ]
+INFO  10:40:31,348 - #7 )
+INFO  10:40:31,349 - #5 ;
+INFO  10:40:31,349 - #4 }
+INFO  10:40:31,349 - #4 }
+INFO  10:40:31,357 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  10:40:31,357 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  10:40:31,358 - Definisana globalna numericka konstanta x na liniji 8
+INFO  10:40:31,358 - Deklarisan globalni niz nizch na liniji 10
+INFO  10:40:31,358 - Obradjuje se funkcija main na liniji 13
+INFO  10:40:31,358 - Deklarisana promenljiva bodovi na liniji 13
+INFO  10:40:31,358 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  10:40:31,358 - Detektovana upotreba promenljive nizch na liniji 18
+INFO  10:40:31,358 - Detektovana upotreba niza nizch na liniji 19
+INFO  10:40:31,359 - Detektovana upotreba konstante jedan na liniji 20
+INFO  10:40:31,359 - Detektovana upotreba niza nizch na liniji 20
+INFO  10:40:31,359 - Detektovana upotreba konstante pet na liniji 21
+INFO  10:40:31,359 - Detektovana upotreba niza nizch na liniji 21
+INFO  10:40:31,359 - Detektovana upotreba niza nizch na liniji 22
+INFO  10:40:31,359 - Detektovana upotreba konstante jedan na liniji 23
+INFO  10:40:31,359 - Detektovana upotreba niza nizch na liniji 23
+INFO  10:40:31,359 - Detektovana upotreba promenljive bodovi na liniji 24
+INFO  10:40:31,359 - Detektovana upotreba niza nizch na liniji 24
+INFO  10:40:31,360 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:40:31,366 - Parsiranje uspesno zavrseno!

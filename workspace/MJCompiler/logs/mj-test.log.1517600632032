@@ -1,0 +1,62 @@
+INFO  20:41:36,633 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:41:36,676 - #2 program
+INFO  20:41:36,676 - #44 MJProgram
+INFO  20:41:36,676 - #44 int
+INFO  20:41:36,677 - #44 x
+INFO  20:41:36,678 - #17 [
+INFO  20:41:36,678 - #18 ]
+INFO  20:41:36,678 - #5 ;
+INFO  20:41:36,680 - #44 int
+INFO  20:41:36,681 - #44 y
+INFO  20:41:36,681 - #5 ;
+INFO  20:41:36,681 - #3 {
+INFO  20:41:36,682 - #44 int
+INFO  20:41:36,682 - #44 main
+INFO  20:41:36,682 - #6 (
+INFO  20:41:36,683 - #7 )
+INFO  20:41:36,683 - #3 {
+INFO  20:41:36,684 - #44 x
+INFO  20:41:36,684 - #16 =
+INFO  20:41:36,685 - #28 new
+INFO  20:41:36,685 - #44 int
+INFO  20:41:36,685 - #17 [
+INFO  20:41:36,686 - #42 3
+INFO  20:41:36,686 - #18 ]
+INFO  20:41:36,686 - #5 ;
+INFO  20:41:36,687 - #44 x
+INFO  20:41:36,687 - #17 [
+INFO  20:41:36,687 - #42 0
+INFO  20:41:36,687 - #18 ]
+INFO  20:41:36,687 - #16 =
+INFO  20:41:36,688 - #42 5
+INFO  20:41:36,688 - #5 ;
+INFO  20:41:36,688 - #44 y
+INFO  20:41:36,688 - #16 =
+INFO  20:41:36,688 - #44 x
+INFO  20:41:36,688 - #17 [
+INFO  20:41:36,688 - #42 0
+INFO  20:41:36,688 - #18 ]
+INFO  20:41:36,688 - #11 +
+INFO  20:41:36,688 - #42 1
+INFO  20:41:36,689 - #5 ;
+INFO  20:41:36,690 - #9 print
+INFO  20:41:36,690 - #6 (
+INFO  20:41:36,690 - #44 y
+INFO  20:41:36,690 - #7 )
+INFO  20:41:36,691 - #5 ;
+INFO  20:41:36,691 - #10 return
+INFO  20:41:36,692 - #42 0
+INFO  20:41:36,692 - #5 ;
+INFO  20:41:36,692 - #4 }
+INFO  20:41:36,692 - #4 }
+INFO  20:41:36,705 - Deklarisan globalni niz x na liniji 2
+INFO  20:41:36,705 - Deklarisana globalna promenljiva y na liniji 2
+INFO  20:41:36,705 - Obradjuje se funkcija main na liniji 7
+INFO  20:41:36,705 - Detektovana upotreba promenljive x na liniji 8
+INFO  20:41:36,705 - Detektovana upotreba promenljive x na liniji 9
+ERROR 20:41:36,705 - Greska na liniji 9 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  20:41:36,706 - Detektovana upotreba promenljive y na liniji 11
+INFO  20:41:36,706 - Detektovana upotreba promenljive x na liniji 11
+ERROR 20:41:36,706 - Greska na liniji 11 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+INFO  20:41:36,706 - Detektovana upotreba promenljive y na liniji 13
+ERROR 20:41:36,707 - Parsiranje NIJE uspesno zavrseno!

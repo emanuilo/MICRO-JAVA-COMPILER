@@ -1,0 +1,74 @@
+INFO  12:18:04,541 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:18:04,577 - #2 program
+INFO  12:18:04,578 - #44 test301
+INFO  12:18:04,578 - #44 int
+INFO  12:18:04,579 - #44 niz
+INFO  12:18:04,579 - #17 [
+INFO  12:18:04,580 - #18 ]
+INFO  12:18:04,580 - #5 ;
+INFO  12:18:04,580 - #3 {
+INFO  12:18:04,581 - #14 void
+INFO  12:18:04,582 - #44 main
+INFO  12:18:04,582 - #6 (
+INFO  12:18:04,583 - #7 )
+INFO  12:18:04,583 - #44 int
+INFO  12:18:04,584 - #44 bodovi
+INFO  12:18:04,584 - #5 ;
+INFO  12:18:04,585 - #3 {
+INFO  12:18:04,586 - #44 niz
+INFO  12:18:04,587 - #16 =
+INFO  12:18:04,588 - #28 new
+INFO  12:18:04,588 - #44 int
+INFO  12:18:04,588 - #17 [
+INFO  12:18:04,589 - #42 3
+INFO  12:18:04,589 - #18 ]
+INFO  12:18:04,589 - #5 ;
+INFO  12:18:04,591 - #44 niz
+INFO  12:18:04,591 - #17 [
+INFO  12:18:04,591 - #42 0
+INFO  12:18:04,592 - #18 ]
+INFO  12:18:04,592 - #16 =
+INFO  12:18:04,592 - #42 1
+INFO  12:18:04,593 - #5 ;
+INFO  12:18:04,593 - #44 niz
+INFO  12:18:04,593 - #17 [
+INFO  12:18:04,593 - #42 1
+INFO  12:18:04,593 - #18 ]
+INFO  12:18:04,593 - #16 =
+INFO  12:18:04,593 - #42 2
+INFO  12:18:04,593 - #5 ;
+INFO  12:18:04,593 - #44 niz
+INFO  12:18:04,594 - #17 [
+INFO  12:18:04,594 - #44 niz
+INFO  12:18:04,594 - #17 [
+INFO  12:18:04,595 - #44 niz
+INFO  12:18:04,596 - #17 [
+INFO  12:18:04,596 - #42 0
+INFO  12:18:04,596 - #18 ]
+INFO  12:18:04,596 - #18 ]
+INFO  12:18:04,596 - #18 ]
+INFO  12:18:04,596 - #16 =
+INFO  12:18:04,596 - #42 3
+INFO  12:18:04,596 - #5 ;
+INFO  12:18:04,596 - #9 print
+INFO  12:18:04,596 - #6 (
+INFO  12:18:04,596 - #44 niz
+INFO  12:18:04,597 - #17 [
+INFO  12:18:04,597 - #42 2
+INFO  12:18:04,597 - #18 ]
+INFO  12:18:04,597 - #7 )
+INFO  12:18:04,598 - #5 ;
+INFO  12:18:04,598 - #4 }
+INFO  12:18:04,598 - #4 }
+INFO  12:18:04,609 - Deklarisan globalni niz niz na liniji 7
+INFO  12:18:04,609 - Obradjuje se funkcija main na liniji 12
+INFO  12:18:04,609 - Deklarisana promenljiva bodovi na liniji 12
+INFO  12:18:04,609 - Detektovana upotreba promenljive niz na liniji 14
+INFO  12:18:04,609 - Detektovana upotreba niza niz na liniji 16
+INFO  12:18:04,609 - Detektovana upotreba niza niz na liniji 17
+INFO  12:18:04,611 - Detektovana upotreba niza niz na liniji 18
+INFO  12:18:04,611 - Detektovana upotreba niza niz na liniji 18
+INFO  12:18:04,611 - Detektovana upotreba niza niz na liniji 18
+INFO  12:18:04,611 - Detektovana upotreba niza niz na liniji 21
+INFO  12:18:04,613 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  12:18:04,617 - Parsiranje uspesno zavrseno!

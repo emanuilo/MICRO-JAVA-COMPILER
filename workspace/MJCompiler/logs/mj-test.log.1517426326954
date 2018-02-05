@@ -1,0 +1,41 @@
+INFO  20:18:32,916 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:18:32,954 - #2 program
+INFO  20:18:32,954 - #44 MJProgram
+INFO  20:18:32,954 - #44 int
+INFO  20:18:32,955 - #44 x
+INFO  20:18:32,955 - #5 ;
+INFO  20:18:32,956 - #44 int
+INFO  20:18:32,957 - #44 y
+INFO  20:18:32,957 - #5 ;
+INFO  20:18:32,957 - #3 {
+INFO  20:18:32,957 - #14 void
+INFO  20:18:32,958 - #44 main
+INFO  20:18:32,958 - #6 (
+INFO  20:18:32,959 - #7 )
+INFO  20:18:32,960 - #3 {
+INFO  20:18:32,960 - #44 y
+INFO  20:18:32,961 - #16 =
+INFO  20:18:32,962 - #42 6
+INFO  20:18:32,962 - #5 ;
+INFO  20:18:32,963 - #44 x
+INFO  20:18:32,963 - #16 =
+INFO  20:18:32,963 - #44 y
+INFO  20:18:32,964 - #32 *
+INFO  20:18:32,964 - #42 3
+INFO  20:18:32,965 - #5 ;
+INFO  20:18:32,965 - #9 print
+INFO  20:18:32,965 - #6 (
+INFO  20:18:32,965 - #44 x
+INFO  20:18:32,965 - #7 )
+INFO  20:18:32,966 - #5 ;
+INFO  20:18:32,966 - #4 }
+INFO  20:18:32,966 - #4 }
+INFO  20:18:32,982 - Deklarisana globalna promenljiva x na liniji 2
+INFO  20:18:32,982 - Deklarisana globalna promenljiva y na liniji 3
+INFO  20:18:32,983 - Obradjuje se funkcija main na liniji 7
+INFO  20:18:32,983 - Detektovana upotreba promenljive y na liniji 8
+INFO  20:18:32,983 - Detektovana upotreba promenljive x na liniji 10
+INFO  20:18:32,983 - Detektovana upotreba promenljive y na liniji 10
+INFO  20:18:32,983 - Detektovana upotreba promenljive x na liniji 11
+INFO  20:18:32,985 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  20:18:32,996 - Parsiranje uspesno zavrseno!

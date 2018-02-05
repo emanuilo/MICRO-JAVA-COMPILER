@@ -1,0 +1,87 @@
+INFO  10:24:45,048 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:24:45,081 - #2 program
+INFO  10:24:45,082 - #44 test301
+INFO  10:24:45,082 - #44 char
+INFO  10:24:45,082 - #44 nizch
+INFO  10:24:45,083 - #17 [
+INFO  10:24:45,083 - #18 ]
+INFO  10:24:45,083 - #5 ;
+INFO  10:24:45,084 - #3 {
+INFO  10:24:45,084 - #14 void
+INFO  10:24:45,085 - #44 main
+INFO  10:24:45,085 - #6 (
+INFO  10:24:45,086 - #7 )
+INFO  10:24:45,086 - #44 int
+INFO  10:24:45,086 - #44 bodovi
+INFO  10:24:45,086 - #5 ;
+INFO  10:24:45,087 - #3 {
+INFO  10:24:45,088 - #44 nizch
+INFO  10:24:45,088 - #16 =
+INFO  10:24:45,089 - #28 new
+INFO  10:24:45,089 - #44 char
+INFO  10:24:45,089 - #17 [
+INFO  10:24:45,089 - #42 3
+INFO  10:24:45,090 - #18 ]
+INFO  10:24:45,090 - #5 ;
+INFO  10:24:45,091 - #44 nizch
+INFO  10:24:45,091 - #17 [
+INFO  10:24:45,091 - #42 0
+INFO  10:24:45,092 - #18 ]
+INFO  10:24:45,092 - #16 =
+INFO  10:24:45,092 - #43 a
+INFO  10:24:45,092 - #5 ;
+INFO  10:24:45,092 - #44 nizch
+INFO  10:24:45,092 - #17 [
+INFO  10:24:45,092 - #44 jedan
+INFO  10:24:45,092 - #18 ]
+INFO  10:24:45,092 - #16 =
+INFO  10:24:45,092 - #43 b
+INFO  10:24:45,093 - #5 ;
+INFO  10:24:45,093 - #44 nizch
+INFO  10:24:45,093 - #17 [
+INFO  10:24:45,093 - #44 pet
+INFO  10:24:45,093 - #12 -
+INFO  10:24:45,093 - #42 3
+INFO  10:24:45,094 - #18 ]
+INFO  10:24:45,094 - #16 =
+INFO  10:24:45,094 - #43 c
+INFO  10:24:45,095 - #5 ;
+INFO  10:24:45,095 - #9 print
+INFO  10:24:45,095 - #6 (
+INFO  10:24:45,095 - #44 nizch
+INFO  10:24:45,095 - #17 [
+INFO  10:24:45,095 - #42 2
+INFO  10:24:45,095 - #12 -
+INFO  10:24:45,095 - #42 1
+INFO  10:24:45,095 - #18 ]
+INFO  10:24:45,095 - #7 )
+INFO  10:24:45,096 - #5 ;
+INFO  10:24:45,096 - #9 print
+INFO  10:24:45,096 - #6 (
+INFO  10:24:45,096 - #44 nizch
+INFO  10:24:45,096 - #17 [
+INFO  10:24:45,097 - #44 jedan
+INFO  10:24:45,097 - #32 *
+INFO  10:24:45,097 - #42 2
+INFO  10:24:45,098 - #18 ]
+INFO  10:24:45,098 - #7 )
+INFO  10:24:45,098 - #5 ;
+INFO  10:24:45,098 - #4 }
+INFO  10:24:45,100 - #4 }
+INFO  10:24:45,111 - Deklarisan globalni niz nizch na liniji 6
+INFO  10:24:45,111 - Obradjuje se funkcija main na liniji 9
+INFO  10:24:45,111 - Deklarisana promenljiva bodovi na liniji 9
+INFO  10:24:45,111 - Detektovana upotreba promenljive nizch na liniji 14
+INFO  10:24:45,111 - Detektovana upotreba niza nizch na liniji 15
+ERROR 10:24:45,111 - Greska na liniji 16 : ime jedan nije deklarisano!
+ERROR 10:24:45,111 - Greska u liniji 16: Ocekivan niz
+ERROR 10:24:45,111 - Greska na liniji 16 :  nekompatibilni tipovi pri dodeli vrednosti 
+ERROR 10:24:45,112 - Greska na liniji 17 : ime pet nije deklarisano!
+ERROR 10:24:45,112 - Greska na liniji 17 : nekompatibilni tipovi u izrazu za sabiranje/oduzimanje.
+ERROR 10:24:45,112 - Greska u liniji 17: Ocekivan niz
+ERROR 10:24:45,112 - Greska na liniji 17 :  nekompatibilni tipovi pri dodeli vrednosti 
+INFO  10:24:45,112 - Detektovana upotreba niza nizch na liniji 18
+ERROR 10:24:45,112 - Greska na liniji 19 : ime jedan nije deklarisano!
+ERROR 10:24:45,112 - Greska na liniji 19 : nekompatibilni tipovi u izrazu za mnozenje/deljenje/deljenje sa ostatkom.
+ERROR 10:24:45,112 - Greska u liniji 19: Ocekivan niz
+ERROR 10:24:45,113 - Parsiranje NIJE uspesno zavrseno!

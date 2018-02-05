@@ -1,0 +1,40 @@
+INFO  22:10:40,182 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:10:40,231 - #2 program
+INFO  22:10:40,231 - #44 MJProgram
+INFO  22:10:40,232 - #44 int
+INFO  22:10:40,233 - #44 x
+INFO  22:10:40,233 - #17 [
+INFO  22:10:40,233 - #18 ]
+INFO  22:10:40,233 - #5 ;
+INFO  22:10:40,234 - #3 {
+INFO  22:10:40,237 - #44 int
+INFO  22:10:40,238 - #44 main
+INFO  22:10:40,238 - #6 (
+INFO  22:10:40,239 - #7 )
+INFO  22:10:40,240 - #3 {
+INFO  22:10:40,240 - #44 x
+INFO  22:10:40,241 - #16 =
+INFO  22:10:40,242 - #28 new
+INFO  22:10:40,242 - #44 int
+INFO  22:10:40,242 - #17 [
+INFO  22:10:40,242 - #42 3
+INFO  22:10:40,243 - #18 ]
+INFO  22:10:40,243 - #5 ;
+INFO  22:10:40,245 - #44 x
+INFO  22:10:40,245 - #17 [
+INFO  22:10:40,245 - #42 0
+INFO  22:10:40,246 - #18 ]
+INFO  22:10:40,246 - #16 =
+INFO  22:10:40,247 - #42 4
+INFO  22:10:40,247 - #5 ;
+INFO  22:10:40,248 - #10 return
+INFO  22:10:40,248 - #42 0
+INFO  22:10:40,248 - #5 ;
+INFO  22:10:40,248 - #4 }
+INFO  22:10:40,248 - #4 }
+INFO  22:10:40,278 - Deklarisan globalni niz x na liniji 2
+INFO  22:10:40,278 - Obradjuje se funkcija main na liniji 7
+INFO  22:10:44,877 - Detektovana upotreba promenljive x na liniji 9
+INFO  22:10:49,127 - Detektovana upotreba niza x na liniji 10
+INFO  22:10:49,130 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  22:11:09,711 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,15 @@
+program MJProgram
+	char x[];
+{
+	
+	
+	
+	int main() {
+		
+		x = new char[3];
+		x[0] = 'c';
+		
+		print(x[0]);
+		return 0;
+	}
+}

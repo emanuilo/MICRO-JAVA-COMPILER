@@ -1,0 +1,14 @@
+program MJProgram
+	
+	int y;
+{
+	
+	
+	void main() {
+		y = 2;
+		
+		y--;
+		print(y);
+		
+	}
+}

@@ -1,16 +1,26 @@
-program MJProgram
-	const int x = 5;
-	int y;
+// Test301
+
+program test301
+
+	
+
+	int niz[];
+	
+	
+	
 {
-	
-	int k () int c; {
-		c = 1;
-		return c+2;
-	}
-	
-	void main() {
-		y ++;
-		x = y + 2;
+	void main()	int bodovi;
+	{
+		niz = new int[3];
 		
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[niz[niz[0]]] = 3;
+		
+		
+		print(niz[2]);
+	
 	}
 }
+
+

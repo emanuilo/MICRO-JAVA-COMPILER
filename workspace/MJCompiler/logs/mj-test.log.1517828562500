@@ -1,0 +1,259 @@
+INFO  10:40:48,571 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:40:48,602 - #2 program
+INFO  10:40:48,602 - #44 test301
+INFO  10:40:48,602 - #15 const
+INFO  10:40:48,603 - #44 int
+INFO  10:40:48,603 - #44 jedan
+INFO  10:40:48,603 - #16 =
+INFO  10:40:48,604 - #42 1
+INFO  10:40:48,604 - #5 ;
+INFO  10:40:48,605 - #15 const
+INFO  10:40:48,605 - #44 int
+INFO  10:40:48,605 - #44 pet
+INFO  10:40:48,606 - #16 =
+INFO  10:40:48,606 - #42 5
+INFO  10:40:48,606 - #5 ;
+INFO  10:40:48,606 - #44 int
+INFO  10:40:48,606 - #44 niz
+INFO  10:40:48,606 - #17 [
+INFO  10:40:48,606 - #18 ]
+INFO  10:40:48,606 - #5 ;
+INFO  10:40:48,607 - #44 char
+INFO  10:40:48,607 - #44 nizch
+INFO  10:40:48,608 - #17 [
+INFO  10:40:48,608 - #18 ]
+INFO  10:40:48,608 - #5 ;
+INFO  10:40:48,608 - #3 {
+INFO  10:40:48,608 - #14 void
+INFO  10:40:48,608 - #44 main
+INFO  10:40:48,609 - #6 (
+INFO  10:40:48,609 - #7 )
+INFO  10:40:48,610 - #44 int
+INFO  10:40:48,610 - #44 bodovi
+INFO  10:40:48,610 - #5 ;
+INFO  10:40:48,611 - #3 {
+INFO  10:40:48,611 - #44 bodovi
+INFO  10:40:48,612 - #16 =
+INFO  10:40:48,612 - #42 0
+INFO  10:40:48,612 - #5 ;
+INFO  10:40:48,613 - #44 bodovi
+INFO  10:40:48,613 - #29 ++
+INFO  10:40:48,614 - #5 ;
+INFO  10:40:48,614 - #44 bodovi
+INFO  10:40:48,614 - #16 =
+INFO  10:40:48,615 - #44 bodovi
+INFO  10:40:48,615 - #11 +
+INFO  10:40:48,615 - #44 jedan
+INFO  10:40:48,616 - #5 ;
+INFO  10:40:48,616 - #44 bodovi
+INFO  10:40:48,616 - #16 =
+INFO  10:40:48,616 - #44 bodovi
+INFO  10:40:48,617 - #32 *
+INFO  10:40:48,617 - #44 pet
+INFO  10:40:48,617 - #5 ;
+INFO  10:40:48,617 - #44 bodovi
+INFO  10:40:48,618 - #30 --
+INFO  10:40:48,618 - #5 ;
+INFO  10:40:48,618 - #9 print
+INFO  10:40:48,618 - #6 (
+INFO  10:40:48,618 - #44 bodovi
+INFO  10:40:48,618 - #7 )
+INFO  10:40:48,619 - #5 ;
+INFO  10:40:48,619 - #44 niz
+INFO  10:40:48,619 - #16 =
+INFO  10:40:48,619 - #28 new
+INFO  10:40:48,619 - #44 int
+INFO  10:40:48,619 - #17 [
+INFO  10:40:48,619 - #42 2
+INFO  10:40:48,619 - #18 ]
+INFO  10:40:48,619 - #5 ;
+INFO  10:40:48,620 - #44 niz
+INFO  10:40:48,620 - #17 [
+INFO  10:40:48,620 - #42 0
+INFO  10:40:48,620 - #18 ]
+INFO  10:40:48,620 - #16 =
+INFO  10:40:48,621 - #44 pet
+INFO  10:40:48,621 - #5 ;
+INFO  10:40:48,621 - #44 niz
+INFO  10:40:48,621 - #17 [
+INFO  10:40:48,621 - #42 1
+INFO  10:40:48,621 - #18 ]
+INFO  10:40:48,621 - #16 =
+INFO  10:40:48,621 - #42 10
+INFO  10:40:48,621 - #5 ;
+INFO  10:40:48,621 - #44 bodovi
+INFO  10:40:48,621 - #16 =
+INFO  10:40:48,621 - #44 niz
+INFO  10:40:48,621 - #17 [
+INFO  10:40:48,622 - #42 1
+INFO  10:40:48,622 - #18 ]
+INFO  10:40:48,622 - #33 /
+INFO  10:40:48,622 - #44 niz
+INFO  10:40:48,622 - #17 [
+INFO  10:40:48,622 - #42 0
+INFO  10:40:48,622 - #18 ]
+INFO  10:40:48,622 - #5 ;
+INFO  10:40:48,623 - #9 print
+INFO  10:40:48,623 - #6 (
+INFO  10:40:48,623 - #44 bodovi
+INFO  10:40:48,623 - #7 )
+INFO  10:40:48,623 - #5 ;
+INFO  10:40:48,623 - #9 print
+INFO  10:40:48,623 - #6 (
+INFO  10:40:48,623 - #44 niz
+INFO  10:40:48,623 - #17 [
+INFO  10:40:48,623 - #42 1
+INFO  10:40:48,623 - #18 ]
+INFO  10:40:48,623 - #7 )
+INFO  10:40:48,623 - #5 ;
+INFO  10:40:48,623 - #44 nizch
+INFO  10:40:48,623 - #16 =
+INFO  10:40:48,623 - #28 new
+INFO  10:40:48,623 - #44 char
+INFO  10:40:48,623 - #17 [
+INFO  10:40:48,624 - #42 3
+INFO  10:40:48,624 - #18 ]
+INFO  10:40:48,624 - #5 ;
+INFO  10:40:48,624 - #44 nizch
+INFO  10:40:48,624 - #17 [
+INFO  10:40:48,624 - #42 0
+INFO  10:40:48,624 - #18 ]
+INFO  10:40:48,624 - #16 =
+INFO  10:40:48,624 - #43 a
+INFO  10:40:48,624 - #5 ;
+INFO  10:40:48,624 - #44 nizch
+INFO  10:40:48,624 - #17 [
+INFO  10:40:48,624 - #44 jedan
+INFO  10:40:48,624 - #18 ]
+INFO  10:40:48,625 - #16 =
+INFO  10:40:48,625 - #43 b
+INFO  10:40:48,625 - #5 ;
+INFO  10:40:48,625 - #44 nizch
+INFO  10:40:48,625 - #17 [
+INFO  10:40:48,625 - #44 pet
+INFO  10:40:48,625 - #12 -
+INFO  10:40:48,625 - #42 3
+INFO  10:40:48,626 - #18 ]
+INFO  10:40:48,626 - #16 =
+INFO  10:40:48,626 - #43 c
+INFO  10:40:48,626 - #5 ;
+INFO  10:40:48,626 - #9 print
+INFO  10:40:48,626 - #6 (
+INFO  10:40:48,626 - #44 nizch
+INFO  10:40:48,626 - #17 [
+INFO  10:40:48,627 - #42 2
+INFO  10:40:48,627 - #12 -
+INFO  10:40:48,627 - #42 1
+INFO  10:40:48,627 - #18 ]
+INFO  10:40:48,627 - #7 )
+INFO  10:40:48,627 - #5 ;
+INFO  10:40:48,627 - #9 print
+INFO  10:40:48,627 - #6 (
+INFO  10:40:48,627 - #44 nizch
+INFO  10:40:48,627 - #17 [
+INFO  10:40:48,627 - #44 jedan
+INFO  10:40:48,627 - #32 *
+INFO  10:40:48,627 - #42 2
+INFO  10:40:48,627 - #18 ]
+INFO  10:40:48,627 - #7 )
+INFO  10:40:48,627 - #5 ;
+INFO  10:40:48,628 - #44 bodovi
+INFO  10:40:48,628 - #16 =
+INFO  10:40:48,628 - #44 bodovi
+INFO  10:40:48,628 - #11 +
+INFO  10:40:48,628 - #6 (
+INFO  10:40:48,628 - #6 (
+INFO  10:40:48,628 - #44 pet
+INFO  10:40:48,628 - #32 *
+INFO  10:40:48,628 - #44 jedan
+INFO  10:40:48,628 - #12 -
+INFO  10:40:48,628 - #42 1
+INFO  10:40:48,628 - #7 )
+INFO  10:40:48,628 - #32 *
+INFO  10:40:48,629 - #42 2
+INFO  10:40:48,629 - #12 -
+INFO  10:40:48,629 - #6 (
+INFO  10:40:48,629 - #42 3
+INFO  10:40:48,629 - #34 %
+INFO  10:40:48,629 - #42 2
+INFO  10:40:48,630 - #11 +
+INFO  10:40:48,630 - #42 3
+INFO  10:40:48,630 - #32 *
+INFO  10:40:48,630 - #42 2
+INFO  10:40:48,630 - #12 -
+INFO  10:40:48,630 - #42 3
+INFO  10:40:48,630 - #7 )
+INFO  10:40:48,630 - #12 -
+INFO  10:40:48,630 - #42 1
+INFO  10:40:48,630 - #32 *
+INFO  10:40:48,630 - #42 0
+INFO  10:40:48,630 - #7 )
+INFO  10:40:48,630 - #5 ;
+INFO  10:40:48,630 - #9 print
+INFO  10:40:48,631 - #6 (
+INFO  10:40:48,631 - #44 bodovi
+INFO  10:40:48,631 - #7 )
+INFO  10:40:48,631 - #5 ;
+INFO  10:40:48,631 - #25 read
+INFO  10:40:48,632 - #6 (
+INFO  10:40:48,632 - #44 bodovi
+INFO  10:40:48,632 - #7 )
+INFO  10:40:48,633 - #5 ;
+INFO  10:40:48,633 - #44 bodovi
+INFO  10:40:48,633 - #16 =
+INFO  10:40:48,633 - #44 bodovi
+INFO  10:40:48,633 - #11 +
+INFO  10:40:48,633 - #42 1
+INFO  10:40:48,633 - #5 ;
+INFO  10:40:48,633 - #9 print
+INFO  10:40:48,633 - #6 (
+INFO  10:40:48,633 - #44 bodovi
+INFO  10:40:48,633 - #7 )
+INFO  10:40:48,633 - #5 ;
+INFO  10:40:48,633 - #4 }
+INFO  10:40:48,633 - #4 }
+INFO  10:40:48,643 - Definisana globalna numericka konstanta jedan na liniji 5
+INFO  10:40:48,643 - Definisana globalna numericka konstanta pet na liniji 6
+INFO  10:40:48,643 - Deklarisan globalni niz niz na liniji 8
+INFO  10:40:48,643 - Deklarisan globalni niz nizch na liniji 10
+INFO  10:40:48,643 - Obradjuje se funkcija main na liniji 13
+INFO  10:40:48,643 - Deklarisana promenljiva bodovi na liniji 13
+INFO  10:40:48,643 - Detektovana upotreba promenljive bodovi na liniji 16
+INFO  10:40:48,643 - Detektovana upotreba promenljive bodovi na liniji 17
+INFO  10:40:48,643 - Detektovana upotreba promenljive bodovi na liniji 18
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 18
+INFO  10:40:48,644 - Detektovana upotreba konstante jedan na liniji 18
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 19
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 19
+INFO  10:40:48,644 - Detektovana upotreba konstante pet na liniji 19
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 20
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 21
+INFO  10:40:48,644 - Detektovana upotreba promenljive niz na liniji 24
+INFO  10:40:48,644 - Detektovana upotreba niza niz na liniji 25
+INFO  10:40:48,644 - Detektovana upotreba konstante pet na liniji 25
+INFO  10:40:48,644 - Detektovana upotreba niza niz na liniji 26
+INFO  10:40:48,644 - Detektovana upotreba promenljive bodovi na liniji 27
+INFO  10:40:48,644 - Detektovana upotreba niza niz na liniji 27
+INFO  10:40:48,645 - Detektovana upotreba niza niz na liniji 27
+INFO  10:40:48,645 - Detektovana upotreba promenljive bodovi na liniji 28
+INFO  10:40:48,645 - Detektovana upotreba niza niz na liniji 29
+INFO  10:40:48,645 - Detektovana upotreba promenljive nizch na liniji 32
+INFO  10:40:48,645 - Detektovana upotreba niza nizch na liniji 33
+INFO  10:40:48,645 - Detektovana upotreba konstante jedan na liniji 34
+INFO  10:40:48,645 - Detektovana upotreba niza nizch na liniji 34
+INFO  10:40:48,645 - Detektovana upotreba konstante pet na liniji 35
+INFO  10:40:48,645 - Detektovana upotreba niza nizch na liniji 35
+INFO  10:40:48,645 - Detektovana upotreba niza nizch na liniji 36
+INFO  10:40:48,645 - Detektovana upotreba konstante jedan na liniji 37
+INFO  10:40:48,645 - Detektovana upotreba niza nizch na liniji 37
+INFO  10:40:48,645 - Detektovana upotreba promenljive bodovi na liniji 40
+INFO  10:40:48,645 - Detektovana upotreba promenljive bodovi na liniji 40
+INFO  10:40:48,645 - Detektovana upotreba konstante pet na liniji 40
+INFO  10:40:48,646 - Detektovana upotreba konstante jedan na liniji 40
+INFO  10:40:48,646 - Detektovana upotreba promenljive bodovi na liniji 41
+INFO  10:40:48,646 - Detektovana upotreba promenljive bodovi na liniji 44
+INFO  10:40:48,646 - Detektovana upotreba promenljive bodovi na liniji 45
+INFO  10:40:48,646 - Detektovana upotreba promenljive bodovi na liniji 45
+INFO  10:40:48,646 - Detektovana upotreba promenljive bodovi na liniji 46
+INFO  10:40:48,647 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:40:48,656 - Parsiranje uspesno zavrseno!

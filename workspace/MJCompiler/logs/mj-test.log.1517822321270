@@ -1,0 +1,36 @@
+INFO  10:18:10,527 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  10:18:10,560 - #2 program
+INFO  10:18:10,560 - #44 MJProgram
+INFO  10:18:10,561 - #44 char
+INFO  10:18:10,561 - #44 x
+INFO  10:18:10,562 - #17 [
+INFO  10:18:10,562 - #18 ]
+INFO  10:18:10,562 - #5 ;
+INFO  10:18:10,562 - #15 const
+INFO  10:18:10,563 - #44 char
+INFO  10:18:10,563 - #44 y
+INFO  10:18:10,563 - #16 =
+INFO  10:18:10,564 - #43 c
+INFO  10:18:10,564 - #5 ;
+INFO  10:18:10,564 - #3 {
+INFO  10:18:10,565 - #44 int
+INFO  10:18:10,565 - #44 main
+INFO  10:18:10,566 - #6 (
+INFO  10:18:10,566 - #7 )
+INFO  10:18:10,566 - #3 {
+INFO  10:18:10,567 - #9 print
+INFO  10:18:10,567 - #6 (
+INFO  10:18:10,568 - #44 y
+INFO  10:18:10,568 - #7 )
+INFO  10:18:10,569 - #5 ;
+INFO  10:18:10,569 - #10 return
+INFO  10:18:10,569 - #42 0
+INFO  10:18:10,569 - #5 ;
+INFO  10:18:10,570 - #4 }
+INFO  10:18:10,570 - #4 }
+INFO  10:18:10,579 - Deklarisan globalni niz x na liniji 2
+INFO  10:18:10,579 - Definisana globalna simbolicka konstanta y na liniji 3
+INFO  10:18:10,579 - Obradjuje se funkcija main na liniji 8
+INFO  10:18:10,579 - Detektovana upotreba konstante y na liniji 12
+INFO  10:18:10,580 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  10:18:10,587 - Parsiranje uspesno zavrseno!

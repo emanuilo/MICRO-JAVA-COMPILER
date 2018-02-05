@@ -1,0 +1,16 @@
+program MJProgram
+	int x[]; int y;
+{
+	
+	
+	
+	int main() {
+		x = new int[3];
+		x[0] = 5;
+		
+		y = x[0] + 1;
+		
+		print(y);
+		return 0;
+	}
+}
