@@ -1,0 +1,27 @@
+INFO  13:21:27,502 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:21:27,540 - #2 program
+INFO  13:21:27,540 - #44 test301
+INFO  13:21:27,541 - #44 boolean
+INFO  13:21:27,541 - #44 x
+INFO  13:21:27,542 - #5 ;
+INFO  13:21:27,543 - #3 {
+INFO  13:21:27,544 - #14 void
+INFO  13:21:27,544 - #44 main
+INFO  13:21:27,545 - #6 (
+INFO  13:21:27,545 - #7 )
+INFO  13:21:27,546 - #44 int
+INFO  13:21:27,546 - #44 bodovi
+INFO  13:21:27,546 - #5 ;
+INFO  13:21:27,547 - #3 {
+INFO  13:21:27,548 - #44 x
+INFO  13:21:27,548 - #16 =
+INFO  13:21:27,549 - #44 asdf
+INFO  13:21:27,549 - #5 ;
+INFO  13:21:27,550 - #4 }
+INFO  13:21:27,551 - #4 }
+INFO  13:21:27,561 - Deklarisana globalna promenljiva x na liniji 7
+INFO  13:21:27,561 - Obradjuje se funkcija main na liniji 12
+INFO  13:21:27,561 - Deklarisana promenljiva bodovi na liniji 12
+INFO  13:21:27,561 - Detektovana upotreba promenljive x na liniji 14
+ERROR 13:21:27,562 - Greska na liniji 14 : ime asdf nije deklarisano!
+ERROR 13:21:27,563 - Parsiranje NIJE uspesno zavrseno!

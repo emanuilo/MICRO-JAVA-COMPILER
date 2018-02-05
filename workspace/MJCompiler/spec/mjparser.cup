@@ -60,7 +60,7 @@ terminal GREATER_EQUAL, LESS, LESS_EQUAL, IF, ELSE;
 terminal int NUMBER ;
 terminal char CHAR;
 terminal String IDENT;
-terminal BOOLEAN;
+terminal String BOOLEAN;
 
 
 nonterminal MethodDeclList;
@@ -264,7 +264,7 @@ Factor ::= (NumberConst) NUMBER:number
 			|
 		   (ChConst) CHAR:charr
 		   	|
-		   (BooleanConst) BOOLEAN
+		   (BooleanConst) BOOLEAN:bool
 		   	|
 		   (Var) Designator:d
 		    |

@@ -1,0 +1,60 @@
+INFO  13:57:48,187 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:57:48,252 - #2 program
+INFO  13:57:48,252 - #44 test301
+INFO  13:57:48,252 - #44 boolean
+INFO  13:57:48,254 - #44 x
+INFO  13:57:48,254 - #5 ;
+INFO  13:57:48,257 - #44 int
+INFO  13:57:48,260 - #44 b
+INFO  13:57:48,260 - #5 ;
+INFO  13:57:48,260 - #44 char
+INFO  13:57:48,261 - #44 y
+INFO  13:57:48,261 - #5 ;
+INFO  13:57:48,261 - #3 {
+INFO  13:57:48,261 - #44 int
+INFO  13:57:48,262 - #44 fs
+INFO  13:57:48,262 - #6 (
+INFO  13:57:48,263 - #7 )
+INFO  13:57:48,267 - #44 int
+INFO  13:57:48,270 - #44 bodovi
+INFO  13:57:48,270 - #5 ;
+INFO  13:57:48,271 - #3 {
+INFO  13:57:48,272 - #44 b
+INFO  13:57:48,273 - #16 =
+INFO  13:57:48,274 - #42 5
+INFO  13:57:48,274 - #5 ;
+INFO  13:57:48,276 - #44 x
+INFO  13:57:48,276 - #16 =
+INFO  13:57:48,276 - #45 true
+INFO  13:57:48,277 - #5 ;
+INFO  13:57:48,277 - #44 y
+INFO  13:57:48,277 - #16 =
+INFO  13:57:48,277 - #43 d
+INFO  13:57:48,277 - #5 ;
+INFO  13:57:48,277 - #9 print
+INFO  13:57:48,277 - #6 (
+INFO  13:57:48,277 - #44 b
+INFO  13:57:48,278 - #7 )
+INFO  13:57:48,278 - #5 ;
+INFO  13:57:48,278 - #9 print
+INFO  13:57:48,279 - #6 (
+INFO  13:57:48,279 - #44 y
+INFO  13:57:48,279 - #7 )
+INFO  13:57:48,279 - #5 ;
+INFO  13:57:48,282 - #10 return
+INFO  13:57:48,282 - #42 0
+INFO  13:57:48,282 - #5 ;
+INFO  13:57:48,282 - #4 }
+INFO  13:57:48,283 - #4 }
+INFO  13:57:48,304 - Deklarisana globalna promenljiva x na liniji 7
+INFO  13:57:48,305 - Deklarisana globalna promenljiva b na liniji 8
+INFO  13:57:48,305 - Deklarisana globalna promenljiva y na liniji 9
+INFO  13:57:48,305 - Obradjuje se funkcija fs na liniji 12
+INFO  13:57:48,305 - Deklarisana promenljiva bodovi na liniji 12
+INFO  13:57:48,305 - Detektovana upotreba promenljive b na liniji 14
+INFO  13:57:48,306 - Detektovana upotreba promenljive x na liniji 15
+INFO  13:57:48,306 - Detektovana upotreba promenljive y na liniji 16
+INFO  13:57:48,306 - Detektovana upotreba promenljive b na liniji 17
+INFO  13:57:48,306 - Detektovana upotreba promenljive y na liniji 18
+ERROR 13:57:48,306 - Greska : mora postojati main metoda
+ERROR 13:57:48,307 - Parsiranje NIJE uspesno zavrseno!

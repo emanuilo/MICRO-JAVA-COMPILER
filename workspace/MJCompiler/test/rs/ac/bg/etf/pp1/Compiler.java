@@ -53,7 +53,7 @@ public class Compiler {
 			
 			//dodavanje boolean tipa u tabelu simbola
 			Scope universeScope = Tab.currentScope();
-			universeScope.addToLocals(new Obj(Obj.Type, "boolean", Tab.intType));
+			universeScope.addToLocals(new Obj(Obj.Type, "boolean", new Struct(Struct.Int)));
 			
 			SemanticAnalyzer semanticCheck = new SemanticAnalyzer();
 			prog.traverseBottomUp(semanticCheck);

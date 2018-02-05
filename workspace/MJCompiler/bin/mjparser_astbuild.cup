@@ -60,7 +60,7 @@ terminal GREATER_EQUAL, LESS, LESS_EQUAL, IF, ELSE;
 terminal int NUMBER ;
 terminal char CHAR;
 terminal String IDENT;
-terminal BOOLEAN;
+terminal String BOOLEAN;
 
 
 nonterminal MethodDeclList MethodDeclList;
@@ -142,7 +142,7 @@ NumCharBoolConst ::= (NumConst) NUMBER:number {: RESULT=new NumConst(number); RE
 					 |
 					 (CharConst) CHAR:charr {: RESULT=new CharConst(charr); RESULT.setLine(charrleft); :}
 					 |
-					 (BoolConst) BOOLEAN:bool {: RESULT=new BoolConst(); :}
+					 (BoolConst) BOOLEAN:bool {: RESULT=new BoolConst(bool); RESULT.setLine(boolleft); :}
 					 ;
 					 
 GlobalVarDeclars ::= (GlobalVarDeclars) Type:T1 GlobalVarDeclList:G2 {: RESULT=new GlobalVarDeclars(T1, G2); RESULT.setLine(T1left); :}
@@ -292,7 +292,7 @@ Factor ::= (NumberConst) NUMBER:number {: RESULT=new NumberConst(number); RESULT
 			|
 		   (ChConst) CHAR:charr {: RESULT=new ChConst(charr); RESULT.setLine(charrleft); :}
 		   	|
-		   (BooleanConst) BOOLEAN {: RESULT=new BooleanConst(); :}
+		   (BooleanConst) BOOLEAN:bool {: RESULT=new BooleanConst(bool); RESULT.setLine(boolleft); :}
 		   	|
 		   (Var) Designator:d {: RESULT=new Var(d); RESULT.setLine(dleft); :}
 		    |

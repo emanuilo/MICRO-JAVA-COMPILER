@@ -1,0 +1,32 @@
+INFO  13:36:26,512 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:36:26,576 - #2 program
+INFO  13:36:26,576 - #44 test301
+INFO  13:36:26,576 - #44 boolean
+INFO  13:36:26,577 - #44 x
+INFO  13:36:26,578 - #5 ;
+INFO  13:36:26,579 - #3 {
+INFO  13:36:26,580 - #14 void
+INFO  13:36:26,581 - #44 main
+INFO  13:36:26,583 - #6 (
+INFO  13:36:26,584 - #7 )
+INFO  13:36:26,585 - #44 int
+INFO  13:36:26,586 - #44 bodovi
+INFO  13:36:26,586 - #5 ;
+INFO  13:36:26,588 - #3 {
+INFO  13:36:26,589 - #44 x
+INFO  13:36:26,590 - #16 =
+INFO  13:36:26,592 - #45 false
+INFO  13:36:26,592 - #5 ;
+INFO  13:36:26,594 - #9 print
+INFO  13:36:26,595 - #6 (
+INFO  13:36:26,595 - #44 x
+INFO  13:36:26,595 - #7 )
+INFO  13:36:26,596 - #5 ;
+INFO  13:36:26,596 - #4 }
+INFO  13:36:26,596 - #4 }
+INFO  13:36:33,938 - Deklarisana globalna promenljiva x na liniji 7
+INFO  13:36:33,939 - Obradjuje se funkcija main na liniji 12
+INFO  13:36:33,939 - Deklarisana promenljiva bodovi na liniji 12
+INFO  13:36:35,803 - Detektovana upotreba promenljive x na liniji 14
+INFO  13:36:40,244 - Detektovana upotreba promenljive x na liniji 16
+INFO  13:36:40,245 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj

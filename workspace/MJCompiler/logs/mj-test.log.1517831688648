@@ -1,0 +1,17 @@
+INFO  12:36:39,183 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:36:39,223 - #2 program
+INFO  12:36:39,223 - #44 test301
+INFO  12:36:39,224 - #44 boolean
+INFO  12:36:39,225 - #44 x
+INFO  12:36:39,225 - #5 ;
+INFO  12:36:39,226 - #3 {
+INFO  12:36:39,227 - #14 void
+INFO  12:36:39,228 - #44 main
+INFO  12:36:39,228 - #6 (
+INFO  12:36:39,229 - #7 )
+INFO  12:36:39,230 - #44 int
+INFO  12:36:39,230 - #44 bodovi
+INFO  12:36:39,231 - #5 ;
+INFO  12:36:39,231 - #3 {
+INFO  12:36:39,232 - #4 }
+INFO  12:36:39,233 - #4 }

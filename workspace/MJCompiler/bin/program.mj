@@ -4,22 +4,20 @@ program test301
 
 	
 
-	int niz[];
-	
-	
+	boolean x;
+	int b;
+	char y;
 	
 {
 	void main()	int bodovi;
 	{
-		niz = new int[3];
+		b = 5;
+		x = true;
+		y = 'd';
+		print(b);
+		print(y);
 		
-		niz[0] = 1;
-		niz[1] = 2;
-		niz[niz[niz[0]]] = 3;
 		
-		
-		print(niz[2]);
-	
 	}
 }
 

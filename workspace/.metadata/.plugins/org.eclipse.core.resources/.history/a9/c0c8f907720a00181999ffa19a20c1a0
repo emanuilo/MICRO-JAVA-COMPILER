@@ -1,0 +1,22 @@
+// Test301
+
+program test301
+
+	
+
+	boolean x;
+	int b;
+	char y;
+	
+{
+	void main()	int bodovi;
+	{
+		b = 5;
+		x = true;
+		y = 'd';
+		print(b);
+	
+	}
+}
+
+

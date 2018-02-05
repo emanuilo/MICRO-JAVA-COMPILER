@@ -4,6 +4,8 @@ import rs.ac.bg.etf.pp1.ast.AddExpr;
 import rs.ac.bg.etf.pp1.ast.Array;
 import rs.ac.bg.etf.pp1.ast.ArrayAccess;
 import rs.ac.bg.etf.pp1.ast.Assignment;
+import rs.ac.bg.etf.pp1.ast.BoolConst;
+import rs.ac.bg.etf.pp1.ast.BooleanConst;
 import rs.ac.bg.etf.pp1.ast.ChConst;
 import rs.ac.bg.etf.pp1.ast.CharConst;
 import rs.ac.bg.etf.pp1.ast.ConstDecl;
@@ -58,7 +60,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	int nVars;
 	Struct currentType;
 	String currentIdent;
-
+	boolean mainFound = false;
+	
 	Logger log = Logger.getLogger(getClass());
 
 	public boolean passed(){
@@ -86,6 +89,9 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		nVars = Tab.currentScope.getnVars();
 		Tab.chainLocalSymbols(program.getProgName().obj);
 		Tab.closeScope();
+		
+		if(!mainFound)
+			report_error("Greska : mora postojati main metoda", null);
 	}
 	
 	public void visit(ProgName progName){
@@ -197,6 +203,12 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	}
 	
 	public void visit(MethodTypeName methodTypeName){
+		if(methodTypeName.getMethName().equalsIgnoreCase("main")){
+			if(methodTypeName.getTypeOrVoid().struct != Tab.noType)
+				report_error("Greska na liniji " + methodTypeName.getLine() + ": main metoda mora biti void tipa" , null);
+			mainFound = true;
+		}
+		
 		currentMethod = Tab.insert(Obj.Meth, methodTypeName.getMethName(), methodTypeName.getTypeOrVoid().struct);
 		methodTypeName.obj = currentMethod;
 		Tab.openScope();
@@ -261,6 +273,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		report_info("Definisana globalna simbolicka konstanta "+ currentIdent, charConst);
 	}
 	
+	public void visit(BoolConst boolConst){
+		//TODO BOOLCONST
+	}
+	
 	public void visit(Assignment assignment){
 		Struct exprType = assignment.getExpr().struct;
 		Struct currentDesignatorType = currentDesignator.getType();
@@ -320,6 +336,11 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	
 	public void visit(ChConst chConst){
 		chConst.struct = Tab.charType;
+	}
+	
+	public void visit(BooleanConst booleanConst){
+		Obj bool = Tab.find("boolean");
+		booleanConst.struct = bool.getType();
 	}
 	
 	public void visit(NewArray newArray){

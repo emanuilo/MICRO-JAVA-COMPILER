@@ -1,0 +1,42 @@
+INFO  13:42:03,744 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:42:03,804 - #2 program
+INFO  13:42:03,804 - #44 test301
+INFO  13:42:03,804 - #44 boolean
+INFO  13:42:03,806 - #44 x
+INFO  13:42:03,807 - #5 ;
+INFO  13:42:03,808 - #44 int
+INFO  13:42:03,809 - #44 b
+INFO  13:42:03,809 - #5 ;
+INFO  13:42:03,810 - #3 {
+INFO  13:42:03,810 - #14 void
+INFO  13:42:03,810 - #44 main
+INFO  13:42:03,811 - #6 (
+INFO  13:42:03,811 - #7 )
+INFO  13:42:03,812 - #44 int
+INFO  13:42:03,812 - #44 bodovi
+INFO  13:42:03,813 - #5 ;
+INFO  13:42:03,813 - #3 {
+INFO  13:42:03,814 - #44 b
+INFO  13:42:03,815 - #16 =
+INFO  13:42:03,817 - #42 5
+INFO  13:42:03,817 - #5 ;
+INFO  13:42:03,819 - #44 x
+INFO  13:42:03,819 - #16 =
+INFO  13:42:03,819 - #45 true
+INFO  13:42:03,821 - #5 ;
+INFO  13:42:03,822 - #9 print
+INFO  13:42:03,822 - #6 (
+INFO  13:42:03,823 - #44 b
+INFO  13:42:03,823 - #7 )
+INFO  13:42:03,825 - #5 ;
+INFO  13:42:03,825 - #4 }
+INFO  13:42:03,825 - #4 }
+INFO  13:42:03,859 - Deklarisana globalna promenljiva x na liniji 7
+INFO  13:42:03,859 - Deklarisana globalna promenljiva b na liniji 8
+INFO  13:42:03,860 - Obradjuje se funkcija main na liniji 12
+INFO  13:42:03,861 - Deklarisana promenljiva bodovi na liniji 12
+INFO  13:42:03,861 - Detektovana upotreba promenljive b na liniji 14
+INFO  13:42:03,861 - Detektovana upotreba promenljive x na liniji 15
+INFO  13:42:03,862 - Detektovana upotreba promenljive b na liniji 17
+INFO  13:42:03,863 - Generating bytecode file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.obj
+INFO  13:42:03,879 - Parsiranje uspesno zavrseno!

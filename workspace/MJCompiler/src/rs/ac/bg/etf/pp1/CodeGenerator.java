@@ -7,6 +7,7 @@ import rs.ac.bg.etf.pp1.ast.AddopMinus;
 import rs.ac.bg.etf.pp1.ast.AddopPlus;
 import rs.ac.bg.etf.pp1.ast.ArrayAccess;
 import rs.ac.bg.etf.pp1.ast.Assignment;
+import rs.ac.bg.etf.pp1.ast.BooleanConst;
 import rs.ac.bg.etf.pp1.ast.ChConst;
 import rs.ac.bg.etf.pp1.ast.CommaNumber;
 import rs.ac.bg.etf.pp1.ast.Dec;
@@ -69,7 +70,6 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.put(Code.return_);
 	}
 	
-	//TODO sta se desi ako se izvrsi i visit(Return) i visit(MethodDecl)
 	public void visit(Return Return){
 		Code.put(Code.exit);
 		Code.put(Code.return_);
@@ -89,6 +89,15 @@ public class CodeGenerator extends VisitorAdaptor {
 	
 	public void visit(ChConst chConst){
 		Code.load(new Obj(Obj.Con, "$", chConst.struct, chConst.getCharr(), 0));
+	}
+	
+	public void visit(BooleanConst booleanConst){
+		if(booleanConst.getBool().equals("true")){
+			Code.load(new Obj(Obj.Con, "$", booleanConst.struct, 1, 0));
+		}
+		else{
+			Code.load(new Obj(Obj.Con, "$", booleanConst.struct, 0, 0));
+		}
 	}
 	
 	public void visit(Var var){
@@ -117,17 +126,19 @@ public class CodeGenerator extends VisitorAdaptor {
 			int number = commaNumber.getNumber();
 			
 			Code.loadConst(number);
-			if(exprType == Tab.intType)
-				Code.put(Code.print);
-			else
+			if(exprType == Tab.charType)
 				Code.put(Code.bprint);
+			else
+				Code.put(Code.print);
 		}
 		else{ //print(x)
 			Code.put(Code.const_1);
-			if(exprType == Tab.intType)
-				Code.put(Code.print);
-			else
+			if(exprType == Tab.charType)
 				Code.put(Code.bprint);
+			else
+				Code.put(Code.print);
+			
+				
 		}
 	}
 	

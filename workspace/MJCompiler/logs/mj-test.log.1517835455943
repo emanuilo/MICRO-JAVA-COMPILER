@@ -1,0 +1,60 @@
+INFO  13:55:21,436 - Compiling source file: E:\Faks\IV\IV-1-PP1\Projekat\Projekat\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:55:21,487 - #2 program
+INFO  13:55:21,488 - #44 test301
+INFO  13:55:21,488 - #44 boolean
+INFO  13:55:21,489 - #44 x
+INFO  13:55:21,490 - #5 ;
+INFO  13:55:21,491 - #44 int
+INFO  13:55:21,493 - #44 b
+INFO  13:55:21,493 - #5 ;
+INFO  13:55:21,494 - #44 char
+INFO  13:55:21,494 - #44 y
+INFO  13:55:21,494 - #5 ;
+INFO  13:55:21,494 - #3 {
+INFO  13:55:21,494 - #44 int
+INFO  13:55:21,495 - #44 main
+INFO  13:55:21,496 - #6 (
+INFO  13:55:21,498 - #7 )
+INFO  13:55:21,499 - #44 int
+INFO  13:55:21,499 - #44 bodovi
+INFO  13:55:21,500 - #5 ;
+INFO  13:55:21,500 - #3 {
+INFO  13:55:21,501 - #44 b
+INFO  13:55:21,502 - #16 =
+INFO  13:55:21,504 - #42 5
+INFO  13:55:21,504 - #5 ;
+INFO  13:55:21,505 - #44 x
+INFO  13:55:21,506 - #16 =
+INFO  13:55:21,506 - #45 true
+INFO  13:55:21,506 - #5 ;
+INFO  13:55:21,506 - #44 y
+INFO  13:55:21,506 - #16 =
+INFO  13:55:21,506 - #43 d
+INFO  13:55:21,506 - #5 ;
+INFO  13:55:21,506 - #9 print
+INFO  13:55:21,507 - #6 (
+INFO  13:55:21,507 - #44 b
+INFO  13:55:21,507 - #7 )
+INFO  13:55:21,507 - #5 ;
+INFO  13:55:21,508 - #9 print
+INFO  13:55:21,508 - #6 (
+INFO  13:55:21,508 - #44 y
+INFO  13:55:21,508 - #7 )
+INFO  13:55:21,508 - #5 ;
+INFO  13:55:21,509 - #10 return
+INFO  13:55:21,509 - #42 0
+INFO  13:55:21,510 - #5 ;
+INFO  13:55:21,510 - #4 }
+INFO  13:55:21,510 - #4 }
+INFO  13:55:21,532 - Deklarisana globalna promenljiva x na liniji 7
+INFO  13:55:21,532 - Deklarisana globalna promenljiva b na liniji 8
+INFO  13:55:21,532 - Deklarisana globalna promenljiva y na liniji 9
+ERROR 13:55:21,533 - Greska na liniji 12: main metoda mora biti void tipa'
+INFO  13:55:21,533 - Obradjuje se funkcija main na liniji 12
+INFO  13:55:21,533 - Deklarisana promenljiva bodovi na liniji 12
+INFO  13:55:21,533 - Detektovana upotreba promenljive b na liniji 14
+INFO  13:55:21,533 - Detektovana upotreba promenljive x na liniji 15
+INFO  13:55:21,533 - Detektovana upotreba promenljive y na liniji 16
+INFO  13:55:21,533 - Detektovana upotreba promenljive b na liniji 17
+INFO  13:55:21,533 - Detektovana upotreba promenljive y na liniji 18
+ERROR 13:55:21,534 - Parsiranje NIJE uspesno zavrseno!

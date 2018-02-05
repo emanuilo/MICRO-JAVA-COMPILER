@@ -1,0 +1,24 @@
+// Test301
+
+program test301
+
+	
+
+	boolean x;
+	int b;
+	char y;
+	
+{
+	int fs()	int bodovi;
+	{
+		b = 5;
+		x = true;
+		y = 'd';
+		print(b);
+		print(y);
+		
+		return 0;
+	}
+}
+
+
